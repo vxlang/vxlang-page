@@ -12,10 +12,18 @@ What is VXLANG?
 
 # VERSION
 
-0.8.6
+0.8.7
 ---
-Add Free Beta version, Add Detection Code, and Add Specific Code Virtualization Methods.  
-- [DOWNLOAD](https://url.kr/y63wkf)  
+- Fixed reloc-table related bugs. 
+- Obfuscating the Jump table. 
+- Update obfuscation code. 
+- Improved compiler speed. 
+  - [Download](https://url.kr/2e9r5g)
+
+~~0.8.6~~
+---
+~~Add Free Beta version, Add Detection Code, and Add Specific Code Virtualization Methods.~~  
+- ~~[DOWNLOAD](https://url.kr/y63wkf)~~  
 
 ~~0.8.5~~
 ---
@@ -38,6 +46,13 @@ Options
 > vxlang.exe ${input-file} --entry --call --ref-call --ref-ptr --pack --obfuscate --level 3
 ```
 
+Detection Method
+---
+- Debugging behavior 
+- Suspend process 
+- Modify shell code or image memory
+- Injection behavior 
+
 C++ SDK
 ---
 ```
@@ -47,7 +62,7 @@ C++ SDK
 int main(int argc, char* argv[]) {
     VM_START;
 
-    printf("HEllo, World ! \r\n");
+    printf("Hello, World ! \r\n");
     return 1;
 
     VM_END;
@@ -94,9 +109,19 @@ Supported Architectures
 
 # TODO
 
-0.8.7
+0.8.8
 ---
-- Speed up the compiler.  
-- Enhance detection capabilities.  
-- Fix many bugs.  
+- Fix the bugs received. 
+- Add virtualization commands. 
+- Add detection logs and user callbacks. 
 
+# Special Thanks
+
+- [2GG](https://twitter.com/2gg) 
+- [KAO](https://lifeinhex.com/) 
+  - [Crackme01](https://forum.tuts4you.com/topic/43809-users-desktop-crackme/#comment-213340) 
+- [Extreme Coders](https://github.com/extremecoders-re/tuts4you_users_desktop_crackme_writeup) 
+  - [Crackme01](https://forum.tuts4you.com/topic/43809-users-desktop-crackme/#comment-213328)  
+- Franck  
+- Taehoon Lee  
+  
