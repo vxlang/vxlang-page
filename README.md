@@ -18,12 +18,20 @@ What is VXLANG?
 
 # VERSION
 
-0.8.7
+0.8.8
 ---
-- Fixed reloc-table related bugs. 
-- Obfuscating the Jump table. 
-- Update obfuscation code. 
-- Improved compiler speed. 
+- Output a detection or error message box.
+- Add detection method.
+- Add Virtualization for Specific x86 Instruction.
+- Fixed a known bug.
+  - [Download](https://url.kr/i5eap1) 
+
+~~0.8.7~~
+---
+- ~~Fixed reloc-table related bugs.~~ 
+- ~~Obfuscating the Jump table.~~ 
+- ~~Update obfuscation code.~~ 
+- ~~Improved compiler speed.~~ 
   - [Download](https://url.kr/2e9r5g)
 
 ~~0.8.6~~
@@ -115,11 +123,12 @@ Supported Architectures
 
 # TODO
 
-0.8.8
+Next Version
 ---
-- Fix the bugs received. 
+- Fix the bugs. 
 - Add virtualization commands. 
-- Add detection logs and user callbacks. 
+- Fix obfuscation code.
+- Add detection method.
 
 # Special Thanks
 
