@@ -26,7 +26,7 @@ Please let me know the purpose of using it through email.
 - Added extension module functionality. 
 - Add virtualization commands. 
 - Bug fix 
-- Features will be added through hotfix updates (ex. Packer control via expansion module) 
+- Features will be added through hotfix updates (ex. Packer control via extension module) 
   - [Download](https://url.kr/xjvo2s) 
 
 ~~0.8.8~~
