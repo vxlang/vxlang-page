@@ -8,7 +8,9 @@
 
 What is VXLANG?
 ---
-**VXLANG** is an executable file protection tool and a code virtualization tool.
+**VXLANG** is an executable file protection tool and a code virtualization tool. 
+If you don't have a customization request, the official version of VXLANG beta is free. 
+Please let me know the purpose of using it through email. 
 
 <div align="center">
 	<a href="https://github.com/vxlang/vxlang-page">
@@ -18,13 +20,22 @@ What is VXLANG?
 
 # VERSION
 
-0.8.8
+0.8.9 
 ---
-- Output a detection or error message box.
-- Add detection method.
-- Add Virtualization for Specific x86 Instruction.
-- Fixed a known bug.
-  - [Download](https://url.kr/i5eap1) 
+- SDK release. 
+- Added extension module functionality. 
+- Add virtualization commands. 
+- Bug fix 
+- Features will be added through hotfix updates (ex. Packer control via expansion module) 
+  - [Download](https://url.kr/xjvo2s) 
+
+~~0.8.8~~
+---
+- ~~Output a detection or error message box.~~ 
+- ~~Add detection method.~~ 
+- ~~Add Virtualization for Specific x86 Instruction.~~ 
+- ~~Fixed a known bug.~~ 
+  - ~~[Download](https://url.kr/i5eap1)~~ 
 
 ~~0.8.7~~
 ---
@@ -49,15 +60,15 @@ Options
 ---
 **The beta version forces debug protection and certain virtualization features to be activated.**
 ```
---entry: Virtualize entry point.
---call: Virtualize function calls.
---ref-call: Virtualize reference calls.
---ref-ptr: Virtualize the reference pointers.
+--opt-entry: Virtualize entry point.
+--opt-call: Virtualize function calls.
+--opt-ref-call: Virtualize reference calls.
+--opt-ref-ptr: Virtualize the reference pointers.
 --level: Adjust the obfuscation level.
 --pack: Add packing and protection codes.
 ```
 ```
-> vxlang.exe ${input-file} --entry --call --ref-call --ref-ptr --pack --obfuscate --level 3
+> vxlang.exe ${input-file} ${opt}
 ```
 
 Detection Method
@@ -125,6 +136,7 @@ Supported Architectures
 
 Next Version
 ---
+- Support code virtualization for kernel drivers.
 - Fix the bugs. 
 - Add virtualization commands. 
 - Fix obfuscation code.
