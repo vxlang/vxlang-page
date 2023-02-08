@@ -1,8 +1,12 @@
 <div align="center">
-	<a href="https://github.com/vxlang/vxlang-page">
+	<a href="https://vxlang.github.io/">
 		<img src="image/logo.png ">
 	</a>
 </div>
+
+# VXLANG BLOG
+
+[Link](https://vxlang.github.io/)
 
 # VXLANG
 
