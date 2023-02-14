@@ -1,28 +1,42 @@
-<div align="center">
-	<a href="https://vxlang.github.io/">
-		<img src="image/logo.png ">
-	</a>
-</div>
-
-# VXLANG BLOG
-
-[Link](https://vxlang.github.io/)
-
-# VXLANG
-
-What is VXLANG?
 ---
-**VXLANG** is an executable file protection tool and a code virtualization tool. 
-If you don't have a customization request, the official version of VXLANG beta is free. 
-Please let me know the purpose of using it through email. 
+layout: page
+title: Overview
+---
+
+# {{ page.title }}
 
 <div align="center">
-	<a href="https://github.com/vxlang/vxlang-page">
-		<img src="image/run.png ">
-	</a>
+   <a href="https://vxlang.github.io/">
+      <img src="https://vxlang.github.io/image/vxlang.gif" loop=infinite style="max-width: 100%; height: auto;" />
+   </a>
+</div>
+<br>
+  
+## Overview
+
+**vxlang** is a project designed to prevent tampering, such as static or dynamic analysis, file modification, or unauthorized access by attackers. The software that relies on the system is compiled and translated into machine language code, which is represented by a mnemonic that can be understood by humans. The mnemonic code that is generated during the compilation of software dependent on the system can be decoded using a disassembler. This process allows for the extraction of additional information and its conversion into a more readable, higher-level code representation. However, this type of analysis can also be referred to as reverse engineering, which can pose a threat to the security of the software.
+   
+The vxlang project offers services to counter these security risks by implementing anti-tamper measures to prevent unauthorized access or tampering. By doing so, vxlang helps to ensure that the software remains protected and secure.
+   
+The vxlang project currently targets native binary files on x86-64 systems and Microsoft Windows operating systems, including executable files with the ".exe" extension and dynamic link library files with the ".dll" extension. The target binary types supported by vxlang will be expanded in future updates.
+  
+## Software Protector
+
+<div align="center">
+   <img src="https://vxlang.github.io/image/protector.png" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
-# VERSION
+Executable compression refers to the process of compressing a file into an executable format. This type of compression helps to hide source code and file information, making access more difficult. Software protectors such as vxlang can provide increased security by tampering with files, obfuscating code, and performing dynamic analysis protection to prevent unauthorized access or tampering.
+
+## Software Code obfuscation and virtualization
+
+<div align="center">
+   <img src="https://vxlang.github.io/image/vcpu.png" loop=infinite style="max-width: 100%; height: auto;" />
+</div>
+
+The software protector effectively blocks access to encryption and runtime states, however, it has a drawback in that it can expose the source code when the runtime state is dumped. To address this issue, code obfuscation is applied by adding dummy code or modulating the source code with similar code to the code exposed in the static or dynamic state. However, a more effective solution to protect the code is Code-Virtualization. Code virtualization represents real-world operational commands as virtual code, which can be executed on internal virtual machines. This approach provides a higher level of security compared to code obfuscation alone. vxlang offers these advanced obfuscation and virtualization services to ensure the protection of the code.  
+
+## Latest Version
 
 0.8.9 
 ---
@@ -30,123 +44,25 @@ Please let me know the purpose of using it through email.
 - Added extension module functionality. 
 - Add virtualization commands. 
 - Bug fix 
-- Features will be added through hotfix updates (ex. Packer control via extension module) 
+- Features will be added through hotfix updates (ex. Packer control via expansion module) 
+  - **Hotfix.2023.01.23**
+    - Fix virtualization algorithms for entry points
+	- Disable Forced Packing
+	- Fix Known Bugs
+  - **Hotfix.2023.02.11**
+    - Fix Known Bugs 
+  - **Hotfix.2023.02.14**
+    - Code obfuscation has been added.
+    - Adjust compilation and unpacking performance  
   - [Download](https://url.kr/xjvo2s) 
 
-~~0.8.8~~
----
-- ~~Output a detection or error message box.~~ 
-- ~~Add detection method.~~ 
-- ~~Add Virtualization for Specific x86 Instruction.~~ 
-- ~~Fixed a known bug.~~ 
-  - ~~[Download](https://url.kr/i5eap1)~~ 
+## Goal
 
-~~0.8.7~~
----
-- ~~Fixed reloc-table related bugs.~~ 
-- ~~Obfuscating the Jump table.~~ 
-- ~~Update obfuscation code.~~ 
-- ~~Improved compiler speed.~~ 
-  - [Download](https://url.kr/2e9r5g)
+The first step is to ensure that all features supported by vxlang work reliably and support additional features.
 
-~~0.8.6~~
----
-~~Add Free Beta version, Add Detection Code, and Add Specific Code Virtualization Methods.~~  
-- ~~[DOWNLOAD](https://url.kr/y63wkf)~~  
+## Special Thanks
 
-~~0.8.5~~
----
-~~Add Free Beta version, Virtualization Tools, and Packers.~~
-
-# Options & SDK
-
-Options
----
-**The beta version forces debug protection and certain virtualization features to be activated.**
-```
---opt-entry: Virtualize entry point.
---opt-call: Virtualize function calls.
---opt-ref-call: Virtualize reference calls.
---opt-ref-ptr: Virtualize the reference pointers.
---level: Adjust the obfuscation level.
---pack: Add packing and protection codes.
-```
-```
-> vxlang.exe ${input-file} ${opt}
-```
-
-Detection Method
----
-- Debugging behavior 
-- Suspend process 
-- Modify shell code or image memory
-- Injection behavior 
-
-C++ SDK
----
-```
-#define USE_VM_MACRO
-#include "vmacro.h"
-
-int main(int argc, char* argv[]) {
-    VM_START;
-
-    printf("Hello, World ! \r\n");
-    return 1;
-
-    VM_END;
-}
-```
-
-# Supported file formats & architectures
-
-Supported File Formats
--------
-<table>
-  <tr> 
-    <td align="center" colspan="2"><b> File format </b></td>
-  </tr>
-  <tr> 
-    <td align="center"> Windows PE </td>
-    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>	
-  </tr>
-  <tr> 
-    <td align="center"> Linux ELF </td>
-    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
-  </tr> 
-  <tr> 
-    <td align="center"> Mac Mach-O </td>
-    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
-  </tr> 
-</table>
-
-Supported Architectures
--------
-<table>
-  <tr> 
-    <td align="center" colspan="2"><b> Architecture </b></td>
-  </tr>
-  <tr>
-    <td align="center"> x86_64 </td>
-    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
-  </tr>
-  <tr>
-    <td align="center"> ARM64 </td>
-    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
-  </tr>	
-</table>
-
-# TODO
-
-Next Version
----
-- Support code virtualization for kernel drivers.
-- Fix the bugs. 
-- Add virtualization commands. 
-- Fix obfuscation code.
-- Add detection method.
-
-# Special Thanks
+Thank you to everyone who helped with the development.
 
 - [2GG](https://twitter.com/2gg) 
 - [kao](https://lifeinhex.com/) 
@@ -155,4 +71,6 @@ Next Version
   - [Crackme01](https://forum.tuts4you.com/topic/43809-users-desktop-crackme/#comment-213328)  
 - [clavis0x](https://github.com/clavis0x)
 - [tybins99](https://github.com/tybins99)  
+  
+  
   
