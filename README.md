@@ -54,6 +54,9 @@ The software protector effectively blocks access to encryption and runtime state
   - **Hotfix.2023.02.14**
     - Code obfuscation has been added.
     - Adjust compilation and unpacking performance  
+  - **Hotfix.2023.02.15.pre-build**
+    - Apply code obfuscation
+    - **Performance test**
   - [Download](https://url.kr/xjvo2s) 
 
 ## Goal
