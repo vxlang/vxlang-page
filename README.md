@@ -45,18 +45,15 @@ The software protector effectively blocks access to encryption and runtime state
 - Add virtualization commands. 
 - Bug fix 
 - Features will be added through hotfix updates (ex. Packer control via expansion module) 
-  - **Hotfix.2023.01.23**
-    - Fix virtualization algorithms for entry points
-	- Disable Forced Packing
-	- Fix Known Bugs
-  - **Hotfix.2023.02.11**
-    - Fix Known Bugs 
   - **Hotfix.2023.02.14**
     - Code obfuscation has been added.
     - Adjust compilation and unpacking performance  
   - **Hotfix.2023.02.15.pre-build**
     - Apply code obfuscation
     - **Performance test**
+  - **Hotfix.2023.02.19**
+    - Fixed a bug for adding DLL cores
+    - Fix Performance Issues
   - [Download](https://url.kr/xjvo2s) 
 
 ## Goal
