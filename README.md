@@ -12,7 +12,7 @@ title: Overview
 </div>
 <br>
   
-## Overview
+## What is vxlang?
 
 **vxlang** is a project designed to prevent tampering, such as static or dynamic analysis, file modification, or unauthorized access by attackers. The software that relies on the system is compiled and translated into machine language code, which is represented by a mnemonic that can be understood by humans. The mnemonic code that is generated during the compilation of software dependent on the system can be decoded using a disassembler. This process allows for the extraction of additional information and its conversion into a more readable, higher-level code representation. However, this type of analysis can also be referred to as reverse engineering, which can pose a threat to the security of the software.
    
@@ -36,26 +36,19 @@ Executable compression refers to the process of compressing a file into an execu
 
 The software protector effectively blocks access to encryption and runtime states, however, it has a drawback in that it can expose the source code when the runtime state is dumped. To address this issue, code obfuscation is applied by adding dummy code or modulating the source code with similar code to the code exposed in the static or dynamic state. However, a more effective solution to protect the code is Code-Virtualization. Code virtualization represents real-world operational commands as virtual code, which can be executed on internal virtual machines. This approach provides a higher level of security compared to code obfuscation alone. vxlang offers these advanced obfuscation and virtualization services to ensure the protection of the code.  
 
+## Deploying the full version
+
+The beta version of vxlang is free software, please request the full version via email and we will respond by creating your distribution file.
+
 ## Latest Version
 
-0.8.9 
+0.9.0
 ---
-- SDK release. 
-- Added extension module functionality. 
-- Add virtualization commands. 
-- Bug fix 
-- Features will be added through hotfix updates (ex. Packer control via expansion module) 
-  - **Hotfix.2023.02.14**
-    - Code obfuscation has been added.
-    - Adjust compilation and unpacking performance  
-  - **Hotfix.2023.02.15.pre-build**
-    - Apply code obfuscation
-    - **Performance test**
-  - **Hotfix.2023.02.19**
-    - Fixed a bug for adding DLL cores
-    - Fix Performance Issues
-  - [Download](https://url.kr/xjvo2s) 
-
+- A random context has been applied to the virtual machine.
+- Improved deployment file structure.
+- Improved the speed of the behavior.
+  - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.0)
+  
 ## Goal
 
 The first step is to ensure that all features supported by vxlang work reliably and support additional features.
