@@ -14,12 +14,12 @@ title: Overview
   
 ## What is vxlang?
 
-**vxlang** is a project designed to prevent tampering, such as static or dynamic analysis, file modification, or unauthorized access by attackers. The software that relies on the system is compiled and translated into machine language code, which is represented by a mnemonic that can be understood by humans. The mnemonic code that is generated during the compilation of software dependent on the system can be decoded using a disassembler. This process allows for the extraction of additional information and its conversion into a more readable, higher-level code representation. However, this type of analysis can also be referred to as reverse engineering, which can pose a threat to the security of the software.
-   
-The vxlang project offers services to counter these security risks by implementing anti-tamper measures to prevent unauthorized access or tampering. By doing so, vxlang helps to ensure that the software remains protected and secure.
-   
-The vxlang project currently targets native binary files on x86-64 systems and Microsoft Windows operating systems, including executable files with the ".exe" extension and dynamic link library files with the ".dll" extension. The target binary types supported by vxlang will be expanded in future updates.
-  
+Software can be described as human-understandable mnemonics through disassamblers, and additional information can be used to convert to advanced languages such as C/C++, which are easier to understand. However, this type of analysis can also be referred to as reverse engineering, which can pose a threat to the security of the software. 
+
+**vxlang** is a project designed to prevent manipulations such as static or dynamic analysis, file modification, or unauthorized access by attackers, such as those described above. The vxlang project provides services for software security risks by implementing anti-tamper measures to prevent unauthorized access. 
+
+The vxlang project currently targets native binary files on x86-64 systems and Microsoft Windows operating systems, including executable files with the ".exe" extension and dynamic link library files with the ".dll" extension. (The target binary types supported by vxlang will be expanded in future updates.)
+
 ## Software Protector
 
 <div align="center">
