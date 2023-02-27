@@ -47,6 +47,8 @@ The beta version of vxlang is free software, please request the full version via
 - A random context has been applied to the virtual machine.
 - Improved deployment file structure.
 - Improved the speed of the behavior.
+  - Hotfix.2023.02.27
+    - Add Virtual Contexts and Update version logo
   - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.0)
   
 ## Goal
