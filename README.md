@@ -11,7 +11,9 @@ title: Overview
    </a>
 </div>
 <br>
-  
+
+- https://vxlang.github.io/
+
 ## What is vxlang?
 
 Software can be described as human-understandable mnemonics through disassamblers, and additional information can be used to convert to advanced languages such as C/C++, which are easier to understand. However, this type of analysis can also be referred to as reverse engineering, which can pose a threat to the security of the software. 
@@ -52,6 +54,9 @@ The beta version of vxlang is free software, please request the full version via
   - Hotfix.2023.02.28
     - If there is no relocation table, a bug that fails engine operation has been fixed.
     - The process pause detection function is force-enabled.
+  - Hotfix.2023.03.04
+    - A bug in the code obfuscation exception handling process has been fixed.
+    - The x86-64 virtualization command was added.
   - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.0)
   
 ## Goal
