@@ -14,9 +14,24 @@ void VirtualizationTest() {
     VM_END;
 }
 
-#pragma optimize("", on)
+#pragma optimize("", off) 
+void ObfuscationTest() {
+    OBFUSCATION_BEGIN;
+
+    for (int i = 0; i < 10; ++i) {
+        printf("Hello, World! \n");
+    }
+
+    OBFUSCATION_END;
+}
+
 int main() {
+    VM_BEGIN;
+
     VirtualizationTest();
+    ObfuscationTest();
+
+    VM_END;
 
     return 1;
 }

@@ -13,13 +13,25 @@
 void __stdcall VxVirtualizationBegin();
 void __stdcall VxVirtualizationEnd();
 
+void __stdcall VxObfuscationBegin();
+void __stdcall VxObfuscationEnd();
+
 #ifdef __clang__
 #define VM_BEGIN            VxVirtualizationBegin()
 #define VM_END              VxVirtualizationEnd()
+
+#define OBFUSCATION_BEGIN   VxObfuscationBegin()
+#define OBFUSCATION_END     VxObfuscationEnd()
 #elif __GNUC__
 #define VM_BEGIN            VxVirtualizationBegin()
 #define VM_END              VxVirtualizationEnd()
+
+#define OBFUSCATION_BEGIN   VxObfuscationBegin()
+#define OBFUSCATION_END     VxObfuscationEnd()
 #elif _MSC_VER
 #define VM_BEGIN            VxVirtualizationBegin()
 #define VM_END              VxVirtualizationEnd()
+
+#define OBFUSCATION_BEGIN   VxObfuscationBegin()
+#define OBFUSCATION_END     VxObfuscationEnd()
 #endif
