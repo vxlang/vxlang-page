@@ -59,6 +59,9 @@ The beta version of vxlang is free software, please request the full version via
     - The x86-64 virtualization command was added.
   - Hotfix.2023.03.05
     - The x86-64 virtualization command was added.
+  - Hotfix.2023.03.07
+    - Fixed a packer bug.
+    - Fixed packer to be enabled by default.
   - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.0)
   
 ## Goal
