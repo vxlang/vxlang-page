@@ -1,37 +1,38 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#include "../lib/vxlib.h"
+#define USE_VM_MACRO
+#include "../vxlang/sdk/vxlib.h"
 
 #pragma optimize("", off) 
 void VirtualizationTest() {
-    VM_BEGIN;
+    VL_VIRTUALIZATION_BEGIN;
 
     for (int i = 0; i < 10; ++i) {
         printf("Hello, World! \n");
     }
 
-    VM_END;
+    VL_VIRTUALIZATION_END;
 }
 
 #pragma optimize("", off) 
 void ObfuscationTest() {
-    OBFUSCATION_BEGIN;
+    VL_OBFUSCATION_BEGIN;
 
     for (int i = 0; i < 10; ++i) {
         printf("Hello, World! \n");
     }
 
-    OBFUSCATION_END;
+    VL_OBFUSCATION_END;
 }
 
 int main() {
-    VM_BEGIN;
+    VL_VIRTUALIZATION_BEGIN;
 
     VirtualizationTest();
     ObfuscationTest();
 
-    VM_END;
+    VL_VIRTUALIZATION_END;
 
     return 1;
 }
