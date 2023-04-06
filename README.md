@@ -130,6 +130,9 @@ The beta version of vxlang is free software, please request the full version via
   #pragma data_seg()
   #endif 
   ```
+  ```
+  vxlang.exe ${target-path} --add-on ${add-on-path}
+  ```
 - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.1)
   
 ## Goal
