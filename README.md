@@ -133,6 +133,7 @@ The beta version of vxlang is free software, please request the full version via
   ```
   vxlang.exe ${target-path} --add-on ${add-on-path}
   ```
+- If the return value of the extension module `DllMain` is `FALSE`, the Terminate event is fired.
 - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.1)
   
 ## Goal
