@@ -46,8 +46,90 @@ The beta version of vxlang is free software, please request the full version via
 
 0.9.1
 ---
-- Change the core to Capstone Engine for ARM research.
+- Change the core to [Capstone Engine](http://www.capstone-engine.org/) for ARM research.
+  ```cpp
+  ...
+  return cs_disasm_iter(cs_handle, (const uint8_t **)&buffer, &size, &address, insn);
+  ```
 - Users can add extension modules (add-ons). Extension modules allow users to take control of the `vxlang` core and add specialized functionality.
+- Example
+  ```cpp
+  #include <windows.h>
+  #include <stdio.h>
+  
+  #define VXLANG_ADDON_MODULE
+  #include "vxlib.h"
+  
+  BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
+      BOOL result = TRUE;
+  
+      switch (fdwReason) {
+      case DLL_PROCESS_ATTACH:
+          break;
+      case DLL_THREAD_ATTACH:
+          break;
+      case VXLANG_LOAD_ADDON_EVENT:
+          break;
+      case VXLANG_DETECTED_DEBUG:
+      case VXLANG_DETECTED_PATCH:
+      case VXLANG_DETECTED_PATCH_SHELL:
+      case VXLANG_DETECTED_PATCH_IMAGE:
+      case VXLANG_DETECTED_PAUSE:
+      case VXLANG_DETECTED_HANDLE:
+      case VXLANG_DETECTED_SHELL:
+      case VXLANG_DETECTED_DLL:
+          break;
+      case VXLANG_START_EVENT:
+          break;
+      case VXLANG_TERMINATE_EVENT:
+          break;
+      default:
+          break;
+      }
+  
+      return result;
+  }
+  
+  /**
+   * 
+   */
+  
+  void NTAPI TlsCallback1(PVOID DllHandle, DWORD dwReason, PVOID) {
+      if (dwReason == DLL_PROCESS_ATTACH) {
+      }
+      else if (dwReason == DLL_THREAD_ATTACH) {
+      }
+  }
+  
+  void NTAPI TlsCallback2(PVOID DllHandle, DWORD dwReason, PVOID) {
+      if (dwReason == DLL_PROCESS_ATTACH) {
+      }
+      else if (dwReason == DLL_THREAD_ATTACH) {
+      }
+  }
+  
+  #ifdef _WIN64
+  #pragma comment (linker, "/INCLUDE:_tls_used") 
+  #pragma comment (linker, "/INCLUDE:_tls_callback_list")
+  #else
+  #pragma comment (linker, "/INCLUDE:__tls_used") 
+  #pragma comment (linker, "/INCLUDE:__tls_callback_list")
+  #endif
+  
+  #ifdef _WIN64
+  #pragma const_seg(".CRT$XLC")
+  EXTERN_C const
+  #else
+  #pragma data_seg(".CRT$XLC")
+  EXTERN_C
+  #endif
+  PIMAGE_TLS_CALLBACK _tls_callback_list[] = { TlsCallback1, TlsCallback2 };
+  #ifdef _WIN64
+  #pragma const_seg()
+  #else
+  #pragma data_seg()
+  #endif 
+  ```
 - [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.1)
   
 ## Goal
