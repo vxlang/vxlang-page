@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #define VXLANG_ADDON_MODULE
-#include "../vxlang/sdk/vxlib.h"
+#include "../../vxlang/sdk/vxlib.h"
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
     // If the return value of the extension module DllMain is FALSE, the Terminate event is fired.

@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 #define USE_VM_MACRO
-#include "../vxlang/sdk/vxlib.h"
+#include "../../vxlang/sdk/vxlib.h"
 
 #pragma optimize("", off) 
 void VirtualizationTest() {

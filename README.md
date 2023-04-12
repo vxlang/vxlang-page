@@ -46,6 +46,9 @@ The beta version of vxlang is free software, please request the full version via
 
 0.9.1
 ---
+- 2023.04.12.hotfix
+  - A bug has been fixed for detection.
+  - A bug has been fixed for the ADD-ON module.
 - Change the core to [Capstone Engine](http://www.capstone-engine.org/) for ARM research.
   ```cpp
   ...
