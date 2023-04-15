@@ -50,9 +50,9 @@ The software protector effectively blocks access to encryption and runtime state
 ## Virtualization Run
 
 <div align="center">
-   <img src="https://github.com/vxlang/vxlang-page/tree/main/image/VMBegin.png" loop=infinite style="max-width: 100%; height: auto;" />
-   <img src="https://github.com/vxlang/vxlang-page/tree/main/image/VMEnd.png" loop=infinite style="max-width: 100%; height: auto;" />
-   <img src="https://github.com/vxlang/vxlang-page/tree/main/image/VMRun.gif" loop=infinite style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/VMBegin.png" loop=infinite style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/VMEnd.png" loop=infinite style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/VMRun.png" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
 ## Deploying the full version
@@ -65,6 +65,7 @@ The beta version of vxlang is free software, please request the full version via
 ---
 - Added code virtualization for kernel drivers.
 - Removed the message box from the beta version.
+- [Download](https://github.com/vxlang/vxlang-page/)
 
 0.9.1
 ---
