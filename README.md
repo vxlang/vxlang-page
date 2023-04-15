@@ -19,7 +19,7 @@ title: Overview
 - [What is vxlang?](#What-is-vxlang?)
 - [Software Protector](#Software-Protector)
 - [Software Code obfuscation and virtualization](#Software-Code-obfuscation-and-virtualization)
-- [Virtualization Run](#Virtualization-Run)
+- [Virtualization Preview](#Virtualization-Preview)
 - [Deploying the full version](#Deploying-the-full-version)
 - [Latest Version](#Latest-Version)
 
