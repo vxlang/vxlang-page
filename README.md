@@ -50,8 +50,11 @@ The software protector effectively blocks access to encryption and runtime state
 ## Virtualization Preview
 
 <div align="center">
+   <p>Before</p>
    <img src="https://vxlang.github.io/image/VMBegin.png" loop=infinite style="max-width: 100%; height: auto;" />
+   <p>After</p>
    <img src="https://vxlang.github.io/image/VMEnd.png" loop=infinite style="max-width: 100%; height: auto;" />
+   <p>Run</p>   
    <img src="https://vxlang.github.io/image/VMRun.gif" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
