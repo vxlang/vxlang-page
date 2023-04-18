@@ -20,6 +20,7 @@ title: Overview
 - [Software Protector](#Software-Protector)
 - [Software Code obfuscation and virtualization](#Software-Code-obfuscation-and-virtualization)
 - [Virtualization Preview](#Virtualization-Preview)
+- [VXLANG Extension Module](#VXLANG-Extension-Module)
 - [Deploying the full version](#Deploying-the-full-version)
 - [Latest Version](#Latest-Version)
 
@@ -58,29 +59,8 @@ The software protector effectively blocks access to encryption and runtime state
    <img src="https://vxlang.github.io/image/VMRun.gif" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
-## Deploying the full version
+## VXLANG Extension Module
 
-The beta version of vxlang is free software, please request the full version via email and we will respond by creating your distribution file.
-
-## Latest Version
-
-0.9.2
----
-- Added code virtualization for kernel drivers.
-- Removed the message box from the beta version.
-- [Download](https://github.com/vxlang/vxlang-page/)
-
-0.9.1
----
-- 2023.04.12.hotfix
-  - A bug has been fixed for detection.
-  - A bug has been fixed for the ADD-ON module.
-- Change the core to [Capstone Engine](http://www.capstone-engine.org/) for ARM research.
-  ```cpp
-  ...
-  return cs_disasm_iter(cs_handle, (const uint8_t **)&buffer, &size, &address, insn);
-  ```
-- Users can add extension modules (add-ons). Extension modules allow users to take control of the `vxlang` core and add specialized functionality.
 - Example
   ```cpp
   #include <windows.h>
@@ -162,8 +142,51 @@ The beta version of vxlang is free software, please request the full version via
   ```
   vxlang.exe ${target-path} --add-on ${add-on-path}
   ```
-- If the return value of the extension module `DllMain` is `FALSE`, the Terminate event is fired.
-- [Download](https://github.com/vxlang/vxlang-page/releases/tag/0.9.1)
+  - Warning
+    - If DllMain's return value is `FALSE`, **VXLANG_TERMINATE_EVENT** is called.
+  ```cpp
+	BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
+		BOOL result = TRUE;
+
+		switch (fdwReason) {
+		case DLL_PROCESS_ATTACH:
+			break;
+		case DLL_THREAD_ATTACH:
+			break;
+		case VXLANG_LOAD_ADDON_EVENT:
+			printf("VXLANG_LOAD_ADDON_EVENT \n");
+			result = FALSE;
+			break;
+		case VXLANG_DETECTED_DEBUG:
+		case VXLANG_DETECTED_PATCH:
+		case VXLANG_DETECTED_PATCH_SHELL:
+		case VXLANG_DETECTED_PATCH_IMAGE:
+		case VXLANG_DETECTED_PAUSE:
+		case VXLANG_DETECTED_HANDLE:
+		case VXLANG_DETECTED_SHELL:
+		case VXLANG_DETECTED_DLL:
+			break;
+		case VXLANG_TERMINATE_EVENT:
+			printf("VXLANG_TERMINATE_EVENT \n");
+			break;
+		default:
+			break;
+		}
+		return result;
+	}  
+  ```
+  
+## Deploying the full version
+
+The beta version of vxlang is free software, please request the full version via email and we will respond by creating your distribution file.
+
+## Latest Version
+
+0.9.2
+---
+- Added code virtualization for kernel drivers.
+- Removed the message box from the beta version.
+- [Download](https://github.com/vxlang/vxlang-page/)
   
 ## Special Thanks
 
