@@ -20,7 +20,7 @@ title: Overview
 - [Software Protector](#Software-Protector)
 - [Software Code obfuscation and virtualization](#Software-Code-obfuscation-and-virtualization)
 - [Virtualization Preview](#Virtualization-Preview)
-- [Obfuscation & Virtualization Precautions](#Obfuscation-&-Virtualization-Precautions)
+- [Precautions](#Precautions)
 - [VXLANG Extension Module](#VXLANG-Extension-Module)
 - [Deploying the full version](#Deploying-the-full-version)
 - [Latest Version](#Latest-Version)
@@ -60,7 +60,7 @@ The software protector effectively blocks access to encryption and runtime state
    <img src="https://vxlang.github.io/image/VMRun.gif" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
-## Obfuscation & Virtualization Precautions
+## Precautions
 
 - `Optimization` : Verify that VxVirtualizationBegin and VxVirtualizationEnd are in the same block.  
   If procedures are merged due to code optimization, problems may arise.
