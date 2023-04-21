@@ -14,6 +14,8 @@ title: Overview
 
 - https://vxlang.github.io/
 
+---
+
 # Contents
 
 - [What is vxlang?](#What-is-vxlang?)
@@ -24,6 +26,10 @@ title: Overview
 - [VXLANG Extension Module](#VXLANG-Extension-Module)
 - [Deploying the full version](#Deploying-the-full-version)
 - [Latest Version](#Latest-Version)
+- [TODO](#TODO)
+- [Special Thanks](#Special-Thanks)
+
+---
 
 ## What is vxlang?
 
@@ -195,7 +201,19 @@ The beta version of vxlang is free software, please request the full version via
 - Added code virtualization for kernel drivers.
 - Removed the message box from the beta version.
 - [Download](https://github.com/vxlang/vxlang-page/)
-  
+
+## TODO
+
+- `0.9.3` 
+  - Remove the existing detection behavior and extend the ADD-ON role. 
+  - Add the x86-64 virtualization command.
+- `Task`
+  - Add ELF32/64 format for x86-64
+  - Add code obfuscation methods for x86-64
+    - Once the above steps are complete, add the ARM system for the ELF file format.
+    
+---
+
 ## Special Thanks
 
 Thank you to everyone who helped with the development.
