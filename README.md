@@ -95,12 +95,6 @@ The software protector effectively blocks access to encryption and runtime state
           break;
       case VXLANG_DETECTED_DEBUG:
       case VXLANG_DETECTED_PATCH:
-      case VXLANG_DETECTED_PATCH_SHELL:
-      case VXLANG_DETECTED_PATCH_IMAGE:
-      case VXLANG_DETECTED_PAUSE:
-      case VXLANG_DETECTED_HANDLE:
-      case VXLANG_DETECTED_SHELL:
-      case VXLANG_DETECTED_DLL:
           break;
       case VXLANG_START_EVENT:
           break;
@@ -196,17 +190,20 @@ The beta version of vxlang is free software, please request the full version via
 
 ## Latest Version
 
-0.9.2
+0.9.3
 ---
-- Added code virtualization for kernel drivers.
-- Removed the message box from the beta version.
+- Detailed output of the progress of obfuscation, virtualization, and packing.
+- Part of the Detect routine has been removed.
+  - It will be distributed via an extension module in the full version.
+- Add the x86-64 virtualization command.
+- Fixed a bug.
 - [Download](https://github.com/vxlang/vxlang-page/)
 
 ## TODO
 
-- `0.9.3` 
-  - Remove the existing detection behavior and extend the ADD-ON role. 
-  - Add the x86-64 virtualization command.
+- `0.9.4`
+  - Supports packing for .NET executables.
+  -  Add the x86-64 virtualization command.
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
