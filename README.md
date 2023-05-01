@@ -187,6 +187,8 @@ The software protector effectively blocks access to encryption and runtime state
 ## Deploying the full version
 
 The beta version of vxlang is free software, please request the full version via email and we will respond by creating your distribution file.
+- Support for specialized add-on modules.
+- Support for virtual CPUs with specialized CPU contexts.
 
 ## Latest Version
 
