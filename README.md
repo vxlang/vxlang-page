@@ -1,9 +1,4 @@
----
-layout: page
-title: Overview
----
-
-# {{ page.title }}
+# vxlang
 
 <div align="center">
    <a href="https://vxlang.github.io/">
