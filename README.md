@@ -199,8 +199,9 @@ The beta version of vxlang is free software, please request the full version via
 ## TODO
 
 - `0.9.4`
-  - Supports packing for .NET executables.
-  -  Add the x86-64 virtualization command.
+  - ~~Supports packing for .NET executables.~~ (DONE)
+  - ~~Add the x86-64 virtualization command.~~ (DONE)
+  - Add a plugin directory
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
