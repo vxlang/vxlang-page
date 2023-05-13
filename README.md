@@ -28,11 +28,9 @@
 
 ## What is vxlang?
 
-Software can be described as human-understandable mnemonics through disassamblers, and additional information can be used to convert to advanced languages such as C/C++, which are easier to understand. However, this type of analysis can also be referred to as reverse engineering, which can pose a threat to the security of the software. 
+**VXLANG is a project designed to prevent reverse-engineering behaviors such as static or dynamic analysis, file tampering, and unauthorized access to memory by attackers. 
 
-**vxlang** is a project designed to prevent manipulations such as static or dynamic analysis, file modification, or unauthorized access by attackers, such as those described above. The vxlang project provides services for software security risks by implementing anti-tamper measures to prevent unauthorized access. 
-
-The vxlang project currently targets native binary files on x86-64 systems and Microsoft Windows operating systems, including executable files with the ".exe" extension and dynamic link library files with the ".dll" extension, kernel driver files with the ".sys". (The target binary types supported by vxlang will be expanded in future updates.)
+The vxlang project currently targets x86-64 system and .Net binaries, native binary files for the Microsoft Windows operating system, including executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by vxlang will be expanded in future updates).
 
 ## Software Protector
 
@@ -182,26 +180,26 @@ The software protector effectively blocks access to encryption and runtime state
 ## Deploying the full version
 
 The beta version of vxlang is free software, please request the full version via email and we will respond by creating your distribution file.
+
+- The demo message box is removed.
 - Support for specialized add-on modules.
 - Support for virtual CPUs with specialized CPU contexts.
+- Supports on/off for packer and engine code.
 
 ## Latest Version
 
-0.9.3
+0.9.4
 ---
-- Detailed output of the progress of obfuscation, virtualization, and packing.
-- Part of the Detect routine has been removed.
-  - It will be distributed via an extension module in the full version.
-- Add the x86-64 virtualization command.
-- Fixed a bug.
+- The vxlang DataBase file was removed.
+- .Net plugin has been added.
+- A demo message box is output.
 - [Download](https://github.com/vxlang/vxlang-page/)
 
 ## TODO
 
-- `0.9.4`
-  - ~~Supports packing for .NET executables.~~ (DONE)
-  - ~~Add the x86-64 virtualization command.~~ (DONE)
-  - Add a plugin directory
+- `0.9.5`
+  - Fixes a virtualization bug that occurs while sandboxing code.
+  - Improve code obfuscation and code virtualization
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
