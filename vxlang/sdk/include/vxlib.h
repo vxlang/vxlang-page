@@ -7,11 +7,11 @@
 #pragma comment(lib, "vxlib32.lib")
 #endif
 
-void VxVirtualizationBegin();
-void VxVirtualizationEnd();
+void __stdcall VxVirtualizationBegin();
+void __stdcall VxVirtualizationEnd();
 
-void VxObfuscationBegin();
-void VxObfuscationEnd();
+void __stdcall VxObfuscationBegin();
+void __stdcall VxObfuscationEnd();
 
 #define VL_OBFUSCATION_BEGIN         VxObfuscationBegin()
 #define VL_OBFUSCATION_END           VxObfuscationEnd()
