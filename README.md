@@ -143,63 +143,49 @@ The software protector effectively blocks access to encryption and runtime state
   ```
   vxlang.exe ${target-path} --add-on ${add-on-path}
   ```
-  - Warning
-    - If DllMain's return value is `FALSE`, **VXLANG_TERMINATE_EVENT** is called.
-  ```cpp
-	BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
-		BOOL result = TRUE;
-
-		switch (fdwReason) {
-		case DLL_PROCESS_ATTACH:
-			break;
-		case DLL_THREAD_ATTACH:
-			break;
-		case VXLANG_LOAD_ADDON_EVENT:
-			printf("VXLANG_LOAD_ADDON_EVENT \n");
-			result = FALSE;
-			break;
-		case VXLANG_DETECTED_DEBUG:
-		case VXLANG_DETECTED_PATCH:
-		case VXLANG_DETECTED_PATCH_SHELL:
-		case VXLANG_DETECTED_PATCH_IMAGE:
-		case VXLANG_DETECTED_PAUSE:
-		case VXLANG_DETECTED_HANDLE:
-		case VXLANG_DETECTED_SHELL:
-		case VXLANG_DETECTED_DLL:
-			break;
-		case VXLANG_TERMINATE_EVENT:
-			printf("VXLANG_TERMINATE_EVENT \n");
-			break;
-		default:
-			break;
-		}
-		return result;
-	}  
-  ```
   
 ## Deploying the full version
 
-The beta version of vxlang is free software, please request the full version via email and we will respond by creating your distribution file.
+The beta version is free software, so if you request the full version via email, I will create a distribution file and respond to you.
 
 - E-Mail: 0x999h@gmail.com
 - The demo message box is removed.
 - Support for specialized add-on modules.
 - Support for virtual CPUs with specialized CPU contexts.
 - Supports on/off for packer and engine code.
+- Add-on development allows you to develop additional features.
+- Anti-debugging and anti-tamper features are adjustable.
 
 ## Latest Version
 
-0.9.4
+0.9.5
 ---
-- The vxlang DataBase file was removed.
-- .Net plugin has been added.
-- A demo message box is output.
+- Fixed a bug in the process of sandboxing code.   
+```cpp
+int SDKVirtualizeTest() {
+    VM_START;
+
+    if (true) {
+        printf("! \n");
+        return 0;
+    }
+
+    VM_END;
+
+    printf("BUG.. \n");
+
+    return 1;
+}
+``` 
+- Improved the process of escaping a virtual machine.
+- Fixed a bug where EFL was calculated extra during virtualization escape.
+- Improved the entry point virtualization algorithm.
+- End support for the add-on in the demo version.
 - [Download](https://github.com/vxlang/vxlang-page/)
 
 ## TODO
 
-- `0.9.5`
-  - Fixes a virtualization bug that occurs while sandboxing code.
+- `0.9.6`
   - Improve code obfuscation and code virtualization
 - `Task`
   - Add ELF32/64 format for x86-64
