@@ -17,12 +17,6 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
         break;
     case VXLANG_DETECTED_DEBUG:
     case VXLANG_DETECTED_PATCH:
-    case VXLANG_DETECTED_PATCH_SHELL:
-    case VXLANG_DETECTED_PATCH_IMAGE:
-    case VXLANG_DETECTED_PAUSE:
-    case VXLANG_DETECTED_HANDLE:
-    case VXLANG_DETECTED_SHELL:
-    case VXLANG_DETECTED_DLL:
         break;
     case VXLANG_START_EVENT:
         break;
