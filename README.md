@@ -158,7 +158,7 @@ The software protector effectively blocks access to encryption and runtime state
 The beta version is free software, so if you request the full version via email, I will create a distribution file and respond to you.
 
 - E-Mail: 0x999h@gmail.com
-- The demo message box is removed.
+- ~~The demo message box is removed.~~
 - Support for specialized add-on modules.
 - Support for virtual CPUs with specialized CPU contexts.
 - Supports on/off for packer and engine code.
@@ -169,23 +169,10 @@ The beta version is free software, so if you request the full version via email,
 
 0.9.5
 ---
+- 2023.05.23.Hotfix
+  - Remove the demo message box.
+  - Call a message box about a program malfunction.
 - Fixed a bug in the process of sandboxing code.   
-```cpp
-int SDKVirtualizeTest() {
-    VM_START;
-
-    if (true) {
-        printf("! \n");
-        return 0;
-    }
-
-    VM_END;
-
-    printf("BUG.. \n");
-
-    return 1;
-}
-``` 
 - Improved the process of escaping a virtual machine.
 - Fixed a bug where EFL was calculated extra during virtualization escape.
 - Improved the entry point virtualization algorithm.
