@@ -18,8 +18,8 @@
 - [Software Code obfuscation and virtualization](#Software-Code-obfuscation-and-virtualization)
 - [Virtualization Preview](#Virtualization-Preview)
 - [Precautions](#Precautions)
-- [vxlang Extension Module](#vxlang-Extension-Module)
-- [vxlang Option](#vxlang-Option)
+- [Add-on Module](#Add-on-Module)
+- [Option](#Option)
 - [Deploying the full version](#Deploying-the-full-version)
 - [Latest Version](#Latest-Version)
 - [TODO](#TODO)
@@ -67,7 +67,7 @@ The software protector effectively blocks access to encryption and runtime state
 - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
 - `Exception handling` : Currently, the virtual CPU does not support exception handling.
 
-## vxlang Add-on Module
+## Add-on Module
 
 - Example
   ```cpp
@@ -145,7 +145,7 @@ The software protector effectively blocks access to encryption and runtime state
   vxlang.exe ${target-path} --add-on ${add-on-path}
   ```
   
-## vxlang Option
+## Option
 
 - `--detect-debug` : Checks to see if the process is debugging.
 - `--detect-patch` : Checks if the process memory has been tampered with.
