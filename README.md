@@ -7,7 +7,7 @@
 </div>
 <br>
 
-- https://vxlang.github.io/
+- [Guide Blog Link](https://vxlang.github.io/)
 
 ---
 
