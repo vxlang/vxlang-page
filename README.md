@@ -182,6 +182,8 @@ The beta version is free software, so if you request the full version via email,
 ## TODO
 
 - `0.9.6`
+  - Change structure for Linux, ARM support. 
+  - Add the LIEF Project type to the linker for faster operations.
   - Improve code obfuscation and code virtualization
 - `Task`
   - Add ELF32/64 format for x86-64
