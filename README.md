@@ -164,11 +164,16 @@ The beta version is free software, so if you request the full version via email,
 - Supports on/off for packer and engine code.
 - Add-on development allows you to develop additional features.
 - Anti-debugging and anti-tamper features are adjustable.
+- Users can disable or control error messages.
 
 ## Latest Version
 
 0.9.5
 ---
+- 2023.05.28.Hotfix
+  - Added an option to disable the detection (error) message box.
+    - This option is not supported in the demo version.  
+  - Users can control the error messages through an add-on.
 - 2023.05.23.Hotfix
   - Remove the demo message box.
   - Call a message box about a program malfunction.
