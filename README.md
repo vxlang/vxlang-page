@@ -170,11 +170,15 @@ The beta version is free software, so if you request the full version via email,
 
 0.9.5
 ---
-- 2023.05.28.Hotfix
+- 2023.06.02.Hotfix
+  - Fixed a bug where the EFlags register was calculated incorrectly.
+  - Additional issues will be tested and fixed.
+  - Temporarily enables the message box in the demo version.
+- ~~2023.05.28.Hotfix~~
   - Added an option to disable the detection (error) message box.
     - This option is not supported in the demo version.  
   - Users can control the error messages through an add-on.
-- 2023.05.23.Hotfix
+- ~~2023.05.23.Hotfix~~
   - Remove the demo message box.
   - Call a message box about a program malfunction.
 - Fixed a bug in the process of sandboxing code.   
