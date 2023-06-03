@@ -18,7 +18,6 @@
 - [Software Code obfuscation and virtualization](#Software-Code-obfuscation-and-virtualization)
 - [Virtualization Preview](#Virtualization-Preview)
 - [Precautions](#Precautions)
-- [Add-on Module](#Add-on-Module)
 - [Option](#Option)
 - [Deploying the full version](#Deploying-the-full-version)
 - [Latest Version](#Latest-Version)
@@ -67,84 +66,6 @@ The software protector effectively blocks access to encryption and runtime state
 - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
 - `Exception handling` : Currently, the virtual CPU does not support exception handling.
 
-## Add-on Module
-
-- Example
-  ```cpp
-  #include <windows.h>
-  #include <stdio.h>
-  
-  #define VXLANG_ADDON_MODULE
-  #include "vxlib.h"
-  
-  BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
-      BOOL result = TRUE;
-  
-      switch (fdwReason) {
-      case DLL_PROCESS_ATTACH:
-          break;
-      case DLL_THREAD_ATTACH:
-          break;
-      case VXLANG_LOAD_ADDON_EVENT:
-          break;
-      case VXLANG_DETECTED_DEBUG:
-      case VXLANG_DETECTED_PATCH:
-          break;
-      case VXLANG_START_EVENT:
-          break;
-      case VXLANG_TERMINATE_EVENT:
-          break;
-      default:
-          break;
-      }
-  
-      return result;
-  }
-  
-  /**
-   * 
-   */
-  
-  void NTAPI TlsCallback1(PVOID DllHandle, DWORD dwReason, PVOID) {
-      if (dwReason == DLL_PROCESS_ATTACH) {
-      }
-      else if (dwReason == DLL_THREAD_ATTACH) {
-      }
-  }
-  
-  void NTAPI TlsCallback2(PVOID DllHandle, DWORD dwReason, PVOID) {
-      if (dwReason == DLL_PROCESS_ATTACH) {
-      }
-      else if (dwReason == DLL_THREAD_ATTACH) {
-      }
-  }
-  
-  #ifdef _WIN64
-  #pragma comment (linker, "/INCLUDE:_tls_used") 
-  #pragma comment (linker, "/INCLUDE:_tls_callback_list")
-  #else
-  #pragma comment (linker, "/INCLUDE:__tls_used") 
-  #pragma comment (linker, "/INCLUDE:__tls_callback_list")
-  #endif
-  
-  #ifdef _WIN64
-  #pragma const_seg(".CRT$XLC")
-  EXTERN_C const
-  #else
-  #pragma data_seg(".CRT$XLC")
-  EXTERN_C
-  #endif
-  PIMAGE_TLS_CALLBACK _tls_callback_list[] = { TlsCallback1, TlsCallback2 };
-  #ifdef _WIN64
-  #pragma const_seg()
-  #else
-  #pragma data_seg()
-  #endif 
-  ```
-  ```
-  vxlang.exe ${target-path} --add-on ${add-on-path}
-  ```
-  
 ## Option
 
 - `--detect-debug` : Checks to see if the process is debugging.
@@ -170,7 +91,10 @@ The beta version is free software, so if you request the full version via email,
 
 0.9.5
 ---
-- 2023.06.02.Hotfix
+- 2023.06.03.Hotfix
+  - Fixed a bug that caused the EFlags register to be set incorrectly.
+  - Disabled kernel module support in the demo version.
+- ~~2023.06.02.Hotfix~~
   - Fixed reported bugs 
     - Fixed a bug where the EFlags register was calculated incorrectly.
     - Additional issues will be tested and fixed.
