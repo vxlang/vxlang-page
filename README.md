@@ -91,7 +91,9 @@ The beta version is free software, so if you request the full version via email,
 
 0.9.5
 ---
-- 2023.06.03.Hotfix
+- 2023.06.09.Hotfix
+  - Fixed a bug that caused .NET objects to be set incorrectly
+- ~~2023.06.03.Hotfix~~
   - Fixed a bug that caused the EFlags register to be set incorrectly.
   - Disabled kernel module support in the demo version.
 - ~~2023.06.02.Hotfix~~
