@@ -35,7 +35,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 ## Software Protector
 
 <div align="center">
-   <img src="https://vxlang.github.io/image/overview_1.PNG" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/protector.png" style="max-width: 100%; height: auto;" />
 </div>
 
 Executable compression refers to the process of compressing a file into an executable format. This type of compression helps to hide source code and file information, making access more difficult. Software protectors such as vxlang can provide increased security by tampering with files, obfuscating code, and performing dynamic analysis protection to prevent unauthorized access or tampering.
@@ -43,8 +43,8 @@ Executable compression refers to the process of compressing a file into an execu
 ## Software Code obfuscation and virtualization
 
 <div align="center">
-   <img src="https://vxlang.github.io/image/overview_2.PNG" style="max-width: 100%; height: auto;" />
-   <img src="https://vxlang.github.io/image/overview_3.PNG" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/index.gif" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/vxlang-1.png" style="max-width: 100%; height: auto;" />
 </div>
 
 The software protector effectively blocks access to encryption and runtime states, however, it has a drawback in that it can expose the source code when the runtime state is dumped. To address this issue, code obfuscation is applied by adding dummy code or modulating the source code with similar code to the code exposed in the static or dynamic state. However, a more effective solution to protect the code is Code-Virtualization. Code virtualization represents real-world operational commands as virtual code, which can be executed on internal virtual machines. This approach provides a higher level of security compared to code obfuscation alone. vxlang offers these advanced obfuscation and virtualization services to ensure the protection of the code.  
