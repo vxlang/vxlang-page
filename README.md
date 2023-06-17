@@ -43,7 +43,10 @@ Executable compression refers to the process of compressing a file into an execu
 ## Software Code obfuscation and virtualization
 
 <div align="center">
-   <img src="https://vxlang.github.io/image/index.gif" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/index.gif" loop=infinite style="max-width: 100%; height: auto;" />   
+</div>
+
+<div align="center">
    <img src="https://vxlang.github.io/image/vxlang-1.png" style="max-width: 100%; height: auto;" />
 </div>
 
