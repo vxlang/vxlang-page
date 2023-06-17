@@ -35,7 +35,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 ## Software Protector
 
 <div align="center">
-   <img src="https://vxlang.github.io/image/protector.png" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/overview_1.PNG" style="max-width: 100%; height: auto;" />
 </div>
 
 Executable compression refers to the process of compressing a file into an executable format. This type of compression helps to hide source code and file information, making access more difficult. Software protectors such as vxlang can provide increased security by tampering with files, obfuscating code, and performing dynamic analysis protection to prevent unauthorized access or tampering.
@@ -43,7 +43,8 @@ Executable compression refers to the process of compressing a file into an execu
 ## Software Code obfuscation and virtualization
 
 <div align="center">
-   <img src="https://vxlang.github.io/image/vcpu.png" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/overview_2.PNG" style="max-width: 100%; height: auto;" />
+   <img src="https://vxlang.github.io/image/overview_3.PNG" style="max-width: 100%; height: auto;" />
 </div>
 
 The software protector effectively blocks access to encryption and runtime states, however, it has a drawback in that it can expose the source code when the runtime state is dumped. To address this issue, code obfuscation is applied by adding dummy code or modulating the source code with similar code to the code exposed in the static or dynamic state. However, a more effective solution to protect the code is Code-Virtualization. Code virtualization represents real-world operational commands as virtual code, which can be executed on internal virtual machines. This approach provides a higher level of security compared to code obfuscation alone. vxlang offers these advanced obfuscation and virtualization services to ensure the protection of the code.  
@@ -79,7 +80,7 @@ The software protector effectively blocks access to encryption and runtime state
 The beta version is free software, so if you request the full version via email, I will create a distribution file and respond to you.
 
 - E-Mail: 0x999h@gmail.com
-- ~~The demo message box is removed.~~
+- The demo message box is removed.
 - Support for specialized add-on modules.
 - Support for virtual CPUs with specialized CPU contexts.
 - Supports on/off for packer and engine code.
@@ -89,39 +90,20 @@ The beta version is free software, so if you request the full version via email,
 
 ## Latest Version
 
-0.9.5
+0.9.6
 ---
-- 2023.06.09.Hotfix
-  - Fixed a bug that caused .NET objects to be set incorrectly
-- ~~2023.06.03.Hotfix~~
-  - Fixed a bug that caused the EFlags register to be set incorrectly.
-  - Disabled kernel module support in the demo version.
-- ~~2023.06.02.Hotfix~~
-  - Fixed reported bugs 
-    - Fixed a bug where the EFlags register was calculated incorrectly.
-    - Additional issues will be tested and fixed.
-  - Temporarily enables the message box in the demo version.
-- ~~2023.05.28.Hotfix~~
-  - Added an option to disable the detection (error) message box.
-    - This option is not supported in the demo version.  
-  - Users can control the error messages through an add-on.
-- ~~2023.05.23.Hotfix~~
-  - Remove the demo message box.
-  - Call a message box about a program malfunction.
-- Fixed a bug in the process of sandboxing code.   
-- Improved the process of escaping a virtual machine.
-- Fixed a bug where EFL was calculated extra during virtualization escape.
-- Improved the entry point virtualization algorithm.
-- End support for the add-on in the demo version.
-- [Download](https://github.com/vxlang/vxlang-page/)
+- Compiler and linker merged on a per-platform basis.
+- Improved core structure.
+- The link file and IL file have been removed.
+- Upcoming hotfixes
+  - Packers and obfuscators are also modified on a per-platform basis.
+  - The obfuscate command is added.
+  - Add and test obfuscation using ASMJIT.
+    - Like LIEF-Project, it may not apply to vxlang.
 
 ## TODO
 
-- `0.9.6`
-  - Change structure for Linux, ARM support. 
-  - ~~Add the LIEF Project type to the linker for faster operations.~~
-    - Hold off on applying LIEF. Work with the vxlang and ELF libraries as before. 
-  - Improve code obfuscation and code virtualization
+- `0.9.7`
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
