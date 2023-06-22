@@ -1,4 +1,4 @@
-# vxlang
+# VxLang
 
 <div align="center">
    <a href="https://vxlang.github.io/">
