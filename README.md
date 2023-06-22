@@ -98,13 +98,19 @@ The beta version is free software, so if you request the full version via email,
 - Compiler and linker merged on a per-platform basis.
 - Improved core structure.
 - The link file and IL file have been removed.
-- Upcoming hotfixes
+
+## TODO
+
+- 0.9.6 hotfixes
+  - Restore the process saver.
+    - Read handle blocking. 
+    - Pause protection.
+  - Add the type of extension module.
+    - Image DLL or raw data.
   - Packers and obfuscators are also modified on a per-platform basis.
   - The obfuscate command is added.
   - Add and test obfuscation using ASMJIT.
     - Like LIEF-Project, it may not apply to vxlang.
-
-## TODO
 
 - `0.9.7`
 - `Task`
