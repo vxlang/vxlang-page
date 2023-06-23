@@ -93,8 +93,9 @@ The beta version is free software, so if you request the full version via email,
 
 ## Latest Version
 
-0.9.6
+0.9.6.hotfix
 ---
+- Minor bug fixes
 - Compiler and linker merged on a per-platform basis.
 - Improved core structure.
 - The link file and IL file have been removed.
