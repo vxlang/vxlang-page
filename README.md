@@ -95,6 +95,12 @@ The beta version is free software, so if you request the full version via email,
 
 0.9.6.hotfix
 ---
+- Fixed a bug that caused code obfuscation and virtualization to take a long time or crash.
+- Added axion plugin.
+  - It plays an additional anti-tampering role, and will be updated.
+  - It is automatically applied in the demo version.
+- You can include RAW data in your packing. This data can be requested and used by extension modules.
+  - A demo version is not available.
 - Minor bug fixes
 - Compiler and linker merged on a per-platform basis.
 - Improved core structure.
@@ -103,12 +109,6 @@ The beta version is free software, so if you request the full version via email,
 ## TODO
 
 - 0.9.6 hotfixes
-  - ~~Fixed a bug that slowed down virtualization and obfuscation conversions~~ [DONE]
-  - ~~Restore the process saver.~~ [DONE]
-    - ~~Read handle blocking.~~ 
-    - ~~Pause protection.~~
-  - ~~Add the type of extension module.~~ [DONE]
-    - ~~Image DLL or raw data.~~
   - Packers and obfuscators are also modified on a per-platform basis.
   - The obfuscate command is added.
   - Add and test obfuscation using ASMJIT.
