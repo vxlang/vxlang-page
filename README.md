@@ -13,16 +13,17 @@
 
 # Contents
 
-- [What is vxlang?](#What-is-vxlang?)
-- [Software Protector](#Software-Protector)
+- [What is vxlang?](https://vxlang.github.io/document/index.html)
+- [Download](https://vxlang.github.io/download.html)
+- [Software Protector](https://vxlang.github.io/document/protector.html)
 - [Software Code obfuscation and virtualization](#Software-Code-obfuscation-and-virtualization)
 - [Virtualization Preview](#Virtualization-Preview)
 - [Precautions](#Precautions)
 - [Option](#Option)
 - [Deploying the full version](#Deploying-the-full-version)
-- [Latest Version](#Latest-Version)
+- [Latest Version](https://vxlang.github.io/)
 - [TODO](#TODO)
-- [Special Thanks](#Special-Thanks)
+- [Special Thanks](https://vxlang.github.io/special-thanks.html)
 
 ---
 
@@ -95,6 +96,8 @@ The beta version is free software, so if you request the full version via email,
 
 0.9.6.hotfix
 ---
+- Free beta releases
+  - [Download](https://vxlang.github.io/download.html)
 - Fixed a bug that caused code obfuscation and virtualization to take a long time or crash.
 - Added axion plugin.
   - It plays an additional anti-tampering role, and will be updated.
