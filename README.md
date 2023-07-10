@@ -112,10 +112,11 @@ The beta version is free software, so if you request the full version via email,
 ## TODO
 
 - 0.9.6 hotfixes
-  - Packers and obfuscators are also modified on a per-platform basis.
-  - The obfuscate command is added.
-  - Add and test obfuscation using ASMJIT.
-    - Like LIEF-Project, it may not apply to vxlang.
+  - ~~Packers and obfuscators are also modified on a per-platform basis.~~
+  - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make <div align="center">
+   <p>Sample CFF</p>
+   <img src="https://vxlang.github.io/image/simple_cff.PNG" style="max-width: 100%; height: auto;" />
+</div>
 
 - `0.9.7`
 - `Task`
