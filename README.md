@@ -111,16 +111,16 @@ The beta version is free software, so if you request the full version via email,
 
 ## TODO
 
-- 0.9.6 hotfixes
+- `0.9.7`
   - ~~Packers and obfuscators are also modified on a per-platform basis.~~
-  - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make <div align="Before">
+  - ~~Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make~~
+  - <div align="Before">
    <p>Befor</p>
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
    <p>After</p>
    <img src="https://vxlang.github.io/image/aft.PNG" style="max-width: 100%; height: auto;" /> 
 </div>
 
-- `0.9.7`
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
