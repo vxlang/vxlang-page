@@ -64,6 +64,17 @@ The software protector effectively blocks access to encryption and runtime state
    <img src="https://vxlang.github.io/image/VMRun.gif" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
+## Obfuscation Preview
+
+   <div align="Before">
+   <p>Befor</p>
+   <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
+   <p>After</p>
+   <img src="https://vxlang.github.io/image/aft.PNG" style="max-width: 100%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/aft2.PNG" style="max-width: 100%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/aft3.PNG" style="max-width: 100%; height: auto;" /> 
+   </div>
+
 ## Precautions
 
 - `Optimization` : Verify that VxVirtualizationBegin and VxVirtualizationEnd are in the same block.  
@@ -94,35 +105,14 @@ The beta version is free software, so if you request the full version via email,
 
 ## Latest Version
 
-0.9.6.hotfix
+0.9.7
 ---
-- Free beta releases
+  - Packers and obfuscators are also modified on a per-platform basis.
+  - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make
+    - VL_CODE_FLATTENING_BEGIN / VL_CODE_FLATTENING_END 
   - [Download](https://vxlang.github.io/download.html)
-- Fixed a bug that caused code obfuscation and virtualization to take a long time or crash.
-- Added axion plugin.
-  - It plays an additional anti-tampering role, and will be updated.
-  - It is automatically applied in the demo version.
-- You can include RAW data in your packing. This data can be requested and used by extension modules.
-  - A demo version is not available.
-- Minor bug fixes
-- Compiler and linker merged on a per-platform basis.
-- Improved core structure.
-- The link file and IL file have been removed.
 
 ## TODO
-
-- `0.9.7`
-  - ~~Packers and obfuscators are also modified on a per-platform basis.~~
-  - ~~Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make~~
-  - Add Obfuscation Test and SDK (VL_CFF_BEGIN/VL_CFF_END)
-  - <div align="Before">
-   <p>Befor</p>
-   <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
-   <p>After</p>
-   <img src="https://vxlang.github.io/image/aft.PNG" style="max-width: 100%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/aft2.PNG" style="max-width: 100%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/aft3.PNG" style="max-width: 100%; height: auto;" /> 
-   </div>
 
 - `Task`
   - Add ELF32/64 format for x86-64
