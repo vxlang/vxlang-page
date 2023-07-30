@@ -2,29 +2,12 @@
 
 <div align="center">
    <a href="https://vxlang.github.io/">
-      <img src="https://vxlang.github.io/image/vxlang.gif" loop=infinite style="max-width: 100%; height: auto;" />
+      <img src="https://vxlang.github.io/image/index.gif" loop=infinite style="max-width: 100%; height: auto;" />
    </a>
 </div>
 <br>
 
-- [Guide Blog Link](https://vxlang.github.io/)
-
----
-
-# Contents
-
-- [What is vxlang?](https://vxlang.github.io/document/index.html)
-- [Download](https://vxlang.github.io/download.html)
-- [Software Protector](https://vxlang.github.io/document/protector.html)
-- [Software Code obfuscation](https://vxlang.github.io/document/obfuscation.html)
-- [Software Code virtualization](#)
-- [Virtualization Preview](#Virtualization-Preview)
-- [Precautions](#Precautions)
-- [Option](#Option)
-- [Deploying the full version](#Deploying-the-full-version)
-- [Latest Version](https://vxlang.github.io/)
-- [TODO](#TODO)
-- [Special Thanks](https://vxlang.github.io/special-thanks.html)
+- [BLOG](https://vxlang.github.io/)
 
 ---
 
@@ -34,26 +17,6 @@
 
 The vxlang project currently targets x86-64 system and .Net binaries, native binary files for the Microsoft Windows operating system, including executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by vxlang will be expanded in future updates).
 
-## Software Protector
-
-<div align="center">
-   <img src="https://vxlang.github.io/image/protector.png" style="max-width: 100%; height: auto;" />
-</div>
-
-Executable compression refers to the process of compressing a file into an executable format. This type of compression helps to hide source code and file information, making access more difficult. Software protectors such as vxlang can provide increased security by tampering with files, obfuscating code, and performing dynamic analysis protection to prevent unauthorized access or tampering.
-
-## Software Code obfuscation and virtualization
-
-<div align="center">
-   <img src="https://vxlang.github.io/image/index.gif" loop=infinite style="max-width: 100%; height: auto;" />   
-</div>
-
-<div align="center">
-   <img src="https://vxlang.github.io/image/vxlang-1.png" style="max-width: 100%; height: auto;" />
-</div>
-
-The software protector effectively blocks access to encryption and runtime states, however, it has a drawback in that it can expose the source code when the runtime state is dumped. To address this issue, code obfuscation is applied by adding dummy code or modulating the source code with similar code to the code exposed in the static or dynamic state. However, a more effective solution to protect the code is Code-Virtualization. Code virtualization represents real-world operational commands as virtual code, which can be executed on internal virtual machines. This approach provides a higher level of security compared to code obfuscation alone. vxlang offers these advanced obfuscation and virtualization services to ensure the protection of the code.  
-
 ## Virtualization Preview
 
 <div align="center">
@@ -61,20 +24,17 @@ The software protector effectively blocks access to encryption and runtime state
    <img src="https://vxlang.github.io/image/VMBegin.png" style="max-width: 100%; height: auto;" />
    <p>After</p>
    <img src="https://vxlang.github.io/image/VMEnd.png" style="max-width: 100%; height: auto;" />
-   <p>Run</p>   
-   <img src="https://vxlang.github.io/image/VMRun.gif" loop=infinite style="max-width: 100%; height: auto;" />
 </div>
 
 ## Obfuscation Preview
 
-   <div align="Before">
+<div align="center">
    <p>Befor</p>
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
    <p>After</p>
    <img src="https://vxlang.github.io/image/aft.PNG" style="max-width: 100%; height: auto;" /> 
    <img src="https://vxlang.github.io/image/aft2.PNG" style="max-width: 100%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/aft3.PNG" style="max-width: 100%; height: auto;" /> 
-   </div>
+</div>
 
 ## Precautions
 
@@ -82,14 +42,6 @@ The software protector effectively blocks access to encryption and runtime state
   If procedures are merged due to code optimization, problems may arise.
 - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
 - `Exception handling` : Currently, the virtual CPU does not support exception handling.
-
-## Option
-
-- `--detect-debug` : Checks to see if the process is debugging.
-- `--detect-patch` : Checks if the process memory has been tampered with.
-- `--disable-packer` : It doesn't use packers; it only virtualizes or obfuscates code.
-- `--opt-entry` : Virtualize the program entry point.
-- `--add-on` : Add an extension module (Add-on).
   
 ## Deploying the full version
 
@@ -111,8 +63,9 @@ The beta version is free software, so if you request the full version via email,
   - Packers and obfuscators are also modified on a per-platform basis.
   - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make
     - VL_CODE_FLATTENING_BEGIN / VL_CODE_FLATTENING_END 
-  - [Download](https://vxlang.github.io/download.html)
+  - ~~[Download](https://vxlang.github.io/download.html)~~
     - Due to Google Drive distribution issues, I'm temporarily suspending distribution of the free version. Please request an email.
+      
 ## TODO
 
 - `Task`
