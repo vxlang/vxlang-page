@@ -45,7 +45,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
   
 ## Deploying the full version
 
-The beta version is free software, so if you request the full version via email, I will create a distribution file and respond to you.
+The full version of the VxLang beta is free software, so if you share with me what you'll be using it for, I'll share a download link with you.
 
 - E-Mail: 0x999h@gmail.com
 - The demo message box is removed.
@@ -62,9 +62,8 @@ The beta version is free software, so if you request the full version via email,
 ---
   - Packers and obfuscators are also modified on a per-platform basis.
   - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make
-    - VL_CODE_FLATTENING_BEGIN / VL_CODE_FLATTENING_END 
-  - ~~[Download](https://vxlang.github.io/download.html)~~
-    - Due to Google Drive distribution issues, I'm temporarily suspending distribution of the free version. Please request an email.
+    - **VL_CODE_FLATTENING_BEGIN** / **VL_CODE_FLATTENING_END**  
+  - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
 
