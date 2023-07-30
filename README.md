@@ -112,7 +112,7 @@ The beta version is free software, so if you request the full version via email,
   - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make
     - VL_CODE_FLATTENING_BEGIN / VL_CODE_FLATTENING_END 
   - [Download](https://vxlang.github.io/download.html)
-
+    - Due to Google Drive distribution issues, I'm temporarily suspending distribution of the free version. Please request an email.
 ## TODO
 
 - `Task`
