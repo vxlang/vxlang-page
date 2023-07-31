@@ -66,7 +66,9 @@ The full version of the VxLang beta is free software, so if you share with me wh
   - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
-
+- `Hotfix`
+  - Consolidate the obfuscation section.
+  - Change the way virtual machines are created. 
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
