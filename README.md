@@ -71,6 +71,8 @@ The full version of the VxLang beta is free software, so if you share with me wh
       
 ## TODO
 - `Hotfix`
+  - There is a small bug in the obfuscation and flattening nesting process.
+  - I found an intermittent problem with vxlang's flattening process.
   - Change the way virtual machines are created. 
 - `Task`
   - Add ELF32/64 format for x86-64
