@@ -73,7 +73,9 @@ The full version of the VxLang beta is free software, so if you share with me wh
 - `Hotfix`
   - There is a small bug in the obfuscation and flattening nesting process.
   - I found an intermittent problem with vxlang's flattening process.
-  - Change the way virtual machines are created. 
+  - Change the way virtual machines are created.
+    - Replaces the vxlang virtual machine with the vxlang internal x86-64 assembler.
+  - The packer's default protection is restored. This works regardless of the AXION module.
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
