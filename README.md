@@ -64,7 +64,7 @@ The full version of the VxLang beta is free software, so if you share with me wh
     - Changed the build method for x86-64 virtual machines.
     - Restored debugging and tamper protection to packer internal functions.
       - `--detect-debug` / `--detect-patch`
-      - Fixed bugs in the code flattening and obfuscation features.
+    - Fixed bugs in the code flattening and obfuscation features.
   - 20230802
     - Consolidate the obfuscation section.(.vxil0~ vxil1)
       - Added a form of obfuscation.
