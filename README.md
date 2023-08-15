@@ -60,6 +60,11 @@ The full version of the VxLang beta is free software, so if you share with me wh
 
 0.9.7
 ---
+  - 20230815
+    - Changed the build method for x86-64 virtual machines.
+    - Restored debugging and tamper protection to packer internal functions.
+      - `--detect-debug` / `--detect-patch`
+      - Fixed bugs in the code flattening and obfuscation features.
   - 20230802
     - Consolidate the obfuscation section.(.vxil0~ vxil1)
       - Added a form of obfuscation.
@@ -71,11 +76,7 @@ The full version of the VxLang beta is free software, so if you share with me wh
       
 ## TODO
 - `Hotfix`
-  - There is a small bug in the obfuscation and flattening nesting process.
-  - I found an intermittent problem with vxlang's flattening process.
-  - Change the way virtual machines are created.
-    - Replaces the vxlang virtual machine with the vxlang internal x86-64 assembler.
-  - The packer's default protection is restored. This works regardless of the AXION module.
+  - ...
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
