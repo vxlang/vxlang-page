@@ -75,6 +75,11 @@ The full version of the VxLang beta is free software, so if you share with me wh
   - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
+- `0.9.8`
+  - 1. develop the ELF editor.
+  - 2. test and bug fix for Windows version.
+  - 3. Enhance .NET protection.
+  - 4. Enhance Windows antitamper features.
 - `Hotfix`
   - ...
 - `Task`
