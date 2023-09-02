@@ -58,20 +58,16 @@ The full version of the VxLang beta is free software, so if you share with me wh
 
 ## Latest Version
 
-0.9.7
+0.9.8
 ---
-  - 20230815
-    - Changed the build method for x86-64 virtual machines.
-    - Restored debugging and tamper protection to packer internal functions.
-      - `--detect-debug` / `--detect-patch`
-    - Fixed bugs in the code flattening and obfuscation features.
-  - 20230802
-    - Consolidate the obfuscation section.(.vxil0~ vxil1)
-      - Added a form of obfuscation.
-  - 20230730
-    - Packers and obfuscators are also modified on a per-platform basis.
-    - Obfuscation methods (e.g. control-flow-flattening, CFF) are added. Adds x86-64 assembler to the obfuscator, and updates it to make
-      - **VL_CODE_FLATTENING_BEGIN** / **VL_CODE_FLATTENING_END**  
+  - 20230902
+    - Unified the free and demo versions. 
+    - The default plugin module has been integrated into vxlang (axion/extsdn).
+      - Enable axion: `--mode-axion`
+      - **In the free version, AXION is automatically activated.**
+    - Fixed a bug with the obfuscation hash table.
+    - Fixed a bug where relocations were incorrectly registered during code virtualization.
+    - Fixed AXION 32-bit bug.
   - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
