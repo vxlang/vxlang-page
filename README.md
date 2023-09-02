@@ -60,7 +60,7 @@ The full version of the VxLang beta is free software, so if you share with me wh
 
 0.9.8
 ---
-  - 20230902
+  - `20230902`
     - Unified the free and demo versions. 
     - The default plugin module has been integrated into vxlang (axion/extsdn).
       - Enable axion: `--mode-axion`
