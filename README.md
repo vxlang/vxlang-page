@@ -60,6 +60,9 @@ The full version of the VxLang beta is free software, so if you share with me wh
 
 0.9.8
 ---
+  - `20230903`
+    - Fixed a bug in .NET mode.
+    - Fixed a bug with Axion mode.
   - `20230902`
     - Unified the free and demo versions. 
     - The default plugin module has been integrated into vxlang (axion/extsdn).
