@@ -45,7 +45,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
   
 ## Deploying the full version
 
-The full version of the VxLang beta is free software, so if you share with me what you'll be using it for, I'll share a download link with you.
+The full version of VxLang beta is free software. However, I'll only share the download link if you tell us exactly what you're going to use it for (like developing a software application or game). For research purposes, I ask that you use the free version.
 
 - E-Mail: 0x999h@gmail.com
 - The demo message box is removed.
