@@ -60,6 +60,8 @@ The full version of VxLang beta is free software. However, I'll only share the d
 
 0.9.8
 ---
+  - `PRE-20230912`
+    - Added default protection for .NET dumps; additional protection will be added in AXION mode.
   - `20230911`
     - Stop test AXION mode until new features are added. Can be enabled via `--mode-axion` in the free version.
   - `20230910`
