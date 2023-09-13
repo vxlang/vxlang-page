@@ -15,7 +15,7 @@
 
 **VXLANG** is a project designed to prevent reverse-engineering behaviors such as static or dynamic analysis, file tampering, and unauthorized access to memory by attackers. 
 
-The VXLANG project currently targets x86-64 systems and .Net binaries, including native binary files for the Microsoft Windows operating system, such as executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by VXLANG will be expanded in future updates).
+The VXLANG project currently targets x86-64 systems and .NET binaries, including native binary files for the Microsoft Windows operating system, such as executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by VXLANG will be expanded in future updates).
 
 ## Virtualization Preview
 
