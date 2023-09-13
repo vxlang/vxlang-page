@@ -60,6 +60,8 @@ The full version of VxLang beta is free software. However, I'll only share the d
 
 0.9.8
 ---
+  - `20230913`
+    - Fixed dumping protection for .NET applications. 
   - `PRE-20230912`
     - Added default protection for .NET dumps; additional protection will be added in AXION mode.
   - `20230911`
@@ -79,7 +81,7 @@ The full version of VxLang beta is free software. However, I'll only share the d
     - Fixed a bug with the obfuscation hash table.
     - Fixed a bug where relocations were incorrectly registered during code virtualization.
     - Fixed AXION 32-bit bug.
-  - [Download](https://vxlang.github.io/download.html)
+  - [Download](https://vxil.tistory.com/2)
       
 ## TODO
 - `0.9.8`
