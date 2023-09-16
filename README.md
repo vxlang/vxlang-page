@@ -43,9 +43,9 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
 - `Exception handling` : Currently, the virtual CPU does not support exception handling.
   
-## Deploying the full version
+## ~~Deploying the full version~~ (The full version will stop deploying for a while.)
 
-The full version of VxLang beta is free software. However, I'll only share the download link if you tell us exactly what you're going to use it for (like developing a software application or game). For research purposes, I ask that you use the free version.
+~~The full version of VxLang beta is free software. However, I'll only share the download link if you tell us exactly what you're going to use it for (like developing a software application or game). For research purposes, I ask that you use the free version.~~
 
 - E-Mail: 0x999h@gmail.com
 - The demo message box is removed.
@@ -60,6 +60,8 @@ The full version of VxLang beta is free software. However, I'll only share the d
 
 0.9.8
 ---
+  - `20230916`
+    - Fixed an intermittent crash during code obfuscation.
   - `20230913`
     - Fixed dumping protection for .NET applications. 
   - `PRE-20230912`
@@ -81,7 +83,7 @@ The full version of VxLang beta is free software. However, I'll only share the d
     - Fixed a bug with the obfuscation hash table.
     - Fixed a bug where relocations were incorrectly registered during code virtualization.
     - Fixed AXION 32-bit bug.
-  - [Download](https://vxil.tistory.com/2)
+  - [Download](file:///C:/Users/0a777/OneDrive/Desktop/src/vxlang.github.io/download.html)
       
 ## TODO
 - `0.9.8`
