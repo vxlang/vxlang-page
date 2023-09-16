@@ -83,7 +83,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
     - Fixed a bug with the obfuscation hash table.
     - Fixed a bug where relocations were incorrectly registered during code virtualization.
     - Fixed AXION 32-bit bug.
-  - [Download](file:///C:/Users/0a777/OneDrive/Desktop/src/vxlang.github.io/download.html)
+  - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
 - `0.9.8`
