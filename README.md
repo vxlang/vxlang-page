@@ -87,10 +87,12 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
       
 ## TODO
 - `0.9.8`
-  - 1. develop the ELF editor.
-  - 2. test and bug fix for Windows version.
-  - 3. Enhance .NET protection.
-  - 4. Enhance Windows antitamper features.
+  1. develop the ELF editor.
+  2. test and bug fix for Windows version.
+  3. ~~Enhance .NET protection.~~
+  4. ~~Enhance Windows antitamper features.~~
+  5. Add a virtual machine command.
+  6. Randomize the virtual machine handler.
 - `Hotfix`
   - ...
 - `Task`
