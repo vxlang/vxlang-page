@@ -63,7 +63,22 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
   - `20230929`
     - Enabled SEH handling in code obfuscation and code flattening.
       - `VL_OBFUSCATION_BEGIN` | `VL_OBFUSCATION_END`
-      - `VL_CODE_FLATTENING_BEGIN` | `VL_CODE_FLATTENING_END` 
+      - `VL_CODE_FLATTENING_BEGIN` | `VL_CODE_FLATTENING_END`
+      ```cpp
+      void ObfuscateSEH() {
+         VL_OBFUSCATION_BEGIN;
+      
+         __try {
+            __debugbreak();
+         }
+         __except (1) {
+            printf("ObfuscateSEH_1:: SEH 1 \n");
+         }
+
+         VL_OBFUSCATION_END;
+         return;
+      }
+      ```
     - Add Entry-Point Code-Flattening
       - `--opt-fla-entry`
       - It can be applied concurrently with entry point virtualization.
