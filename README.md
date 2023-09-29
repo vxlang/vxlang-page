@@ -61,7 +61,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 0.9.8
 ---
   - `20230929`
-    - Enabled SEH handling in code obfuscation and code flattening.
+    - Enabled SEH handling in code obfuscation and code flattening(32/64).
       - `VL_OBFUSCATION_BEGIN` | `VL_OBFUSCATION_END`
       - `VL_CODE_FLATTENING_BEGIN` | `VL_CODE_FLATTENING_END`
       ```cpp
