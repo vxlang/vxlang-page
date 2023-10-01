@@ -58,66 +58,24 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 
 ## Latest Version
 
-0.9.8
+0.9.9
 ---
-  - `20230929`
-    - Enabled SEH handling in code obfuscation and code flattening(32/64).
-      - `VL_OBFUSCATION_BEGIN` | `VL_OBFUSCATION_END`
-      - `VL_CODE_FLATTENING_BEGIN` | `VL_CODE_FLATTENING_END`
-      ```cpp
-      void ObfuscateSEH() {
-         VL_OBFUSCATION_BEGIN;
-      
-         __try {
-            __debugbreak();
-         }
-         __except (1) {
-            printf("ObfuscateSEH_1:: SEH 1 \n");
-         }
-
-         VL_OBFUSCATION_END;
-         return;
-      }
-      ```
-    - Add Entry-Point Code-Flattening
-      - `--opt-fla-entry`
-      - It can be applied concurrently with entry point virtualization.
-        - `vxlang.exe ${EXE} --opt-fla-entry --opt-entry` 
-  - `20230916`
-    - Fixed an intermittent crash during code obfuscation.
-  - `20230913`
-    - Fixed dumping protection for .NET applications. 
-  - `PRE-20230912`
-    - Added default protection for .NET dumps; additional protection will be added in AXION mode.
-  - `20230911`
-    - Stop test AXION mode until new features are added. Can be enabled via `--mode-axion` in the free version.
-  - `20230910`
-    - Improved code virtualization speed.
-  - `20230906`
-    - Axion: Added code to prevent the creation of abnormal threads.
-  - `20230903`
-    - Fixed a bug in .NET mode.
-    - Fixed a bug with Axion mode.
-  - `20230902`
-    - Unified the free and demo versions. 
-    - The default plugin module has been integrated into vxlang (axion/extsdn).
-      - Enable axion: `--mode-axion`
-      - **In the free version, AXION is automatically activated.**
-    - Fixed a bug with the obfuscation hash table.
-    - Fixed a bug where relocations were incorrectly registered during code virtualization.
-    - Fixed AXION 32-bit bug.
-  - [Download](https://vxlang.github.io/download.html)
+- `20231001`
+  - Changed the way packers parse import tables.
+  - Fixed to allow plugin to modify import table settings.
+  - Added the option to code-virtualize for code that calls import-referenced functions.
+    - `--opt-ref-call`
+    - It is automatically enabled in the free version.
+  - For testing purposes, axion-mode and modifications are automatically enabled.
+  - Fixed a bug with plugin loading.
+- [Download](https://vxlang.github.io/download.html)
       
 ## TODO
-- `0.9.8`
+- `0.9.9`
   1. develop the ELF editor.
   2. test and bug fix for Windows version.
-  3. ~~Enhance .NET protection.~~
-  4. ~~Enhance Windows antitamper features.~~
-  5. Add a virtual machine command.
-  6. Randomize the virtual machine handler.
-- `Hotfix`
-  - ...
+  3. Add a virtual machine command.
+  4. Randomize the virtual machine handler.
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
