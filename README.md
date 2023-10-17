@@ -63,7 +63,8 @@ The full version of VxLang is developed and operated under donation through Patr
 - `0.9.9.4`
 - Add 30 or more virtual machines.
   - Contexts/handlers/handle tables/link tables/etc. are all different.
-- Modify the VxLang context for "Customizing the full-version of VxLang Part 3". 
+- Modify the VxLang context for "Customizing the full-version of VxLang Part 3".
+- Update download links.
 - `0.9.9.3`
   - Added commands for virtual machines.
   - Fixed a small bug.
