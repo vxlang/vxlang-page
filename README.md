@@ -60,6 +60,10 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.5`
+  - Remove debug information (PDB) by default.
+    - Adding `--use-debug-data` will generate debug information.
+  - Some of the packer shell code has become a code virtualization task.
 - `0.9.9.4`
 - Add 30 or more virtual machines.
   - Contexts/handlers/handle tables/link tables/etc. are all different.
