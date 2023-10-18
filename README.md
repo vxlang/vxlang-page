@@ -65,7 +65,7 @@ The full version of VxLang is developed and operated under donation through Patr
     - Adding `--use-debug-data` will generate debug information.
   - Some of the packer shell code has become a code virtualization task.
 - `0.9.9.4`
-- Add 30 or more virtual machines.
+- Add 30+ virtual machines.
   - Contexts/handlers/handle tables/link tables/etc. are all different.
 - Modify the VxLang context for "Customizing the full-version of VxLang Part 3".
 - Update download links.
