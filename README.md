@@ -60,6 +60,10 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.6`
+  - Added key checking for VxLang: invalid keys will prevent execution.
+  - Fixed a conflict with some features in Axion mode.
+  - Fixed plugin arguments.
 - `0.9.9.5`
   - Remove debug information (PDB) by default.
     - Adding `--use-debug-data` will generate debug information.
