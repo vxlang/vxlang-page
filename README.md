@@ -60,6 +60,8 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.7`
+  - Add 50 or more virtual machines.
 - `0.9.9.6`
   - Added key checking for VxLang: invalid keys will prevent execution.
   - Fixed a conflict with some features in Axion mode.
