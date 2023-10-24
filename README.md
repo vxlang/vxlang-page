@@ -55,11 +55,15 @@ The full version of VxLang is developed and operated under donation through Patr
   - Developing custom anti-tamperers with VxLang full version and plugins.
   - [Writing samples for the VxLang Full-Version guide](https://www.patreon.com/posts/writing-samples-90706638)
   - [Customizing the full-version of VxLang:Part 1&2](https://www.patreon.com/posts/customizing-full-90896871)
+  - [Customizing the full-version of VxLang:Part 3](https://www.patreon.com/posts/customizing-full-91446015)
 
 ## Latest Version
 
 0.9.9
 ---
+- `0.9.8.8`
+  - Fixed a bug where the `Flatten Entry Points` option was not being applied when run on its own.
+    - You can run `--opt-fla-entry` on its own, without adding any code flattening related SDKs. 
 - `0.9.9.7`
   - Add 50 or more virtual machines.
   - Rotate obfuscation. 
