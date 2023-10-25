@@ -61,7 +61,7 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
-- `0.9.8.8`
+- `0.9.9.8`
   - Fixed a bug where the `Flatten Entry Points` option was not being applied when run on its own.
     - You can run `--opt-fla-entry` on its own, without adding any code flattening related SDKs. 
 - `0.9.9.7`
