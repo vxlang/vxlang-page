@@ -54,6 +54,7 @@ The full version of VxLang is developed and operated under donation through Patr
 - [Patreon](https://www.patreon.com/vxlang)
   - Developing custom anti-tamperers with VxLang full version and plugins.
   - [Writing samples for the VxLang Full-Version guide](https://www.patreon.com/posts/writing-samples-90706638)
+  - [Customizing the full-version of VxLang:Part 0](https://www.patreon.com/posts/customizing-full-91696150)
   - [Customizing the full-version of VxLang:Part 1&2](https://www.patreon.com/posts/customizing-full-90896871)
   - [Customizing the full-version of VxLang:Part 3](https://www.patreon.com/posts/customizing-full-91446015)
 
