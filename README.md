@@ -62,6 +62,11 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.9`
+  - Added `--opt-section-name`, which sets the section name to be based on.
+    - Ex) vxlang.exe ${EXE} --opt-section-name .test
+  - Rotated the license key and obfuscation.
+  - Fixed a few small bugs. 
 - `0.9.9.8`
   - Fixed a bug where the `Flatten Entry Points` option was not being applied when run on its own.
     - You can run `--opt-fla-entry` on its own, without adding any code flattening related SDKs. 
