@@ -62,6 +62,11 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.10`
+  - User-reported bug fixes
+    - Critical bug: Bug fix for import table protection
+    - Fixed a bug where some anti-debugging features were automatically enabled
+  - Thank you so much for reporting this :)
 - `0.9.9.9`
   - Added `--opt-section-name`, which sets the section name to be based on.
     - Ex) vxlang.exe ${EXE} --opt-section-name .test
