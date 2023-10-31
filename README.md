@@ -52,16 +52,21 @@ The full version of VxLang is developed and operated under donation through Patr
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
+  - Plans
+    - [November plans](https://www.patreon.com/posts/november-plans-92001350) 
   - Developing custom anti-tamperers with VxLang full version and plugins.
-  - [Writing samples for the VxLang Full-Version guide](https://www.patreon.com/posts/writing-samples-90706638)
-  - [Customizing the full-version of VxLang:Part 0](https://www.patreon.com/posts/customizing-full-91696150)
-  - [Customizing the full-version of VxLang:Part 1&2](https://www.patreon.com/posts/customizing-full-90896871)
-  - [Customizing the full-version of VxLang:Part 3](https://www.patreon.com/posts/customizing-full-91446015)
+    - [Writing samples for the VxLang Full-Version guide](https://www.patreon.com/posts/writing-samples-90706638)
+    - [Customizing the full-version of VxLang:Part 0](https://www.patreon.com/posts/customizing-full-91696150)
+    - [Customizing the full-version of VxLang:Part 1&2](https://www.patreon.com/posts/customizing-full-90896871)
+    - [Customizing the full-version of VxLang:Part 3](https://www.patreon.com/posts/customizing-full-91446015)
 
 ## Latest Version
 
 0.9.9
 ---
+- `0.9.9.11`
+  - Fixed node depth for code flattening
+  - Rotated obfuscation
 - `0.9.9.10`
   - User-reported bug fixes
     - Critical bug: Bug fix for import table protection
