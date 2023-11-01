@@ -64,6 +64,9 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.12`
+  - Added code virtualization to the packer shell code
+  - The VxLang key has been updated
 - `0.9.9.11`
   - Fixed node depth for code flattening
   - Rotated obfuscation
