@@ -32,8 +32,8 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
    <p>Before</p>
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
    <p>After</p>
-   <img src="https://vxlang.github.io/image/aft.PNG" style="max-width: 100%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/aft2.PNG" style="max-width: 100%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/1x.png" style="max-width: 100%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/2x.png" style="max-width: 100%; height: auto;" /> 
 </div>
 
 ## Precautions
@@ -64,6 +64,13 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.13`
+  - Fixed the appearance of code flattening output
+  - Add Code Flattening API
+    - VL_CODE_FLATTENING_TYPE2_BEGIN / VL_CODE_FLATTENING_TYPE2_END
+  - Obfuscation rotation
+  - Fixed operating speed
+  - Fix SDK missing
 - `0.9.9.12`
   - Added code virtualization to the packer shell code
   - The VxLang key has been updated
