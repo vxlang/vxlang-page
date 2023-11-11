@@ -64,6 +64,12 @@ The full version of VxLang is developed and operated under donation through Patr
 
 0.9.9
 ---
+- `0.9.9.14`
+  - Encrypt resource data. (In a future update, all but static resource data will be hidden.)
+  - Fixed where to look for keys from the current directory to the VxLang location.
+  - Fixed a bug with log output.
+  - The number of virtual machines has been added to 70+.
+  - Obfuscation has been rotated.
 - `0.9.9.13`
   - Fixed the appearance of code flattening output
   - Add Code Flattening API
@@ -115,17 +121,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `0.9.9.1`
   - Updated the core(Virtual-CPU) of code virtualization.
     - All handler and link code, and handle tables are randomized. 
-- `20231004`
-  - Remove unnecessary logs.
-  - Added import table protection method(default-shell). 
-- `20231001`
-  - Changed the way packers parse import tables.
-  - Fixed to allow plugin to modify import table settings.
-  - Added the option to code-virtualize for code that calls import-referenced functions.
-    - `--opt-ref-call`
-    - It is automatically enabled in the free version.
-  - For testing purposes, axion-mode and modifications are automatically enabled.
-  - Fixed a bug with plugin loading.
 - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
