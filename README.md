@@ -124,11 +124,9 @@ The full version of VxLang is developed and operated under donation through Patr
 - [Download](https://vxlang.github.io/download.html)
       
 ## TODO
-- `0.9.9`
+- `1.0.0`
   1. develop the ELF editor.
   2. test and bug fix for Windows version.  
-  3. ~~Add a virtual machine command.~~
-  4. ~~Randomize the virtual machine handler.~~
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
