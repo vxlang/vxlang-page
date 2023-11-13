@@ -66,8 +66,8 @@ The full version of VxLang is developed and operated under donation through Patr
 ---
 - `1.0.0.2`
   - Adjust the packing speed.
-  - Fixed a small bug.
-  - Obfuscation has been rotated.
+  - Increases the virtualization scope of shell code.
+    - The above changes continuously.
 - `1.0.0.1`
   - Code-flattening can now be applied to packer shell code as well.
   - Fixed a small bug.
