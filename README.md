@@ -161,6 +161,8 @@ Thank you to everyone who helped with the development.
 - [clavis0x](https://github.com/clavis0x)
 - [tybins99](https://github.com/tybins99) 
 - [EBalloon](https://github.com/EBalloon)
+- [Aiden](https://github.com/aidenosys)
+  - Lots of bug fixes
   
   
   
