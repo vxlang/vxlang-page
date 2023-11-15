@@ -64,6 +64,10 @@ The full version of VxLang is developed and operated under donation through Patr
 
 1.0.0
 ---
+- `1.0.0.3`
+  - Adjust the speed of code flattening (compiles faster)
+  - Randomly modify code flattening context (more updates coming soon)
+  - Virtual Machine Rotation.
 - `1.0.0.2`
   - Adjust the packing speed.
   - Increases the virtualization scope of shell code.
