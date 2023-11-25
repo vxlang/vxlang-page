@@ -52,18 +52,19 @@ The full version of VxLang is developed and operated under donation through Patr
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
-  - Plans
-    - [November plans](https://www.patreon.com/posts/november-plans-92001350) 
-  - Developing custom anti-tamperers with VxLang full version and plugins.
-    - [Writing samples for the VxLang Full-Version guide](https://www.patreon.com/posts/writing-samples-90706638)
-    - [Customizing the full-version of VxLang:Part 0](https://www.patreon.com/posts/customizing-full-91696150)
-    - [Customizing the full-version of VxLang:Part 1&2](https://www.patreon.com/posts/customizing-full-90896871)
-    - [Customizing the full-version of VxLang:Part 3](https://www.patreon.com/posts/customizing-full-91446015)
+  - [VxLang Guidelines](https://www.patreon.com/posts/vxlang-93493825) 
 
 ## Latest Version
 
 1.0.0
 ---
+- `1.0.0.5`
+  - Support code flattening for kernel drivers.
+    - [How to Add VxLang to MSVC Build Events(KD)](https://www.patreon.com/posts/how-to-add-to-kd-93433517)
+  - Speeding up the code flattening process.
+  - Increased the difficulty of code flattening and code obfuscation.
+  - Added techniques like dead-stores.
+  - The virtual machine has been updated.
 - `1.0.0.4`
   - Code flattening is applied to the Virtual-Machine.
   - Adjusts the difficulty of Code-Flattening.
