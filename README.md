@@ -31,9 +31,12 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 <div align="center">
    <p>Before</p>
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
-   <p>After</p>
-   <img src="https://vxlang.github.io/image/1x.png" style="max-width: 100%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/2x.png" style="max-width: 100%; height: auto;" /> 
+   <p>After x64dbg</p>
+   <img src="https://vxlang.github.io/image/4x.PNG" style="max-width: 50%; height: auto;" /> 
+   <p>After IDA - TYPE 1</p>
+   <img src="https://vxlang.github.io/image/5x.png" style="max-width: 50%; height: auto;" /> 
+   <p>After IDA - TYPE 2</p>
+   <img src="https://vxlang.github.io/image/6x.png" style="max-width: 50%; height: auto;" />    
 </div>
 
 ## Precautions
@@ -58,6 +61,13 @@ The full version of VxLang is developed and operated under donation through Patr
 
 1.0.0
 ---
+- `1.0.1.0`
+  - [Obfuscator] Code flattening is now even faster.
+  - [Obfuscator] Code flattening blocks have increased significantly.
+  - [Obfuscator] Added dummy code to delay code analysis.
+  - [Virtualizer] Fixed a bug with --opt-ref-call.
+  - [Virtualizer] The virtual machine has been rotated.
+  - [Packer] Removed the compiler pattern for PE format.
 - `1.0.0.5`
   - Support code flattening for kernel drivers.
     - [How to Add VxLang to MSVC Build Events(KD)](https://www.patreon.com/posts/how-to-add-to-kd-93433517)
