@@ -59,6 +59,8 @@ The full version of VxLang is developed and operated under donation through Patr
 
 ## Latest Version
 
+- [Download](https://vxlang.github.io/download.html)
+
 1.0.0
 ---
 - `1.0.1.0`
@@ -154,7 +156,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `0.9.9.1`
   - Updated the core(Virtual-CPU) of code virtualization.
     - All handler and link code, and handle tables are randomized. 
-- [Download](https://vxlang.github.io/download.html)
       
 ## TODO
 - `1.0.0`
