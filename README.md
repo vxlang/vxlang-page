@@ -63,6 +63,11 @@ The full version of VxLang is developed and operated under donation through Patr
 
 1.0.0
 ---
+- `1.0.2.0`
+  - [Obfuscator] Fixed to make code flattening compile and behave faster.
+  - [Obfuscator] Fixed code that interferes with code analyzer.
+  - [Obfuscator] Fixed deadstore blocks.
+  - [Packer] Update packer shell code. 
 - `1.0.1.1`
   - [Obfuscator] Fixed a critical bug in code flattening
     - Fixed a bug where blocks would break if there were more than a certain amount of nodes
