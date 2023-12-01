@@ -63,6 +63,11 @@ The full version of VxLang is developed and operated under donation through Patr
 
 1.0.0
 ---
+- `1.0.3.0`
+  - [Obfuscator] Changed the code flattening difficulty via the SDK.
+    - [SAMPLE](https://github.com/vxlang/sdklib)
+    - [SDK Library](https://www.patreon.com/posts/sdk-library-93852687)
+  - [Packer] Fixed small bugs.
 - `1.0.2.0`
   - [Obfuscator] Fixed to make code flattening compile and behave faster.
   - [Obfuscator] Fixed code that interferes with code analyzer.
