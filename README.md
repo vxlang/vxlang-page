@@ -32,11 +32,9 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
    <p>Before</p>
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
    <p>After x64dbg</p>
-   <img src="https://vxlang.github.io/image/4x.PNG" style="max-width: 50%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/7x.PNG" style="max-width: 50%; height: auto;" /> 
    <p>After IDA - TYPE 1</p>
-   <img src="https://vxlang.github.io/image/5x.png" style="max-width: 50%; height: auto;" /> 
-   <p>After IDA - TYPE 2</p>
-   <img src="https://vxlang.github.io/image/6x.png" style="max-width: 50%; height: auto;" />    
+   <img src="https://vxlang.github.io/image/8x.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
 ## Precautions
