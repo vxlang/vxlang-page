@@ -58,9 +58,15 @@ The full version of VxLang is developed and operated under donation through Patr
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-
+  - Demo: ver.1.0.1.1
+  - Full: Latest version
+ 
 1.0.0
 ---
+- `1.0.3.1`
+  - [Obfuscator&Virtualizer] Fixed bug with code entry point calculation failure
+  - [Virtualizer] Fixed a bug that prevented NOP handling when the selected block was virtualized.
+  - [Packer] Decrease the shellcode obfuscation level by one level because the file size is too large.
 - `1.0.3.0`
   - [Obfuscator] Changed the code flattening difficulty via the SDK.
     - [SAMPLE](https://github.com/vxlang/sdklib)
