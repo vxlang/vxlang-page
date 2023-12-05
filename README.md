@@ -63,6 +63,12 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.4.0`
+  - [Obfuscator&Virtualizer] Added code-flattening and code-virtualization features based on binary patterns.
+    - [SIG_HEADER](https://github.com/vxlang/sdklib/blob/main/test/vxlib_signature.h#L3) 
+  - [Obfuscator] Fixed to support up to 3 levels of code flattening.
+    - [SDK HEADER](https://github.com/vxlang/sdklib/blob/main/test/vxlib.h#L21)
+  - [Packer] Fixed obfuscation level of shellcode.
 - `1.0.3.1`
   - [Obfuscator&Virtualizer] Fixed bug with code entry point calculation failure
   - [Virtualizer] Fixed a bug that prevented NOP handling when the selected block was virtualized.
