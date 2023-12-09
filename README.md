@@ -63,6 +63,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.5.0`
+  - [Obfuscator&Virtualizer] Fixed to put random dummy bytes into memory where the SDK or signature pattern is entered.
+  - [Packer] Fixed a bug that caused AXION to malfunction while applied.
 - `1.0.4.0`
   - [Obfuscator&Virtualizer] Added code-flattening and code-virtualization features based on binary patterns.
     - [SIG_HEADER](https://github.com/vxlang/sdklib/blob/main/test/vxlib_signature.h#L3) 
@@ -125,68 +128,8 @@ The full version of VxLang is developed and operated under donation through Patr
   - Fixed a small bug.
   - Obfuscation has been rotated.
 
-0.9.9
----
-- `0.9.9.14`
-  - Encrypt resource data. (In a future update, all but static resource data will be hidden.)
-  - Fixed where to look for keys from the current directory to the VxLang location.
-  - Fixed a bug with log output.
-  - The number of virtual machines has been added to 70+.
-  - Obfuscation has been rotated.
-- `0.9.9.13`
-  - Fixed the appearance of code flattening output
-  - Add Code Flattening API
-    - VL_CODE_FLATTENING_TYPE2_BEGIN / VL_CODE_FLATTENING_TYPE2_END
-  - Obfuscation rotation
-  - Fixed operating speed
-  - Fix SDK missing
-- `0.9.9.12`
-  - Added code virtualization to the packer shell code
-  - The VxLang key has been updated
-- `0.9.9.11`
-  - Fixed node depth for code flattening
-  - Rotated obfuscation
-- `0.9.9.10`
-  - User-reported bug fixes
-    - Critical bug: Bug fix for import table protection
-    - Fixed a bug where some anti-debugging features were automatically enabled
-  - Thank you so much for reporting this :)
-- `0.9.9.9`
-  - Added `--opt-section-name`, which sets the section name to be based on.
-    - Ex) vxlang.exe ${EXE} --opt-section-name .test
-  - Rotated the license key and obfuscation.
-  - Fixed a few small bugs. 
-- `0.9.9.8`
-  - Fixed a bug where the `Flatten Entry Points` option was not being applied when run on its own.
-    - You can run `--opt-fla-entry` on its own, without adding any code flattening related SDKs. 
-- `0.9.9.7`
-  - Add 50 or more virtual machines.
-  - Rotate obfuscation. 
-- `0.9.9.6`
-  - Added key checking for VxLang: invalid keys will prevent execution.
-  - Fixed a conflict with some features in Axion mode.
-  - Fixed plugin arguments.
-- `0.9.9.5`
-  - Remove debug information (PDB) by default.
-    - Adding `--use-debug-data` will generate debug information.
-  - Some of the packer shell code has become a code virtualization task.
-- `0.9.9.4`
-- Add 30+ virtual machines.
-  - Contexts/handlers/handle tables/link tables/etc. are all different.
-- Modify the VxLang context for "Customizing the full-version of VxLang Part 3".
-- Update download links.
-- `0.9.9.3`
-  - Added commands for virtual machines.
-  - Fixed a small bug.
-- `0.9.9.2`
-  - Fixed bugs with protector.
-  - Fixed the Protector API. 
-- `0.9.9.1`
-  - Updated the core(Virtual-CPU) of code virtualization.
-    - All handler and link code, and handle tables are randomized. 
-      
 ## TODO
-- `1.0.0`
+- `1.0.`
   1. develop the ELF editor.
   2. test and bug fix for Windows version.  
 - `Task`
