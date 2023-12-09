@@ -65,6 +65,8 @@ The full version of VxLang is developed and operated under donation through Patr
 ---
 - `1.0.5.0`
   - [Obfuscator&Virtualizer] Fixed to put random dummy bytes into memory where the SDK or signature pattern is entered.
+  - [Obfuscator&Virtualizer] + [Obfusctor&Virtualizer] Add signature options: --opt-signautre
+    - If you want to use signatures, please enable this option.
   - [Packer] Fixed a bug that caused AXION to malfunction while applied.
 - `1.0.4.0`
   - [Obfuscator&Virtualizer] Added code-flattening and code-virtualization features based on binary patterns.
