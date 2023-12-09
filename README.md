@@ -154,7 +154,10 @@ Thank you to everyone who helped with the development.
 - [tybins99](https://github.com/tybins99) 
 - [EBalloon](https://github.com/EBalloon)
 - [Aiden](https://github.com/aidenosys)
-  - Lots of bug fixes
+  - Lots of Bug reporting
+- [YoavLevi](https://github.com/YoavLevi)
+  - Bug reporting and testing sample code & binary support
+
   
   
   
