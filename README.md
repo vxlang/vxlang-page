@@ -58,11 +58,18 @@ The full version of VxLang is developed and operated under donation through Patr
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.0.1.1
+  - Demo: ver.1.0.6.0
   - Full: Latest version
  
 1.0.0
 ---
+- `1.0.6.0`
+  - [Virtualizer] Fixed a bug where the relocation target was set incorrectly in the VM-IL.
+  - [Virtualizer] Fixed a bug with VM IL creation.
+  - [Virtualizer] SEH support to code virtualization. If an SEH block exists in a given region, it will be changed to code flattening (this is subject to change).
+  - [Obfuscator] Fixed a bug where signature patterns related to code flattening were not SEH processed.
+  - [Packer] The packer shell code has been changed to code virtualization.
+  - [Packer] Fixed a bug with duplicate packing.
 - `1.0.5.0`
   - [Obfuscator&Virtualizer] Fixed to put random dummy bytes into memory where the SDK or signature pattern is entered.
   - [Obfuscator&Virtualizer] + [Obfusctor&Virtualizer] Add signature options: --opt-signautre
