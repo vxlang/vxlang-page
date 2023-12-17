@@ -63,6 +63,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.6.1`
+  - [Packer] Fixed a bug that also set the exception table for packer shell code.
+  - [Virtualizer&Obfuscator] Fixed exception handling table overflow bug for virtualization and obfuscation.
 - `1.0.6.0`
   - [Virtualizer] Fixed a bug where the relocation target was set incorrectly in the VM-IL.
   - [Virtualizer] Fixed a bug with VM IL creation.
