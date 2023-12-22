@@ -58,11 +58,15 @@ The full version of VxLang is developed and operated under donation through Patr
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.0.6.0
+  - Demo: ver.1.0.6.2
   - Full: Latest version
  
 1.0.0
 ---
+- `1.0.6.2`
+  - [Virtualizer] Patch for speed of code virtualization behavior
+  - [Packer] Remove unnecessary obfuscation in packer shell code
+  - [Packer] Fixed bug that prevented packer AXION mode from working 
 - `1.0.6.1`
   - [Packer] Fixed a bug that also set the exception table for packer shell code.
   - [Virtualizer&Obfuscator] Fixed exception handling table overflow bug for virtualization and obfuscation.
@@ -113,37 +117,8 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Virtualizer] Fixed a bug with --opt-ref-call.
   - [Virtualizer] The virtual machine has been rotated.
   - [Packer] Removed the compiler pattern for PE format.
-- `1.0.0.5`
-  - Support code flattening for kernel drivers.
-    - [How to Add VxLang to MSVC Build Events(KD)](https://www.patreon.com/posts/how-to-add-to-kd-93433517)
-  - Speeding up the code flattening process.
-  - Increased the difficulty of code flattening and code obfuscation.
-  - Added techniques like dead-stores.
-  - The virtual machine has been updated.
-- `1.0.0.4`
-  - Code flattening is applied to the Virtual-Machine.
-  - Adjusts the difficulty of Code-Flattening.
-  - Virtual Machines and Code Obfuscation rotated.
-  - Fixed some shell code.
-  - Fixed a small bug.  
-- `1.0.0.3`
-  - Adjust the speed of code flattening (compiles faster)
-  - Randomly modify code flattening context (more updates coming soon)
-  - Fixed bug:https://www.patreon.com/posts/92864752?utm_campaign=postshare_creator
-  - Virtual Machine Rotation.
-- `1.0.0.2`
-  - Adjust the packing speed.
-  - Increases the virtualization scope of shell code.
-    - The above changes continuously.
-- `1.0.0.1`
-  - Code-flattening can now be applied to packer shell code as well.
-  - Fixed a small bug.
-  - Obfuscation has been rotated.
 
 ## TODO
-- `1.0.`
-  1. develop the ELF editor.
-  2. test and bug fix for Windows version.  
 - `Task`
   - Add ELF32/64 format for x86-64
   - Add code obfuscation methods for x86-64
