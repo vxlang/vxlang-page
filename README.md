@@ -63,6 +63,13 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.7.0`
+  - [Obfuscator] Internal assemblers have been changed from asmjit-based to self-developed cores.
+  - [Obfuscator] Improved dummy code generation.
+  - [Obfuscator] Improved node difficulty.
+  - [Obfuscator] Compilation speed of the VxLang obfuscation tool has been greatly improved.
+  - [Virtualizer] The virtual machine command was added.
+  - [Virtualizer] Fixed a bug with virtual machine creation. 
 - `1.0.6.2`
   - [Virtualizer] Patch for speed of code virtualization behavior
   - [Packer] Remove unnecessary obfuscation in packer shell code
