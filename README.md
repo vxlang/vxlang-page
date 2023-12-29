@@ -63,6 +63,11 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.8.0`
+  - [Virtualizer] Speeding up virtualization compilers.
+  - [Obfuscator] Fixed so that all nodes in code flattening do not contain dead store code.
+  - [ALL] Fixed an issue that caused file sizes to grow too large.
+  - [ALL] Use randomized section names as the default option.
 - `1.0.7.0`
   - [Obfuscator] Internal assemblers have been changed from asmjit-based to self-developed cores.
   - [Obfuscator] Improved dummy code generation.
