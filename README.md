@@ -63,6 +63,11 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.9.0`
+  - [ALL] Support for project settings via JSON files.
+    - [Document](https://www.patreon.com/posts/json-project-95637888)
+  - [ALL] Modified to allow you to edit messages about the default detection feature.
+  - [ALL] Fixed Small bug. 
 - `1.0.8.0`
   - [Virtualizer] Speeding up virtualization compilers.
   - [Obfuscator] Fixed so that all nodes in code flattening do not contain dead store code.
