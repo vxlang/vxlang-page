@@ -63,6 +63,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.0.9.1`
+  - [Obfuscator] Fixed a bug where code flattening options for entry points were not applied in JSON projects.
+  - [ALL] In normal mode, the Mutate core has been added, but is not yet used.
 - `1.0.9.0`
   - [ALL] Support for project settings via JSON files.
     - [Document](https://www.patreon.com/posts/json-project-95637888)
