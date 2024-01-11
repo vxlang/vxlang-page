@@ -63,6 +63,11 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.0.0`
+  - [Virtualizer] Added test encryption to the virtual machine's bytecode. 
+  - [Obfuscator] Added additional obfuscation to code flattening.
+  - Letter
+    - Now I'm going to apply different encryption to all handlers through the update. Also, each virtual machine will have a different key for the current fixed key. Unnecessary sections will also be integrated :)   
 - `1.0.9.1`
   - [Obfuscator] Fixed a bug where code flattening options for entry points were not applied in JSON projects.
   - [ALL] In normal mode, the Mutate core has been added, but is not yet used.
@@ -83,60 +88,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Obfuscator] Compilation speed of the VxLang obfuscation tool has been greatly improved.
   - [Virtualizer] The virtual machine command was added.
   - [Virtualizer] Fixed a bug with virtual machine creation. 
-- `1.0.6.2`
-  - [Virtualizer] Patch for speed of code virtualization behavior
-  - [Packer] Remove unnecessary obfuscation in packer shell code
-  - [Packer] Fixed bug that prevented packer AXION mode from working 
-- `1.0.6.1`
-  - [Packer] Fixed a bug that also set the exception table for packer shell code.
-  - [Virtualizer&Obfuscator] Fixed exception handling table overflow bug for virtualization and obfuscation.
-- `1.0.6.0`
-  - [Virtualizer] Fixed a bug where the relocation target was set incorrectly in the VM-IL.
-  - [Virtualizer] Fixed a bug with VM IL creation.
-  - [Virtualizer] SEH support to code virtualization. If an SEH block exists in a given region, it will be changed to code flattening (this is subject to change).
-  - [Obfuscator] Fixed a bug where signature patterns related to code flattening were not SEH processed.
-  - [Packer] The packer shell code has been changed to code virtualization.
-  - [Packer] Fixed a bug with duplicate packing.
-- `1.0.5.0`
-  - [Obfuscator&Virtualizer] Fixed to put random dummy bytes into memory where the SDK or signature pattern is entered.
-  - [Obfuscator&Virtualizer] + [Obfusctor&Virtualizer] Add signature options: --opt-signautre
-    - If you want to use signatures, please enable this option.
-  - [Packer] Fixed a bug that caused AXION to malfunction while applied.
-- `1.0.4.0`
-  - [Obfuscator&Virtualizer] Added code-flattening and code-virtualization features based on binary patterns.
-    - [SIG_HEADER](https://github.com/vxlang/sdklib/blob/main/test/vxlib_signature.h#L3) 
-  - [Obfuscator] Fixed to support up to 3 levels of code flattening.
-    - [SDK HEADER](https://github.com/vxlang/sdklib/blob/main/test/vxlib.h#L21)
-  - [Packer] Fixed obfuscation level of shellcode.
-- `1.0.3.1`
-  - [Obfuscator&Virtualizer] Fixed bug with code entry point calculation failure
-  - [Virtualizer] Fixed a bug that prevented NOP handling when the selected block was virtualized.
-  - [Packer] Decrease the shellcode obfuscation level by one level because the file size is too large.
-- `1.0.3.0`
-  - [Obfuscator] Changed the code flattening difficulty via the SDK.
-    - [SAMPLE](https://github.com/vxlang/sdklib)
-    - [SDK Library](https://www.patreon.com/posts/sdk-library-93852687)
-  - [Packer] Fixed small bugs.
-- `1.0.2.0`
-  - [Obfuscator] Fixed to make code flattening compile and behave faster.
-  - [Obfuscator] Fixed code that interferes with code analyzer.
-  - [Obfuscator] Fixed deadstore blocks.
-  - [Packer] Update packer shell code. 
-- `1.0.1.1`
-  - [Obfuscator] Fixed a critical bug in code flattening
-    - Fixed a bug where blocks would break if there were more than a certain amount of nodes
-  - [Virtualizer] Fixed a critical bug in code virtualizer
-    - Fixed a bug where virtual machine regions were calculated incorrectly, causing packers to fail
-  - [Packer] Add packer shell code
-    - Added shell code to slow down the code analyzer
-  - Virtualization and obfuscation rotation  
-- `1.0.1.0`
-  - [Obfuscator] Code flattening is now even faster.
-  - [Obfuscator] Code flattening blocks have increased significantly.
-  - [Obfuscator] Added dummy code to delay code analysis.
-  - [Virtualizer] Fixed a bug with --opt-ref-call.
-  - [Virtualizer] The virtual machine has been rotated.
-  - [Packer] Removed the compiler pattern for PE format.
 
 ## TODO
 - `Task`
