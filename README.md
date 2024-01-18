@@ -63,6 +63,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.1.0`
+  - [Packer] Added protection for Packer shell code.
+  - [Packer] Fixed a bug with packing using commands.
 - `1.1.0.0`
   - [Virtualizer] Added test encryption to the virtual machine's bytecode. 
   - [Obfuscator] Added additional obfuscation to code flattening.
@@ -76,18 +79,6 @@ The full version of VxLang is developed and operated under donation through Patr
     - [Document](https://www.patreon.com/posts/json-project-95637888)
   - [ALL] Modified to allow you to edit messages about the default detection feature.
   - [ALL] Fixed Small bug. 
-- `1.0.8.0`
-  - [Virtualizer] Speeding up virtualization compilers.
-  - [Obfuscator] Fixed so that all nodes in code flattening do not contain dead store code.
-  - [ALL] Fixed an issue that caused file sizes to grow too large.
-  - [ALL] Use randomized section names as the default option.
-- `1.0.7.0`
-  - [Obfuscator] Internal assemblers have been changed from asmjit-based to self-developed cores.
-  - [Obfuscator] Improved dummy code generation.
-  - [Obfuscator] Improved node difficulty.
-  - [Obfuscator] Compilation speed of the VxLang obfuscation tool has been greatly improved.
-  - [Virtualizer] The virtual machine command was added.
-  - [Virtualizer] Fixed a bug with virtual machine creation. 
 
 ## TODO
 - `Task`
