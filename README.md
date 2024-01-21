@@ -63,6 +63,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.2.0`
+  - [Virtualizer] Fixed bugs that conflict with obfuscation blocks during reference call virtualization.
+  - [ALL] The virtual machine section and obfuscation section are integrated. 
 - `1.1.1.0`
   - [Packer] Added protection for Packer shell code.
   - [Packer] Fixed a bug with packing using commands.
