@@ -109,6 +109,9 @@ Thank you to everyone who helped with the development.
   - Lots of Bug reporting
 - [YoavLevi](https://github.com/YoavLevi)
   - Bug reporting and testing sample code & binary support
+- [mikSn](https://github.com/mikSn)
+  - Bug reporting
+  
 
   
   
