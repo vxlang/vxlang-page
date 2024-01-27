@@ -63,6 +63,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.4.0`
+  - [Packer] Fixed bugs that crash during shell code generation.
+    - problem occurred during file mutation and was temporarily removed. 
 - `1.1.3.0`
   - [Virtualizer] Fixed a bug where certain registers were misinterpreted.
 - `1.1.2.1`
@@ -73,19 +76,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `1.1.1.0`
   - [Packer] Added protection for Packer shell code.
   - [Packer] Fixed a bug with packing using commands.
-- `1.1.0.0`
-  - [Virtualizer] Added test encryption to the virtual machine's bytecode. 
-  - [Obfuscator] Added additional obfuscation to code flattening.
-  - Letter
-    - Now I'm going to apply different encryption to all handlers through the update. Also, each virtual machine will have a different key for the current fixed key. Unnecessary sections will also be integrated :)   
-- `1.0.9.1`
-  - [Obfuscator] Fixed a bug where code flattening options for entry points were not applied in JSON projects.
-  - [ALL] In normal mode, the Mutate core has been added, but is not yet used.
-- `1.0.9.0`
-  - [ALL] Support for project settings via JSON files.
-    - [Document](https://www.patreon.com/posts/json-project-95637888)
-  - [ALL] Modified to allow you to edit messages about the default detection feature.
-  - [ALL] Fixed Small bug. 
 
 ## TODO
 - `Task`
