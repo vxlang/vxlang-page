@@ -63,6 +63,8 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.4.1`
+  - [Packer] Fixde bugs that anti-tampers check for removed items.
 - `1.1.4.0`
   - [Packer] Fixed bugs that crash during shell code generation.
     - problem occurred during file mutation and was temporarily removed. 
