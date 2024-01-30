@@ -63,6 +63,10 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.5.0`
+  - [Packer] The vxlang notation has been removed in the message box output (The process name is displayed).
+  - [Packer] The add-on interface has been changed.
+  - [Github] A custom method has been added to the test code.
 - `1.1.4.1`
   - [Packer] Fixde bugs that anti-tampers check for removed items.
 - `1.1.4.0`
@@ -75,9 +79,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `1.1.2.0`
   - [Virtualizer] Fixed bugs that conflict with obfuscation blocks during reference call virtualization.
   - [ALL] The virtual machine section and obfuscation section are integrated. 
-- `1.1.1.0`
-  - [Packer] Added protection for Packer shell code.
-  - [Packer] Fixed a bug with packing using commands.
 
 ## TODO
 - `Task`
