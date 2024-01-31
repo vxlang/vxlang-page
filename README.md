@@ -63,6 +63,8 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.6.0`
+  - [Packer] Once the event handle is registered in the export-function, it has been fixed to receive and process detection events at run-time.
 - `1.1.5.0`
   - [Packer] The vxlang notation has been removed in the message box output (The process name is displayed).
   - [Packer] The add-on interface has been changed.
