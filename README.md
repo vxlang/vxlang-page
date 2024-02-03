@@ -58,11 +58,16 @@ The full version of VxLang is developed and operated under donation through Patr
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.0.6.2
+  - Demo: ver.1.1.7.0
   - Full: Latest version
  
 1.0.0
 ---
+- `1.1.7.0`
+  - [Virtualizer] The virtual machine has been updated, and code and register references have been optimized.
+  - [Virtualizer] Obfuscation has been updated.
+  - [Packer] Detection has been integrated; existing features have been integrated into anti-tampers.
+  - [Packer] The 32-bit process has fixed a bug that does not match the process context.  
 - `1.1.6.0`
   - [Packer] Once the event handle is registered in the export-function, it has been fixed to receive and process detection events at run-time.
 - `1.1.5.0`
