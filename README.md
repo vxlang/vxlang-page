@@ -63,6 +63,10 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.8.0`
+  - [Virtualizer] Fixed to be encrypted via a random key at byte code compilation time.
+  - [Virtualizer] Added encryption to a specific bytecode.
+  - [Packer] Shell code generation has been accelerated a little.
 - `1.1.7.0`
   - [Virtualizer] The virtual machine has been updated, and code and register references have been optimized.
   - [Virtualizer] Obfuscation has been updated.
@@ -79,13 +83,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `1.1.4.0`
   - [Packer] Fixed bugs that crash during shell code generation.
     - problem occurred during file mutation and was temporarily removed. 
-- `1.1.3.0`
-  - [Virtualizer] Fixed a bug where certain registers were misinterpreted.
-- `1.1.2.1`
-  - [Packer] Some features have been fixed to be controlled by options. 
-- `1.1.2.0`
-  - [Virtualizer] Fixed bugs that conflict with obfuscation blocks during reference call virtualization.
-  - [ALL] The virtual machine section and obfuscation section are integrated. 
 
 ## TODO
 - `Task`
