@@ -67,6 +67,10 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Virtualizer] The virtual machine has been updated.
   - [Virtualizer] Some virtual machine commands have been modified.
   - [Virtualizer] The byte code compilation method has been changed.
+    - Previously, the reason why the image base is exposed in byte code is because the image base is added in the process of writing the IL.
+    - ![image-1](https://vxlang.github.io/image/old-il.PNG)
+    - The updated virtual machine sets the image-base in the extension register and has been modified to refer to it.
+    - ![image-2](https://vxlang.github.io/image/new-il.PNG)
 - `1.1.8.0`
   - [Virtualizer] Fixed to be encrypted via a random key at byte code compilation time.
   - [Virtualizer] Added encryption to a specific bytecode.
