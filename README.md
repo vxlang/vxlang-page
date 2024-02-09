@@ -63,6 +63,10 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.1.9.0`
+  - [Virtualizer] The virtual machine has been updated.
+  - [Virtualizer] Some virtual machine commands have been modified.
+  - [Virtualizer] The byte code compilation method has been changed.
 - `1.1.8.0`
   - [Virtualizer] Fixed to be encrypted via a random key at byte code compilation time.
   - [Virtualizer] Added encryption to a specific bytecode.
