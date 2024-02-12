@@ -118,6 +118,8 @@ Thank you to everyone who helped with the development.
   - Bug reporting and testing sample code & binary support
 - [mikSn](https://github.com/mikSn)
   - Bug reporting
+- [Jae Hoon Ahn](https://github.com/dkswognsdi)
+  - Vulnerability Reports and Sharing.
   
 
   
