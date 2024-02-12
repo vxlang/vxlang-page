@@ -120,6 +120,9 @@ Thank you to everyone who helped with the development.
   - Bug reporting
 - [Jae Hoon Ahn](https://github.com/dkswognsdi)
   - Vulnerability Reports and Sharing.
+- [LOLSHAN]()
+  - Feature review and optimization improvements, many technical advice
+  - Bug Reporting
   
 
   
