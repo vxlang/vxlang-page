@@ -63,6 +63,15 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.0.0`
+  - [Obfuscator] Code optimization update of code flattening has been carried out.
+  - [Obfuscator] Some bugs have been fixed for code flattening.
+    - This update fixes a problem with VxLang-Linker connecting flattened code to original files.
+    - There are still parts that need to be optimized, and we will work on it through an update :)
+    - Thank you very much for sharing VxLang's problems and giving me technical advice !
+      - [Jae Hoon Ahn](https://github.com/dkswognsdi)
+      - [LOLSHAN](https://github.com/LOLSHAN)
+    - ![image-1](https://vxlang.github.io/image/cff-1.PNG)
 - `1.1.9.0`
   - [Virtualizer] The virtual machine has been updated.
   - [Virtualizer] Some virtual machine commands have been modified.
@@ -80,17 +89,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Virtualizer] Obfuscation has been updated.
   - [Packer] Detection has been integrated; existing features have been integrated into anti-tampers.
   - [Packer] The 32-bit process has fixed a bug that does not match the process context.  
-- `1.1.6.0`
-  - [Packer] Once the event handle is registered in the export-function, it has been fixed to receive and process detection events at run-time.
-- `1.1.5.0`
-  - [Packer] The vxlang notation has been removed in the message box output (The process name is displayed).
-  - [Packer] The add-on interface has been changed.
-  - [Github] A custom method has been added to the test code.
-- `1.1.4.1`
-  - [Packer] Fixde bugs that anti-tampers check for removed items.
-- `1.1.4.0`
-  - [Packer] Fixed bugs that crash during shell code generation.
-    - problem occurred during file mutation and was temporarily removed. 
 
 ## TODO
 - `Task`
