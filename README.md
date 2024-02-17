@@ -63,6 +63,10 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.0.1`
+  - [Obfuscator] Change the shape of the graph.
+    - ![image-1](https://vxlang.github.io/image/cff-1-1.png)
+    - ![image-1](https://vxlang.github.io/image/cff-1-2.png)
 - `1.2.0.0`
   - [Obfuscator] Code optimization update of code flattening has been carried out.
   - [Obfuscator] Some bugs have been fixed for code flattening.
