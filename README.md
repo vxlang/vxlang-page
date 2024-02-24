@@ -58,11 +58,16 @@ The full version of VxLang is developed and operated under donation through Patr
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.1.7.0
+  - Demo: ver.1.2.1.0
   - Full: Latest version
  
 1.0.0
 ---
+- `1.2.1.0`
+  - [Packer] Fixed .NET-related bugs.
+  - [Packer] Packer add-on modules are no longer supported.
+  - [Obfuscator] Default code obfuscation has been added again.
+  - The default obfuscation pattern will be updated every version :)
 - `1.2.0.1`
   - [Obfuscator] Change the shape of the graph.
     - ![image-1](https://vxlang.github.io/image/cff-1-1.png)
@@ -76,23 +81,6 @@ The full version of VxLang is developed and operated under donation through Patr
       - [Jae Hoon Ahn](https://github.com/dkswognsdi)
       - [LOLSHAN](https://github.com/LOLSHAN)
     - ![image-1](https://vxlang.github.io/image/cff-1.PNG)
-- `1.1.9.0`
-  - [Virtualizer] The virtual machine has been updated.
-  - [Virtualizer] Some virtual machine commands have been modified.
-  - [Virtualizer] The byte code compilation method has been changed.
-    - Previously, the reason why the image base is exposed in byte code is because the image base is added in the process of writing the IL.
-    - ![image-1](https://vxlang.github.io/image/old-il.PNG)
-    - The updated virtual machine sets the image-base in the extension register and has been modified to refer to it.
-    - ![image-2](https://vxlang.github.io/image/new-il.PNG)
-- `1.1.8.0`
-  - [Virtualizer] Fixed to be encrypted via a random key at byte code compilation time.
-  - [Virtualizer] Added encryption to a specific bytecode.
-  - [Packer] Shell code generation has been accelerated a little.
-- `1.1.7.0`
-  - [Virtualizer] The virtual machine has been updated, and code and register references have been optimized.
-  - [Virtualizer] Obfuscation has been updated.
-  - [Packer] Detection has been integrated; existing features have been integrated into anti-tampers.
-  - [Packer] The 32-bit process has fixed a bug that does not match the process context.  
 
 ## TODO
 - `Task`
