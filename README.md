@@ -31,10 +31,9 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 <div align="center">
    <p>Before</p>
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
-   <p>After x64dbg</p>
-   <img src="https://vxlang.github.io/image/7x.PNG" style="max-width: 50%; height: auto;" /> 
    <p>After IDA</p>
-   <img src="https://vxlang.github.io/image/8x.png" style="max-width: 50%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/cff-1-1.png" style="max-width: 50%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/cff-1-2.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
 ## Precautions
@@ -63,6 +62,8 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.1.1`
+  - [Obfuscator] Add obfuscation pattern.
 - `1.2.1.0`
   - [Packer] Fixed .NET-related bugs.
   - [Packer] Packer add-on modules are no longer supported.
@@ -70,8 +71,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - The default obfuscation pattern will be updated every version :)
 - `1.2.0.1`
   - [Obfuscator] Change the shape of the graph.
-    - ![image-1](https://vxlang.github.io/image/cff-1-1.png)
-    - ![image-1](https://vxlang.github.io/image/cff-1-2.png)
 - `1.2.0.0`
   - [Obfuscator] Code optimization update of code flattening has been carried out.
   - [Obfuscator] Some bugs have been fixed for code flattening.
@@ -80,7 +79,6 @@ The full version of VxLang is developed and operated under donation through Patr
     - Thank you very much for sharing VxLang's problems and giving me technical advice !
       - [Jae Hoon Ahn](https://github.com/dkswognsdi)
       - [LOLSHAN](https://github.com/LOLSHAN)
-    - ![image-1](https://vxlang.github.io/image/cff-1.PNG)
 
 ## TODO
 - `Task`
