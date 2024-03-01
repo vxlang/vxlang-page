@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.3.0`
+  - [ALL] Fixed to support SDK for patterns (see plt/got) referencing libraries in clang or gcc.
+  - [Packer] Outputs an error message if the library or function cannot be referenced during the image loading process.
 - `1.2.2.0`
   - [Virtualizer] A new-virtual machine(v3-core) has been added. The new virtual machine will be used with older versions of the virtual machine(v2-core) after being tested in version 1.2.2.0. Virtual machine types will continue to be added in the future.
   - [Obfuscator] The node-difficulty for code flattening is improved, which reduces the overall code size.
@@ -73,8 +76,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Packer] Packer add-on modules are no longer supported.
   - [Obfuscator] Default code obfuscation has been added again.
   - The default obfuscation pattern will be updated every version :)
-- `1.2.0.1`
-  - [Obfuscator] Change the shape of the graph.
 
 ## TODO
 - `Task`
