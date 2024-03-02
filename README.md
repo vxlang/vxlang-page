@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.4.0`
+  - [Virtualizer] Fixed bugs related to MSVC SDK search.
+  - [ALL] Improved packing and code conversion speed.
 - `1.2.3.0`
   - [ALL] Fixed to support SDK for patterns (see plt/got) referencing libraries in clang or gcc.
   - [Packer] Outputs an error message if the library or function cannot be referenced during the image loading process.
@@ -71,11 +74,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Packer] As a user request, I have re-activated the feature for add-on.
 - `1.2.1.1`
   - [Obfuscator] Add obfuscation pattern.
-- `1.2.1.0`
-  - [Packer] Fixed .NET-related bugs.
-  - [Packer] Packer add-on modules are no longer supported.
-  - [Obfuscator] Default code obfuscation has been added again.
-  - The default obfuscation pattern will be updated every version :)
 
 ## TODO
 - `Task`
