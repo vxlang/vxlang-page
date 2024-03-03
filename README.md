@@ -106,7 +106,8 @@ Thank you to everyone who helped with the development.
 - [LOLSHAN](https://github.com/LOLSHAN)
   - Feature review and optimization improvements, many technical advice
   - Bug Reporting
-  
+- [itskian](https://github.com/itskian)
+  - Share technical advice and improvement ideas
 
   
   
