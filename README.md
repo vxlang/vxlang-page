@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.5.0`
+  - Improved packing and code conversion speed.
+  - Added V2 and V3 virtual-machines.
 - `1.2.4.0`
   - [Virtualizer] Fixed bugs related to MSVC SDK search.
   - [ALL] Improved packing and code conversion speed.
@@ -72,8 +75,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - [Virtualizer] A new-virtual machine(v3-core) has been added. The new virtual machine will be used with older versions of the virtual machine(v2-core) after being tested in version 1.2.2.0. Virtual machine types will continue to be added in the future.
   - [Obfuscator] The node-difficulty for code flattening is improved, which reduces the overall code size.
   - [Packer] As a user request, I have re-activated the feature for add-on.
-- `1.2.1.1`
-  - [Obfuscator] Add obfuscation pattern.
 
 ## TODO
 - `Task`
