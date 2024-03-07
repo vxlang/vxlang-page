@@ -62,6 +62,11 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.7.0`
+  - Simplified the flattening SDK: VxLang no longer supports the API to adjust the difficulty level.
+  - Flattening difficulty is now applied randomly at the function level.
+  - Optimize the speed of VxLang behavior
+  - I'll work on getting it to work faster with games and heavy software testing :)
 - `1.2.6.0`
   - Optimized code-conversion speed 
   - Fixed minor-bug: Unnecessary log
@@ -71,9 +76,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `1.2.4.0`
   - [Virtualizer] Fixed bugs related to MSVC SDK search.
   - [ALL] Improved packing and code conversion speed.
-- `1.2.3.0`
-  - [ALL] Fixed to support SDK for patterns (see plt/got) referencing libraries in clang or gcc.
-  - [Packer] Outputs an error message if the library or function cannot be referenced during the image loading process.
 
 ## TODO
 - `Task`
