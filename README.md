@@ -62,6 +62,10 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.8.0`
+  - fixed bug of axion-mode and feature additions.
+    - I've started improving AXION mode, which performs additional protective behaviors beyond the existing protections :)
+  - Speed up obfuscation conversion and packing.
 - `1.2.7.0`
   - Simplified the flattening SDK: VxLang no longer supports the API to adjust the difficulty level.
   - Flattening difficulty is now applied randomly at the function level.
@@ -73,9 +77,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `1.2.5.0`
   - Improved packing and code conversion speed.
   - Added V2 and V3 virtual-machines.
-- `1.2.4.0`
-  - [Virtualizer] Fixed bugs related to MSVC SDK search.
-  - [ALL] Improved packing and code conversion speed.
 
 ## TODO
 - `Task`
