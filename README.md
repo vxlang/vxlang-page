@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.2.9.0`
+  - The virtual machine section and the obfuscated code section are merged.
+  - Speed up obfuscation conversion and packing.
 - `1.2.8.0`
   - fixed bug of axion-mode and feature additions.
     - I've started improving AXION mode, which performs additional protective behaviors beyond the existing protections :)
