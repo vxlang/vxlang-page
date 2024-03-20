@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.3.0.0`
+  - Added a new packing type, which is different from the existing packer and only allows you to activate cores. It is enabled in test mode in this version..
+  - Fixed to be able to compile to specific sections in the Virtualizer's linker.
 - `1.2.9.0`
   - The virtual machine section and the obfuscated code section are merged.
   - Speed up obfuscation conversion and packing.
@@ -77,9 +80,6 @@ The full version of VxLang is developed and operated under donation through Patr
 - `1.2.6.0`
   - Optimized code-conversion speed 
   - Fixed minor-bug: Unnecessary log
-- `1.2.5.0`
-  - Improved packing and code conversion speed.
-  - Added V2 and V3 virtual-machines.
 
 ## TODO
 - `Task`
