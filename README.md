@@ -62,7 +62,8 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
-- `1.3.1.0`
+- `1.3.1.1`
+  - Fixed bug for adding debugging information.
   - Changed to a new packer.
   - The cores are now attached and detached differently than before.
   - Like other commercial packers, compression can be turned off via --disable-packer or the project file(json), but the core will always be attached.
