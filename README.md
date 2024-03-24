@@ -62,6 +62,10 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.0.0
 ---
+- `1.3.1.0`
+  - Changed to a new packer.
+  - The cores are now attached and detached differently than before.
+  - Like other commercial packers, compression can be turned off via --disable-packer or the project file(json), but the core will always be attached.
 - `1.3.0.1`
   - Fixed a bug in the 32-bit code virtualization conversion process.
   - Added a new packing type, which is different from the existing packer and only allows you to activate cores. It is enabled in test mode in this version..
@@ -78,9 +82,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - Flattening difficulty is now applied randomly at the function level.
   - Optimize the speed of VxLang behavior
   - I'll work on getting it to work faster with games and heavy software testing :)
-- `1.2.6.0`
-  - Optimized code-conversion speed 
-  - Fixed minor-bug: Unnecessary log
 
 ## TODO
 - `Task`
