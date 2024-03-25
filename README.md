@@ -60,8 +60,15 @@ The full version of VxLang is developed and operated under donation through Patr
   - Demo: ver.1.2.1.0
   - Full: Latest version
  
-1.0.0
+1.x.x
 ---
+- `1.3.2.0`
+  - Added .NET Packing Mode.
+  - Fixed PE parsing bug.
+  - Task list
+    - Anti-tamper and axion features will be merged.
+    - Working on adding virtual code.
+    - Code flattening stack allocation will change randomly.
 - `1.3.1.1`
   - Fixed bug for adding debugging information.
   - Changed to a new packer.
@@ -78,11 +85,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - fixed bug of axion-mode and feature additions.
     - I've started improving AXION mode, which performs additional protective behaviors beyond the existing protections :)
   - Speed up obfuscation conversion and packing.
-- `1.2.7.0`
-  - Simplified the flattening SDK: VxLang no longer supports the API to adjust the difficulty level.
-  - Flattening difficulty is now applied randomly at the function level.
-  - Optimize the speed of VxLang behavior
-  - I'll work on getting it to work faster with games and heavy software testing :)
 
 ## TODO
 - `Task`
