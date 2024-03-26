@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.x.x
 ---
+- `1.3.2.1`
+  - Fixed PE parsing bug.
+  - Resize unnecessary data.
 - `1.3.2.0`
   - Added .NET Packing Mode.
   - Fixed PE parsing bug.
