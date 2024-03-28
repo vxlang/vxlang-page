@@ -62,6 +62,8 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.x.x
 ---
+- `1.3.3.0`
+  - Improved SDK search speed.
 - `1.3.2.1`
   - Fixed PE parsing bug.
   - Resize unnecessary data.
@@ -83,10 +85,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - Fixed to be able to compile to specific sections in the Virtualizer's linker.
 - `1.2.9.0`
   - The virtual machine section and the obfuscated code section are merged.
-  - Speed up obfuscation conversion and packing.
-- `1.2.8.0`
-  - fixed bug of axion-mode and feature additions.
-    - I've started improving AXION mode, which performs additional protective behaviors beyond the existing protections :)
   - Speed up obfuscation conversion and packing.
 
 ## TODO
