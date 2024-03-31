@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.x.x
 ---
+- `1.3.4.0`
+  - Integration of axion mode with anti-tamper features.
+  - Remove unnecessary features.
 - `1.3.3.0`
   - Improved SDK search speed.
 - `1.3.2.1`
