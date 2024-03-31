@@ -57,7 +57,7 @@ The full version of VxLang is developed and operated under donation through Patr
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.2.1.0
+  - Demo: ver.1.3.4.0
   - Full: Latest version
  
 1.x.x
