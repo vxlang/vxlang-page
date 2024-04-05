@@ -64,6 +64,8 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.3.5.1`
+  - Fixed bug with kernel module obfuscation.
 - `1.3.5.0`
   - (Beta) Adding *.map file parsing.
     - In Beta, only Code-Flattening will be done.
@@ -87,10 +89,6 @@ If you have any questions, please send your request to the email below.
   - Changed to a new packer.
   - The cores are now attached and detached differently than before.
   - Like other commercial packers, compression can be turned off via --disable-packer or the project file(json), but the core will always be attached.
-- `1.3.0.1`
-  - Fixed a bug in the 32-bit code virtualization conversion process.
-  - Added a new packing type, which is different from the existing packer and only allows you to activate cores. It is enabled in test mode in this version..
-  - Fixed to be able to compile to specific sections in the Virtualizer's linker.
 
 ## TODO
 - `Task`
