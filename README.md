@@ -62,6 +62,9 @@ The full version of VxLang is developed and operated under donation through Patr
  
 1.x.x
 ---
+- `1.3.5.0`
+  - (Beta) Adding *.map file parsing.
+    - In Beta, only Code-Flattening will be done.
 - `1.3.4.0`
   - Integration of axion mode with anti-tamper features.
   - Remove unnecessary features.
@@ -86,9 +89,6 @@ The full version of VxLang is developed and operated under donation through Patr
   - Fixed a bug in the 32-bit code virtualization conversion process.
   - Added a new packing type, which is different from the existing packer and only allows you to activate cores. It is enabled in test mode in this version..
   - Fixed to be able to compile to specific sections in the Virtualizer's linker.
-- `1.2.9.0`
-  - The virtual machine section and the obfuscated code section are merged.
-  - Speed up obfuscation conversion and packing.
 
 ## TODO
 - `Task`
@@ -111,18 +111,11 @@ Thank you to everyone who helped with the development.
 - [tybins99](https://github.com/tybins99) 
 - [EBalloon](https://github.com/EBalloon)
 - [Aiden](https://github.com/aidenosys)
-  - Lots of Bug reporting
 - [YoavLevi](https://github.com/YoavLevi)
-  - Bug reporting and testing sample code & binary support
 - [mikSn](https://github.com/mikSn)
-  - Bug reporting
 - [Jae Hoon Ahn](https://github.com/dkswognsdi)
-  - Vulnerability Reports and Sharing.
 - [LOLSHAN](https://github.com/LOLSHAN)
-  - Feature review and optimization improvements, many technical advice
-  - Bug Reporting
 - [itskian](https://github.com/itskian)
-  - Share technical advice and improvement ideas
 
   
   
