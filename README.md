@@ -45,14 +45,16 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
   
 ## Deploying the full version
 
-The full version of VxLang is developed and operated under donation through Patreon. The exact usage of VxLang and sharing of extension module code, new features of VxLang, etc. will be shared. If you have any questions, please send your request to the email below.
+The full version of VxLang is developed and operated under donation through Patreon or BTC.  
+The exact usage of VxLang and sharing of extension module code, new features of VxLang, etc. will be shared.  
+If you have any questions, please send your request to the email below.
 
 - E-Mail: 0x999h@gmail.com
 - Full Version
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
-  - [VxLang Guidelines](https://www.patreon.com/posts/vxlang-93493825) 
+- BTC: **39hHrRoaXbDavUmAxyPvZ1aD92cVMFYGAK**
 
 ## Latest Version
 
