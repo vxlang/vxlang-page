@@ -43,7 +43,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
 - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
 - `Exception handling` : Currently, the virtual CPU does not support exception handling.
   
-## Deploying the full version
+## How to get the full version
 
 The full version of VxLang is developed and operated under donation through Patreon or BTC.  
 The exact usage of VxLang and sharing of extension module code, new features of VxLang, etc. will be shared.  
@@ -55,6 +55,10 @@ If you have any questions, please send your request to the email below.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
 - BTC: **39hHrRoaXbDavUmAxyPvZ1aD92cVMFYGAK**
+
+## Usage
+
+- [Guideline](https://www.patreon.com/posts/vxlang-93493825)
 
 ## Latest Version
 
