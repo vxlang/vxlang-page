@@ -68,6 +68,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.3.6.0`
+  - Fixed Small bug.
+  - Update code-obfuscation patterns.
 - `1.3.5.1`
   - Fixed bug with kernel module obfuscation.
 - `1.3.5.0`
