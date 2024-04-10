@@ -63,11 +63,16 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.3.4.0
+  - Demo: ver.1.3.7.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.3.7.0`
+  - Fixed code-flattening bug.
+    - Enhanced randomization.
+  - Added the ability to modify some target code in obfuscation or flattening
+    - Added the ability to modify source code like code virtualization. I will gradually increase the target code for modulation.
 - `1.3.6.0`
   - Fixed Small bug.
   - Update code-obfuscation patterns.
@@ -91,11 +96,6 @@ If you have any questions, please send your request to the email below.
     - Anti-tamper and axion features will be merged.
     - Working on adding virtual code.
     - Code flattening stack allocation will change randomly.
-- `1.3.1.1`
-  - Fixed bug for adding debugging information.
-  - Changed to a new packer.
-  - The cores are now attached and detached differently than before.
-  - Like other commercial packers, compression can be turned off via --disable-packer or the project file(json), but the core will always be attached.
 
 ## TODO
 - `Task`
