@@ -68,6 +68,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.3.9.0`
+  - Updated obfuscation scope for packer shell code
+  - Updated obfuscation patterns
 - `1.3.8.0`
   - Updated virtualization target instruction
   - Updated code flattening transformations
