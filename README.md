@@ -68,6 +68,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.3.10.0`
+  - Improved memory protection
+  - Fixed Anti-Tamper bug
 - `1.3.9.0`
   - Updated obfuscation scope for packer shell code
   - Updated obfuscation patterns
