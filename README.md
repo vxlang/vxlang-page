@@ -63,11 +63,13 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.3.11.0
+  - Demo: ver.1.3.12.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.3.12.0`
+  - Fixed a feature that conflicts with Windows 11.
 - `1.3.11.0`
   - Improved import table settings.
     - Set-up the same as a common commercial packer.
