@@ -54,7 +54,6 @@ If you have any questions, please send your request to the email below.
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
-- BTC: **39hHrRoaXbDavUmAxyPvZ1aD92cVMFYGAK**
 
 ## Usage
 
@@ -63,7 +62,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.3.12.0
+  - Demo: ver.1.3.13.0
   - Full: Latest version
  
 1.x.x
