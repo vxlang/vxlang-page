@@ -68,6 +68,10 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.3.13.0`
+  - Improved memory protection.
+    - Added additional protection to the R/W area.
+  - Improved process pause detection.  
 - `1.3.12.0`
   - Fixed a feature that conflicts with Windows 11.
 - `1.3.11.0`
