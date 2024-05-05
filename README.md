@@ -62,11 +62,14 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.3.13.0
+  - Demo: ver.1.3.14.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.3.14.0`
+  - Fixed bug for code-flattening&obfuscation
+  - Fixed packing log.  
 - `1.3.13.0`
   - Improved memory protection.
     - Added additional protection to the R/W area.
@@ -107,13 +110,6 @@ If you have any questions, please send your request to the email below.
 - `1.3.2.1`
   - Fixed PE parsing bug.
   - Resize unnecessary data.
-- `1.3.2.0`
-  - Added .NET Packing Mode.
-  - Fixed PE parsing bug.
-  - Task list
-    - Anti-tamper and axion features will be merged.
-    - Working on adding virtual code.
-    - Code flattening stack allocation will change randomly.
 
 ## TODO
 - `Task`
