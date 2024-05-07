@@ -62,11 +62,13 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.3.14.0
+  - Demo: ver.1.3.15.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.3.15.0`
+  - Fixed bugs related to adding resources
 - `1.3.14.0`
   - Fixed bug for code-flattening&obfuscation
   - Fixed packing log.  
