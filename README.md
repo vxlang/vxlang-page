@@ -8,6 +8,7 @@
 <br>
 
 - [BLOG](https://vxlang.github.io/)
+- [How to Use VxLang: Exploring Through Test Programs](https://www.patreon.com/posts/92188141)
 
 ---
 
