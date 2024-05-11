@@ -68,6 +68,8 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.3.16.0`
+  - Fixed bug where a crash occurred if the obfuscation section was missing when debug information was added.
 - `1.3.15.0`
   - Fixed bugs related to adding resources
 - `1.3.14.0`
@@ -105,14 +107,6 @@ If you have any questions, please send your request to the email below.
 - `1.3.5.0`
   - (Beta) Adding *.map file parsing.
     - In Beta, only Code-Flattening will be done.
-- `1.3.4.0`
-  - Integration of axion mode with anti-tamper features.
-  - Remove unnecessary features.
-- `1.3.3.0`
-  - Improved SDK search speed.
-- `1.3.2.1`
-  - Fixed PE parsing bug.
-  - Resize unnecessary data.
 
 ## TODO
 - `Task`
