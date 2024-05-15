@@ -63,11 +63,15 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.3.16.0
+  - Demo: ver.1.4.0.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.0.0`
+  - The registers used for operations in the virtual machine are randomly assigned each time.
+    - Plan to add this to all instructions in the version 1.4 update.
+  - Fixed a bug that caused the obfuscated code to run slower.
 - `1.3.16.0`
   - Fixed bug where a crash occurred if the obfuscation section was missing when debug information was added.
 - `1.3.15.0`
@@ -104,9 +108,6 @@ If you have any questions, please send your request to the email below.
   - Update code-obfuscation patterns.
 - `1.3.5.1`
   - Fixed bug with kernel module obfuscation.
-- `1.3.5.0`
-  - (Beta) Adding *.map file parsing.
-    - In Beta, only Code-Flattening will be done.
 
 ## TODO
 - `Task`
