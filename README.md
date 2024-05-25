@@ -63,11 +63,16 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.4.1.0
+  - Demo: ver.1.4.2.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.2.0`
+  - Added obfuscation and virtualization features based on MAP files.
+  - Modified JSON projects to allow compression of multiple files.
+    - support older versions of JSON.   
+  - Discontinuation of Command-Line based feature support.
 - `1.4.1.0`
   - The JSON parsing format has been changed. MAP-based virtualization and obfuscation will be added in the next hotfix update.
   - The bug related to DLL manual mapping has been fixed. 
