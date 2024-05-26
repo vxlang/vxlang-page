@@ -63,11 +63,17 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.4.2.0
+  - Demo: ver.1.4.3.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.3.0`
+  - The command-line mode has been re-enabled.
+    - Unlike before, a temp.json file is created and referenced.
+    - The command-line mode does not support adding add-ons.
+  - Fixed a small bug.
+    -Log output
 - `1.4.2.0`
   - Added obfuscation and virtualization features based on MAP files.
   - Modified JSON projects to allow compression of multiple files.
@@ -111,11 +117,6 @@ If you have any questions, please send your request to the email below.
     - Enhanced randomization.
   - Added the ability to modify some target code in obfuscation or flattening
     - Added the ability to modify source code like code virtualization. I will gradually increase the target code for modulation.
-- `1.3.6.0`
-  - Fixed Small bug.
-  - Update code-obfuscation patterns.
-- `1.3.5.1`
-  - Fixed bug with kernel module obfuscation.
 
 ## TODO
 - `Task`
