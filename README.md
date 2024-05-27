@@ -63,11 +63,14 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.4.3.0
+  - Demo: ver.1.4.3.1
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.3.1`
+  - Minor bug fixes.
+    - Fixed a bug where a command prompt window would appear when anti-tamper was activated.
 - `1.4.3.0`
   - The command-line mode has been re-enabled.
     - Unlike before, a temp.json file is created and referenced.
