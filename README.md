@@ -46,7 +46,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
   
 ## How to get the full version
 
-The full version of VxLang is developed and operated under donation through Patreon or BTC.  
+The full version of VxLang is developed and operated under donation through Patreon.  
 The exact usage of VxLang and sharing of extension module code, new features of VxLang, etc. will be shared.  
 If you have any questions, please send your request to the email below.
 
