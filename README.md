@@ -68,6 +68,10 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.4.4.0`
+  - An On/Off option for Import Table Mutation has been added.
+    - This feature is enabled by default, but in CMD mode, you can disable it using the --disable-import-mutation option.
+    - e.g. If Min-Hook is not working, try disabling this option.
 - `1.4.3.1`
   - Minor bug fixes.
     - Fixed a bug where a command prompt window would appear when anti-tamper was activated.
@@ -111,15 +115,6 @@ If you have any questions, please send your request to the email below.
 - `1.3.9.0`
   - Updated obfuscation scope for packer shell code
   - Updated obfuscation patterns
-- `1.3.8.0`
-  - Updated virtualization target instruction
-  - Updated code flattening transformations
-  - Fixed minor bug
-- `1.3.7.0`
-  - Fixed code-flattening bug.
-    - Enhanced randomization.
-  - Added the ability to modify some target code in obfuscation or flattening
-    - Added the ability to modify source code like code virtualization. I will gradually increase the target code for modulation.
 
 ## TODO
 - `Task`
