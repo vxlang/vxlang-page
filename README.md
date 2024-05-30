@@ -55,6 +55,7 @@ If you have any questions, please send your request to the email below.
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
+  - [How to Purchase Personal-License](https://www.patreon.com/posts/how-to-purchase-104911282)
 
 ## Usage
 
