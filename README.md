@@ -64,11 +64,15 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.4.4.0
+  - Demo: ver.1.4.5.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.5.0`
+  - Modified code flattening obfuscation method
+  - Adjusted total size of code flattening
+  - Fixed bugs in MAP-based obfuscation/virtualization
 - `1.4.4.0`
   - An On/Off option for Import Table Mutation has been added.
     - This feature is enabled by default, but in CMD mode, you can disable it using the --disable-import-mutation option.
@@ -113,9 +117,6 @@ If you have any questions, please send your request to the email below.
 - `1.3.10.0`
   - Improved memory protection
   - Fixed Anti-Tamper bug
-- `1.3.9.0`
-  - Updated obfuscation scope for packer shell code
-  - Updated obfuscation patterns
 
 ## TODO
 - `Task`
