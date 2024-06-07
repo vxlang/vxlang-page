@@ -69,6 +69,11 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.4.6.0`
+  - Adjust code flattening size
+    -It will be patched to achieve the optimal size.
+  - Filter SEH in code virtualization sections
+    - Change to obfuscation sections.  
 - `1.4.5.0`
   - Modified code flattening obfuscation method
   - Adjusted total size of code flattening
@@ -109,14 +114,6 @@ If you have any questions, please send your request to the email below.
   - Improved memory protection.
     - Added additional protection to the R/W area.
   - Improved process pause detection.  
-- `1.3.12.0`
-  - Fixed a feature that conflicts with Windows 11.
-- `1.3.11.0`
-  - Improved import table settings.
-    - Set-up the same as a common commercial packer.
-- `1.3.10.0`
-  - Improved memory protection
-  - Fixed Anti-Tamper bug
 
 ## TODO
 - `Task`
