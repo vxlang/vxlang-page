@@ -64,11 +64,16 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.4.6.0
+  - Demo: ver.1.4.7.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.7.0`
+  - Integrated SDK parsing.
+  - Added support for 32-bit virtualization SEH.
+  - Fixed packer shell code bug (related to TLS installation).
+  - Added PDB parsing.
 - `1.4.6.0`
   - Adjust code flattening size
     -It will be patched to achieve the optimal size.
