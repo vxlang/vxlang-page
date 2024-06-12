@@ -56,6 +56,7 @@ If you have any questions, please send your request to the email below.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
   - [How to Purchase Personal-License](https://www.patreon.com/posts/how-to-purchase-104911282)
+  - [About Dev-Support Membership](https://www.patreon.com/posts/about-dev-106063562)
 
 ## Usage
 
