@@ -65,11 +65,15 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.4.7.0
+  - Demo: ver.1.4.8.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.4.8.0`
+  - Fixed bug in handling static-variables.
+  - Fixed bug related to DLL unload.
+  - Fixed bug in MAP file parsing.  
 - `1.4.7.0`
   - Integrated SDK parsing.
   - Added support for 32-bit virtualization SEH.
