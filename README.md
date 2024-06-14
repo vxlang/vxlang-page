@@ -9,6 +9,8 @@
 
 - [BLOG](https://vxlang.github.io/)
 - [How to Use VxLang: Exploring Through Test Programs](https://www.patreon.com/posts/92188141)
+- [About Dev-Support Membership](https://www.patreon.com/posts/about-dev-106063562)
+  - Limiting the number of members
 
 ---
 
