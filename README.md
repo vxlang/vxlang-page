@@ -153,7 +153,7 @@ Thank you to everyone who helped with the development.
 - [Jae Hoon Ahn](https://github.com/dkswognsdi)
 - [LOLSHAN](https://github.com/LOLSHAN)
 - [itskian](https://github.com/itskian)
-- [Packet V3 Developers]()
+- [Swed]()
 
   
   
