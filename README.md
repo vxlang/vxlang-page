@@ -72,6 +72,11 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.0.0`
+  - Fixed Critical Bugs.
+    - Fixed a bug related to memory protection.
+    - Fixed a bug related to DLL protection.
+    - Fixed a bug where the ImageBase was incorrectly set.
 - `1.4.9.0`
   - Install interrupts at VxLang entry-points.
     - The `interrupt-vxlang-entry` flag needs to be set.
@@ -124,13 +129,6 @@ If you have any questions, please send your request to the email below.
   - Fixed bug where a crash occurred if the obfuscation section was missing when debug information was added.
 - `1.3.15.0`
   - Fixed bugs related to adding resources
-- `1.3.14.0`
-  - Fixed bug for code-flattening&obfuscation
-  - Fixed packing log.  
-- `1.3.13.0`
-  - Improved memory protection.
-    - Added additional protection to the R/W area.
-  - Improved process pause detection.  
 
 ## TODO
 - `Task`
