@@ -72,6 +72,8 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.0.1`
+  - Fixed MAP/PDB-related function size calculation.
 - `1.5.0.0`
   - Fixed Critical Bugs.
     - Fixed a bug related to memory protection.
