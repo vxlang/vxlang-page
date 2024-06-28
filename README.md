@@ -72,6 +72,11 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.1.0`
+  - VxLang interrupt-events have been removed.
+  - VxLang Link-events have been added.
+    - SDK Begin event has been added.
+    - SDK End event will be added soon. 
 - `1.5.0.1`
   - Fixed MAP/PDB-related function size calculation.
 - `1.5.0.0`
