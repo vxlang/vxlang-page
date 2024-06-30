@@ -67,11 +67,20 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.5.1.0
+  - Demo: ver.1.5.2.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.5.2.0`
+- VxLang Link-Event updates:
+  - SDK END-Event has been added.
+  - Extension modules can now be integrated with the following SDK calls.
+    - VL_OBFUSCATION_BEGIN / VL_OBFUSCATION_END
+    - VL_CODE_FLATTENING_BEGIN / VL_CODE_FLATTENING_END
+    - VL_VIRTUALIZATION_BEGIN / VL_VIRTUALIZATION_END
+  - Fixed critical-bug related to 32-bit binaries.
+  - VxLang Core-Shell code has been optimized to be lighter.
 - `1.5.1.0`
   - VxLang interrupt-events have been removed.
   - VxLang Link-events have been added.
@@ -128,14 +137,6 @@ If you have any questions, please send your request to the email below.
 - `1.4.1.0`
   - The JSON parsing format has been changed. MAP-based virtualization and obfuscation will be added in the next hotfix update.
   - The bug related to DLL manual mapping has been fixed. 
-- `1.4.0.0`
-  - The registers used for operations in the virtual machine are randomly assigned each time.
-    - Plan to add this to all instructions in the version 1.4 update.
-  - Fixed a bug that caused the obfuscated code to run slower.
-- `1.3.16.0`
-  - Fixed bug where a crash occurred if the obfuscation section was missing when debug information was added.
-- `1.3.15.0`
-  - Fixed bugs related to adding resources
 
 ## TODO
 - `Task`
