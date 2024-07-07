@@ -1,30 +1,67 @@
 #include <windows.h>
 #include <stdio.h>
 
-#define VXLANG_ADDON_MODULE
-#include "../../vxlang/sdk/vxlib.h"
+enum _tag_PACKER_STATUS {
+    VXLANG_LOAD_ADDON_EVENT = 0xA0000000,
+    VXLANG_START_EVENT,
+
+    VXLANG_VL_BEGIN = 0xA0000006,
+    VXLANG_VL_END,
+};
+
+#pragma pack(push, 1)
+using register_t = size_t;
+typedef struct _tag_sdk_context {
+    register_t rax;
+    register_t rbx;
+    register_t rcx;
+    register_t rdx;
+
+    register_t rsi;
+    register_t rdi;
+
+    register_t rsp;
+    register_t rbp;
+
+    register_t r8;
+    register_t r9;
+    register_t r10;
+    register_t r11;
+    register_t r12;
+    register_t r13;
+    register_t r14;
+    register_t r15;
+
+    register_t efl;
+
+    register_t src;
+} context_t;
+#pragma pack(pop)
+
+//
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
     // If the return value of the extension module DllMain is FALSE, the Terminate event is fired.
+
     BOOL result = TRUE; 
 
     switch (fdwReason) {
-    case DLL_PROCESS_ATTACH:
-        break;
-    case DLL_THREAD_ATTACH:
-        break;
     case VXLANG_LOAD_ADDON_EVENT:
-        break;
-    case VXLANG_DETECTED_DEBUG:
-    case VXLANG_DETECTED_PATCH:
         break;
     case VXLANG_START_EVENT:
         break;
-    case VXLANG_TERMINATE_EVENT:
+    case VXLANG_VL_BEGIN:
+    {
+        context_t* ctx = (context_t*)lpvReserved;
+        printf("%p \n", (void*)ctx->src);
+        break;
+    }
+    case VXLANG_VL_END:
         break;
     default:
         break;
     }
+
     return result;
 }
 
@@ -36,19 +73,11 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
 
 void NTAPI TlsCallback1(PVOID DllHandle, DWORD dwReason, PVOID) {
     if (dwReason == DLL_PROCESS_ATTACH) {
-        printf("TLS 1:: DLL_PROCESS_ATTACH \n");
-    }
-    else if (dwReason == DLL_THREAD_ATTACH) {
-        printf("TLS 1:: DLL_THREAD_ATTACH \n");
     }
 }
 
 void NTAPI TlsCallback2(PVOID DllHandle, DWORD dwReason, PVOID) {
     if (dwReason == DLL_PROCESS_ATTACH) {
-        printf("TLS 2:: DLL_PROCESS_ATTACH \n");
-    }
-    else if (dwReason == DLL_THREAD_ATTACH) {
-        printf("TLS 2:: DLL_THREAD_ATTACH \n");
     }
 }
 

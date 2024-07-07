@@ -1,8 +1,18 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#define USE_VM_MACRO
-#include "../../vxlang/sdk/include/vxlib.h"
+//
+
+#define USE_VL_MACRO
+#include "../../../vxlang/sdk/include/vxlib.h"
+
+#ifndef _WIN64
+#pragma comment(lib, "../../../vxlang/sdk/lib/vxlib32.lib")
+#else
+#pragma comment(lib, "../../../vxlang/sdk/lib/vxlib64.lib")
+#endif
+
+//
 
 #pragma optimize("", off) 
 void VirtualizationTest() {
@@ -43,13 +53,11 @@ void CodeFlatteningTest() {
     return;
 }
 
+#pragma optimize("", off) 
 int main() {
-    VL_VIRTUALIZATION_BEGIN;
-
-    VirtualizationTest();
     ObfuscationTest();
-
-    VL_VIRTUALIZATION_END;
+    CodeFlatteningTest();
+    VirtualizationTest();
 
     return 1;
 }
