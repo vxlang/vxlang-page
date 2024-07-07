@@ -67,7 +67,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.5.2.0
+  - Demo: ver.1.5.4.0
   - Full: Latest version
  
 1.x.x
@@ -134,11 +134,6 @@ If you have any questions, please send your request to the email below.
     - The command-line mode does not support adding add-ons.
   - Fixed a small bug.
     -Log output
-- `1.4.2.0`
-  - Added obfuscation and virtualization features based on MAP files.
-  - Modified JSON projects to allow compression of multiple files.
-    - support older versions of JSON.   
-  - Discontinuation of Command-Line based feature support.
 
 ## TODO
 - `Task`
