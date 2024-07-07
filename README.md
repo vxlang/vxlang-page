@@ -72,6 +72,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.4.0`
+  - Context has been added to the link event of the extension module.
+    - [example](https://github.com/vxlang/vxlang-page/blob/main/src/01/exts/exts.cpp#L14)
 - `1.5.3.0`
   - Fixed intermittent crashes that occurred during the obfuscation process.
 - `1.5.2.0`
