@@ -72,6 +72,10 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.5.0`
+  - Fixed the bug causing Import Table obfuscation to be turned off:
+    - Fixed a bug where the `mutate-import-table` option, if not defined, would force obfuscation to be disabled.
+    - if the `mutate-import-table` option is not defined, obfuscation will be forcibly enabled.
 - `1.5.4.0`
   - Context has been added to the link event of the extension module.
     - [example](https://github.com/vxlang/vxlang-page/blob/main/src/01/exts/exts.cpp#L14)
