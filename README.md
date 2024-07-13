@@ -72,6 +72,10 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.6.0`
+  - [Obfuscator][Virtualizer]: EFI boot driver support (Test version).
+    - No separate SDK yet, functions are designated through MAP or PDB files.
+  - Fixed bugs in 64-bit virtualization.
 - `1.5.5.0`
   - Fixed the bug causing Import Table obfuscation to be turned off:
     - Fixed a bug where the `mutate-import-table` option, if not defined, would force obfuscation to be disabled.
