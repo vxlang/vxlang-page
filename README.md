@@ -72,6 +72,10 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.7.0`
+  - Fixed relocation-related bug for code virtualization.
+  - Added an option to prevent VxLang from creating an obfuscation code section.
+    - `use-data-section`
 - `1.5.6.0`
   - [Obfuscator][Virtualizer]: EFI boot driver support (Test version).
     - No separate SDK yet, functions are designated through MAP or PDB files.
@@ -136,12 +140,6 @@ If you have any questions, please send your request to the email below.
 - `1.4.3.1`
   - Minor bug fixes.
     - Fixed a bug where a command prompt window would appear when anti-tamper was activated.
-- `1.4.3.0`
-  - The command-line mode has been re-enabled.
-    - Unlike before, a temp.json file is created and referenced.
-    - The command-line mode does not support adding add-ons.
-  - Fixed a small bug.
-    -Log output
 
 ## TODO
 - `Task`
