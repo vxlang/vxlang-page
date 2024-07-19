@@ -72,6 +72,13 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.8.0`
+  - Fixed bug Memory protector.
+    - Bug fixed where memory in `No-Access` protect was exposed.
+  - Module `reflection` loading feature added(beta).
+    - The copied image is loaded, and you can determine the LDR link status.
+    - This feature can provide some protection from memory dumper.
+  - If run without arguments, a temporary JSON project will be created.
 - `1.5.7.0`
   - Fixed relocation-related bug for code virtualization.
   - Added an option to prevent VxLang from creating an obfuscation code section.
