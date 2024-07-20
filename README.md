@@ -63,6 +63,7 @@ If you have any questions, please send your request to the email below.
 ## Usage
 
 - [Guideline](https://www.patreon.com/posts/vxlang-93493825)
+- [Task List](https://www.patreon.com/posts/105860209)
 
 ## Latest Version
 
@@ -72,6 +73,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.8.1`
+  - Fixed Minor Bug: Log Output.
+  - Enabled Reflection Loading in Demo Version.
 - `1.5.8.0`
   - Fixed bug Memory protector.
     - Bug fixed where memory in `No-Access` protect was exposed.
@@ -144,9 +148,6 @@ If you have any questions, please send your request to the email below.
   - An On/Off option for Import Table Mutation has been added.
     - This feature is enabled by default, but in CMD mode, you can disable it using the --disable-import-mutation option.
     - e.g. If Min-Hook is not working, try disabling this option.
-- `1.4.3.1`
-  - Minor bug fixes.
-    - Fixed a bug where a command prompt window would appear when anti-tamper was activated.
 
 ## TODO
 - `Task`
