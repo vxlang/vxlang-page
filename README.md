@@ -68,7 +68,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.5.8.0
+  - Demo: ver.1.5.8.2
   - Full: Latest version
  
 1.x.x
