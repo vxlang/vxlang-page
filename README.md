@@ -73,6 +73,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.8.2`
+  - Fixed Bug: Function range calculation(MAP/PDB)
+    - [sample](https://github.com/vxlang/vxlang-page/blob/main/src/02/map/sample.cpp#L2)
 - `1.5.8.1`
   - Fixed Minor Bug: Log Output.
   - Enabled Reflection Loading in Demo Version.
