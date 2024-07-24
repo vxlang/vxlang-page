@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exts", "01\exts\exts.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "01\sample\sample.vcxproj", "{A32F254C-F22D-4FBC-A31C-CAADF4504958}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{349D25B4-8B7F-4EE4-B5EA-A50D859D716E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "map", "02\map\map.vcxproj", "{94F08465-4360-4343-8A69-A8B30AC904F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -23,6 +27,10 @@ Global
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958}.Release|x64.Build.0 = Release|x64
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958}.Release|x86.ActiveCfg = Release|Win32
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958}.Release|x86.Build.0 = Release|Win32
+		{94F08465-4360-4343-8A69-A8B30AC904F3}.Release|x64.ActiveCfg = Release|x64
+		{94F08465-4360-4343-8A69-A8B30AC904F3}.Release|x64.Build.0 = Release|x64
+		{94F08465-4360-4343-8A69-A8B30AC904F3}.Release|x86.ActiveCfg = Release|Win32
+		{94F08465-4360-4343-8A69-A8B30AC904F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C8A4B411-3D6A-41B9-8EFB-D31B5223A5AB} = {603FEDD9-FFAE-44F9-A9EB-D380ABF02C7C}
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958} = {603FEDD9-FFAE-44F9-A9EB-D380ABF02C7C}
+		{94F08465-4360-4343-8A69-A8B30AC904F3} = {349D25B4-8B7F-4EE4-B5EA-A50D859D716E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {325C394A-2417-411B-87E5-A606F1A4CBB4}
