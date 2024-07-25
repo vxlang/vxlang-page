@@ -2,7 +2,7 @@
 
 <div align="center">
    <a href="https://vxlang.github.io/">
-      <img src="https://vxlang.github.io/image/vxlang.gif" loop=infinite style="max-width: 100%; height: auto;" />
+      <img src="https://vxlang.github.io/image/vxlang_logo.gif" loop=infinite style="max-width: 100%; height: auto;" />
    </a>
 </div>
 <br>
