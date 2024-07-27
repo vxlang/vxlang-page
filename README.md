@@ -73,6 +73,11 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.9.0`
+  - Fixed map file parsing bug.
+  - Fixed function calculation bug.
+    - [sample](https://github.com/vxlang/vxlang-page/blob/main/src/02/map/sample.cpp#L2)
+  - Fixed number of obfuscation nodes.
 - `1.5.8.2`
   - Fixed Bug: Function range calculation(MAP/PDB)
     - [sample](https://github.com/vxlang/vxlang-page/blob/main/src/02/map/sample.cpp#L2)
@@ -147,10 +152,6 @@ If you have any questions, please send your request to the email below.
   - Modified code flattening obfuscation method
   - Adjusted total size of code flattening
   - Fixed bugs in MAP-based obfuscation/virtualization
-- `1.4.4.0`
-  - An On/Off option for Import Table Mutation has been added.
-    - This feature is enabled by default, but in CMD mode, you can disable it using the --disable-import-mutation option.
-    - e.g. If Min-Hook is not working, try disabling this option.
 
 ## TODO
 - `Task`
