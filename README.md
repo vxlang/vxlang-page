@@ -73,6 +73,9 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.9.1`
+  - Fixed map file parsing bug.
+  - Added UEFI application type.
 - `1.5.9.0`
   - Fixed map file parsing bug.
   - Fixed function calculation bug.
