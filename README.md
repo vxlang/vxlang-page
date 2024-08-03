@@ -73,6 +73,8 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.5.9.2`
+  - Fixed to be available in the month the binary was built.
 - `1.5.9.1`
   - Fixed map file parsing bug.
   - Added UEFI application type.
@@ -151,10 +153,6 @@ If you have any questions, please send your request to the email below.
     -It will be patched to achieve the optimal size.
   - Filter SEH in code virtualization sections
     - Change to obfuscation sections.  
-- `1.4.5.0`
-  - Modified code flattening obfuscation method
-  - Adjusted total size of code flattening
-  - Fixed bugs in MAP-based obfuscation/virtualization
 
 ## TODO
 - `Task`
