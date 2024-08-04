@@ -1,6 +1,8 @@
 #include <windows.h>
 #include <stdio.h>
 
+#pragma comment(linker, "/ALIGN:0x10000")
+
 enum _tag_PACKER_STATUS {
     VXLANG_LOAD_ADDON_EVENT = 0xA0000000,
     VXLANG_START_EVENT,
@@ -53,11 +55,15 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
     case VXLANG_VL_BEGIN:
     {
         context_t* ctx = (context_t*)lpvReserved;
-        printf("%p \n", (void*)ctx->src);
+        printf("VXLANG_VL_BEGIN:: %p \n", (void*)ctx->src);
         break;
     }
     case VXLANG_VL_END:
+    {
+        context_t* ctx = (context_t*)lpvReserved;
+        printf("  VXLANG_VL_END:: %p \n", (void*)ctx->src);
         break;
+    }
     default:
         break;
     }

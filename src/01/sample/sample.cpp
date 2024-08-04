@@ -21,8 +21,11 @@ void VirtualizationTest() {
     for (int i = 0; i < 10; ++i) {
         printf("Hello, World! \n");
     }
+    printf("VirtualizationTest End \n");
 
     VL_VIRTUALIZATION_END;
+
+    printf("\n");
 
     return;
 }
@@ -34,8 +37,11 @@ void ObfuscationTest() {
     for (int i = 0; i < 10; ++i) {
         printf("Hello, World! \n");
     }
+    printf("ObfuscationTest End \n");
 
     VL_OBFUSCATION_END;
+
+    printf("\n");
 
     return;
 }
@@ -47,8 +53,11 @@ void CodeFlatteningTest() {
     for (int i = 0; i < 10; ++i) {
         printf("Hello, World! \n");
     }
+    printf("CodeFlatteningTest End \n");
 
     VL_CODE_FLATTENING_END;
+
+    printf("\n");
 
     return;
 }
@@ -58,6 +67,8 @@ int main() {
     ObfuscationTest();
     CodeFlatteningTest();
     VirtualizationTest();
+
+    getchar();
 
     return 1;
 }
