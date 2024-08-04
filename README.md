@@ -57,8 +57,6 @@ If you have any questions, please send your request to the email below.
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
-  - [How to Purchase Personal-License](https://www.patreon.com/posts/how-to-purchase-104911282)
-  - [About Dev-Support Membership](https://www.patreon.com/posts/about-dev-106063562)
 
 ## Usage
 
@@ -68,11 +66,16 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.5.9.0
+  - Demo: ver.1.6.0.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.6.0.0`
+  - As of version 1.6.0.0, JSON files can be recognized without the `--opt-project` option.
+    - e.g. vxlang.exe test.json
+  - A bug related to the `vxlang-link-event` has been fixed.
+  - Additional updates will include new code obfuscation patterns.  
 - `1.5.9.2`
   - Fixed to be available in the month the binary was built.
 - `1.5.9.1`
