@@ -31,6 +31,26 @@ void VirtualizationTest() {
 }
 
 #pragma optimize("", off) 
+void VirtualizationEndIsNotCalled() {
+    VL_VIRTUALIZATION_BEGIN;
+
+    for (int i = 0; i < 10; ++i) {
+        printf("Hello, World! \n");
+    }
+    printf("VirtualizationTest End \n");
+
+    if (true) {
+        return;
+    }
+
+    VL_VIRTUALIZATION_END;
+
+    printf("\n");
+
+    return;
+}
+
+#pragma optimize("", off) 
 void ObfuscationTest() {
     VL_OBFUSCATION_BEGIN;
 
@@ -67,6 +87,7 @@ int main() {
     ObfuscationTest();
     CodeFlatteningTest();
     VirtualizationTest();
+    VirtualizationEndIsNotCalled();
 
     getchar();
 
