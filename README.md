@@ -71,6 +71,8 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.6.0.1`
+  - A bug related to the `vxlang-link-event` has been fixed.
 - `1.6.0.0`
   - As of version 1.6.0.0, JSON files can be recognized without the `--opt-project` option.
     - e.g. vxlang.exe test.json
