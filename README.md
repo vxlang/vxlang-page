@@ -71,6 +71,11 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- `1.6.1.0`
+  - Improved memory protection.
+  - Added dummy code patterns.
+  - Handled options for some anti-tamper features.
+    - The default value is Enabled.
 - `1.6.0.1`
   - A bug related to the `vxlang-link-event` has been fixed.
 - `1.6.0.0`
