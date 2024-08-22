@@ -64,11 +64,14 @@ If you have any questions, please send your request to the email below.
 ## Latest Version
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.6.0.0
+  - Demo: ver.1.6.2.0
   - Full: Latest version
  
 1.x.x
 ---
+- `1.6.2.0`
+  - Added dummy code patterns.
+  - Fixed small bug. 
 - `1.6.1.0`
   - Improved memory protection.
   - Added dummy code patterns.
@@ -147,20 +150,6 @@ If you have any questions, please send your request to the email below.
     - The `interrupt-vxlang-entry` flag needs to be set.
     - If `add-on` are present, they can receive event.
       - #define VXLANG_INTERRUPT_VL_ENTRY    0xA0000005  
-- `1.4.8.0`
-  - Fixed bug in handling static-variables.
-  - Fixed bug related to DLL unload.
-  - Fixed bug in MAP file parsing.  
-- `1.4.7.0`
-  - Integrated SDK parsing.
-  - Added support for 32-bit virtualization SEH.
-  - Fixed packer shell code bug (related to TLS installation).
-  - Added PDB parsing.
-- `1.4.6.0`
-  - Adjust code flattening size
-    -It will be patched to achieve the optimal size.
-  - Filter SEH in code virtualization sections
-    - Change to obfuscation sections.  
 
 ## TODO
 - `Task`
