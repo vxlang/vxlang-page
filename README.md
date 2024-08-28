@@ -69,6 +69,8 @@ If you have any questions, please send your request to the email below.
  
 1.x.x
 ---
+- Future VxLang-Version announcements will be shared via the blog-page.
+  - [BLOG LINK](https://vxlang.github.io/news/news.html)
 - `1.6.2.0`
   - Added dummy code patterns.
   - Fixed small bug. 
