@@ -96,6 +96,16 @@ vxlang.exe --opt-project temp.json --disable-core
 
 //
 
+#pragma optimize("", off) 
+void CodeFlatteningTest() {
+	for (int i = 0; i < 10; ++i) {
+		printf("Hello, World! \n");
+	}
+
+	return;
+}
+
+#pragma optimize("", off) 
 void VirtualizationTest() {
     for (int i = 0; i < 10; ++i) {
         printf("Hello, World! \n");
@@ -104,8 +114,10 @@ void VirtualizationTest() {
     return;
 }
 
+#pragma optimize("", off) 
 int main() {
     VirtualizationTest();
+	CodeFlatteningTest();
 
     return 1;
 }
