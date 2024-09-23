@@ -59,9 +59,9 @@ If you have any questions, please send your request to the email below.
 ## Usage
 
 - [Guideline](https://www.patreon.com/posts/vxlang-93493825)
-- [Task List](https://www.patreon.com/posts/105860209)
+  - [Documentation](https://vxlang.github.io/documentation.html)
 
-## Latest Version
+## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
   - Demo: ver.1.6.6.0
