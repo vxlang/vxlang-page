@@ -34,7 +34,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
    <p>After</p>
    <img src="https://vxlang.github.io/image/cff-1-1.png" style="max-width: 50%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/cff-1-2.png" style="max-width: 50%; height: auto;" /> 
+   <img src="https://vxlang.github.io/image/cfg_1.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
 ## Precautions
