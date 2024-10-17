@@ -1,6 +1,8 @@
 #include <windows.h>
 #include <stdio.h>
 
+#include <map>
+
 #pragma comment(linker, "/ALIGN:0x10000")
 
 enum _tag_PACKER_STATUS {
@@ -40,10 +42,17 @@ typedef struct _tag_sdk_context {
 } context_t;
 #pragma pack(pop)
 
+// ***** Precaution
+// This is an extension of the packer shell code, not an actual DLL, so be careful with the static variable declarations. 
+// They can be registered with TLS, which can be problematic for your program.
+// Please make it a global variable so that you can reference it in your code.
+
+std::map<register_t, uint32_t> _tickList;
+
 //
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
-    // If the return value of the extension module DllMain is FALSE, the Terminate event is fired.
+    // ***** If the return value of the extension module DllMain is FALSE, the Terminate event is fired.
 
     BOOL result = TRUE; 
 
@@ -55,13 +64,25 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
     case VXLANG_VL_BEGIN:
     {
         context_t* ctx = (context_t*)lpvReserved;
+        uint32_t tick = GetTickCount();
+        _tickList.insert(std::make_pair(ctx->src, tick));
+
         printf("VXLANG_VL_BEGIN:: %p \n", (void*)ctx->src);
+
         break;
     }
     case VXLANG_VL_END:
     {
         context_t* ctx = (context_t*)lpvReserved;
-        printf("  VXLANG_VL_END:: %p \n", (void*)ctx->src);
+        uint32_t tick = 0;
+        auto srcTick = _tickList.find(ctx->src);
+
+        if (_tickList.end() != srcTick) {
+            tick = GetTickCount() - srcTick->second;
+        }
+
+        printf("  VXLANG_VL_END:: %p, Running-Time=%d \n", (void*)ctx->src, tick);
+
         break;
     }
     default:

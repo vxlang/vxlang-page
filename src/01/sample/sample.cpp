@@ -1,3 +1,4 @@
+#include <windows.h>
 #include <stdio.h>
 #include <stdint.h>
 
@@ -18,10 +19,23 @@
 void VirtualizationTest() {
     VL_VIRTUALIZATION_BEGIN;
 
-    for (int i = 0; i < 10; ++i) {
-        printf("Hello, World! \n");
+    printf("     > VirtualizationTest \n");
+
+    VL_VIRTUALIZATION_END;
+
+    printf("\n");
+
+    return;
+}
+
+#pragma optimize("", off) 
+void VirtualizationLoopTest() {
+    VL_VIRTUALIZATION_BEGIN;
+
+    printf("     > VirtualizationLoopTest \n");
+    for (int i = 0; i < 3; ++i) {
+        Sleep(1000);
     }
-    printf("VirtualizationTest End \n");
 
     VL_VIRTUALIZATION_END;
 
@@ -34,12 +48,10 @@ void VirtualizationTest() {
 void VirtualizationEndIsNotCalled() {
     VL_VIRTUALIZATION_BEGIN;
 
-    for (int i = 0; i < 10; ++i) {
-        printf("Hello, World! \n");
-    }
-    printf("VirtualizationTest End \n");
+    printf("     > VirtualizationEndIsNotCalled \n");
 
     if (true) {
+        printf("\n");
         return;
     }
 
@@ -54,10 +66,7 @@ void VirtualizationEndIsNotCalled() {
 void ObfuscationTest() {
     VL_OBFUSCATION_BEGIN;
 
-    for (int i = 0; i < 10; ++i) {
-        printf("Hello, World! \n");
-    }
-    printf("ObfuscationTest End \n");
+    printf("     > ObfuscationTest \n");
 
     VL_OBFUSCATION_END;
 
@@ -70,10 +79,7 @@ void ObfuscationTest() {
 void CodeFlatteningTest() {
     VL_CODE_FLATTENING_BEGIN;
 
-    for (int i = 0; i < 10; ++i) {
-        printf("Hello, World! \n");
-    }
-    printf("CodeFlatteningTest End \n");
+    printf("     > CodeFlatteningTest \n");
 
     VL_CODE_FLATTENING_END;
 
@@ -84,11 +90,14 @@ void CodeFlatteningTest() {
 
 #pragma optimize("", off) 
 int main() {
-    ObfuscationTest();
-    CodeFlatteningTest();
     VirtualizationTest();
+    VirtualizationLoopTest();
     VirtualizationEndIsNotCalled();
 
+    ObfuscationTest();
+    CodeFlatteningTest();
+
+    printf("press any key to continue .. \n");
     getchar();
 
     return 1;
