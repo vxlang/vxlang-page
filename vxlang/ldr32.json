@@ -1,0 +1,39 @@
+{                                         
+   "input": "..\\src\\bin\\Release\\ldrmon32.exe",                     
+   "output": "",                    
+   "backup": false,                        
+   "use-data-section": false,           
+   "base-section-name": "",         
+   "map-file-path": "",             
+   "virtualizer": {                     
+      "entry-point": false,                
+      "virtualization-by-map": [
+	  ]       
+   },                                     
+   "obfuscator": {                      
+      "entry-point": false,                
+      "obfuscation-by-map": [],		   
+      "flattening-by-map": [
+	  ]           
+   },                                     
+   "protector": {                       
+      "compress": true,                   
+      "symbol-data": false,                
+      "mutate-import-table": true,        
+      "vxlang-link-event": true,       
+      "anti-tamper": {                  
+         "enable": false,                  
+         "hide-unused-memory": true,      
+         "pause-protection": true,        
+         "message": ""              
+      },                                  
+      "extension": [
+	  { "..\\src\\bin\\Release\\extsldr32.dll":"extsldr32" }
+	  ],                  
+      "raw-data" : [],                  
+      "reflection": {                   
+         "enable": false,                  
+         "ldr-update": true               
+      }                                   
+   }                                      
+}
