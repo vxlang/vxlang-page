@@ -18,6 +18,11 @@
 
 The vxlang project currently targets x86-64 system and .Net binaries, native binary files for the Microsoft Windows operating system, including executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by vxlang will be expanded in future updates).
 
+- Added beta code for the `ELF` file format.
+  - The beta version only supports general `code-flattening`.
+  - Beta features require users to specify target code.
+  - VxLang recommends using the `-fno-pic` option in ELF 32bit binary builds.
+
 ## Virtualization Preview
 
 <div align="center">
@@ -64,13 +69,12 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.6.9.0
+  - Demo: ver.1.7.0.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
 ## TODO
 - `Task`
-  - Add ELF32/64 format for x86-64.
   - Add Windows Static-Librarys.
   - Add code obfuscation methods for x86-64.
     - Once the above steps are complete, add the ARM system for the ELF file format.
