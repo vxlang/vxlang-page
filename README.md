@@ -60,6 +60,7 @@ If you have any questions, please send your request to the email below.
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
 - [Patreon](https://www.patreon.com/vxlang)
+  - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
 
 ## Usage
 
@@ -69,7 +70,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.7.5.0
+  - Demo: ver.1.7.6.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
