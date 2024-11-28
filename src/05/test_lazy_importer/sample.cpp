@@ -1,6 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <windows.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <time.h>
 
 #include "../xorstr/xorstr.hpp"
 #include "../lazy_importer/lazy_importer.hpp"
@@ -19,8 +22,23 @@ void test() {
     return;
 }
 
+void print_time(const char* str) {
+    time_t timer = time(NULL);
+    struct tm* t = localtime(&timer);
+
+    //
+
+    printf("%d.%02d.%02d %02d:%02d:%02d   %s", t->tm_year + 1900, t->tm_mon + 1, t->tm_mday, t->tm_hour, t->tm_min, t->tm_sec, str);
+
+    return;
+}
+
 int main() {
+    print_time("start.. \n");
     test();
+    print_time("end.. \n");
+
+    getchar();
 
     return 1;
 }
