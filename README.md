@@ -12,7 +12,7 @@
 
 ---
 
-## What is vxlang?
+## What is VxLang?
 
 **VxLang** is a project designed to prevent reverse-engineering behaviors such as static or dynamic analysis, file tampering, and unauthorized access to memory by attackers. 
 
@@ -102,10 +102,11 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
 
 ## Precautions
 
-- `Optimization` : Verify that VxVirtualizationBegin and VxVirtualizationEnd are in the same block.  
+- [Docs](https://vxlang.github.io/documentation-1.html#precautions)
+  - `Optimization` : Verify that VxVirtualizationBegin and VxVirtualizationEnd are in the same block.  
   If procedures are merged due to code optimization, problems may arise.
-- `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
-- `Exception handling` : Currently, the virtual CPU does not support exception handling.
+  - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
+  - `Exception handling` : Currently, the virtual CPU does not support exception handling.
   
 ## How to get the full version
 
@@ -117,6 +118,7 @@ If you have any questions, please send your request to the email below.
 - Full Version
   - You can control all features of the VxLang protector.
   - Support for virtual CPUs with specialized CPU contexts.
+  - **You can use the demo version to see if it's applicable to your program before you commit to the donation and full versions.**
 - [Patreon](https://www.patreon.com/vxlang)
   - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
 
