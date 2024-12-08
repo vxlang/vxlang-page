@@ -14,9 +14,9 @@
 
 ## What is vxlang?
 
-**VXLANG** is a project designed to prevent reverse-engineering behaviors such as static or dynamic analysis, file tampering, and unauthorized access to memory by attackers. 
+**VxLang** is a project designed to prevent reverse-engineering behaviors such as static or dynamic analysis, file tampering, and unauthorized access to memory by attackers. 
 
-The vxlang project currently targets x86-64 system and .Net binaries, native binary files for the Microsoft Windows operating system, including executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by vxlang will be expanded in future updates).
+The VxLang project currently targets x86-64 system and .NET binaries, native binary files for the Microsoft Windows operating system, including executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by vxlang will be expanded in future updates).
 
 - Added beta code for the `ELF` file format.
   - The beta version only supports general `code-flattening`.
@@ -69,7 +69,7 @@ The vxlang project currently targets x86-64 system and .Net binaries, native bin
   </tr>
    <tr> 
     <td align="center"> Obfuscator </td>
-    <td align="center"><img src="https://img.shields.io/badge/DEMO-brightgreen.svg"></td>
+    <td align="center"><img src="https://img.shields.io/badge/BETA-brightgreen.svg"></td>
    </tr> 
   <tr> 
     <td align="center"> Virtualizer </td>
