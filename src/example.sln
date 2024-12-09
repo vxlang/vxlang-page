@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05", "05", "{5FE1FDAB-A7A9-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_lazy_importer", "05\test_lazy_importer\test_lazy_importer.vcxproj", "{BC64CDC4-1E1D-4078-A47C-397876752926}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06", "06", "{148C3621-097B-47DF-AB22-E98957F94EAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "antidmp", "06\antidmp\antidmp.vcxproj", "{D862574C-D3AF-4A54-AA17-62AE0D7F0C30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -53,6 +57,10 @@ Global
 		{BC64CDC4-1E1D-4078-A47C-397876752926}.Release|x64.Build.0 = Release|x64
 		{BC64CDC4-1E1D-4078-A47C-397876752926}.Release|x86.ActiveCfg = Release|Win32
 		{BC64CDC4-1E1D-4078-A47C-397876752926}.Release|x86.Build.0 = Release|Win32
+		{D862574C-D3AF-4A54-AA17-62AE0D7F0C30}.Release|x64.ActiveCfg = Release|x64
+		{D862574C-D3AF-4A54-AA17-62AE0D7F0C30}.Release|x64.Build.0 = Release|x64
+		{D862574C-D3AF-4A54-AA17-62AE0D7F0C30}.Release|x86.ActiveCfg = Release|Win32
+		{D862574C-D3AF-4A54-AA17-62AE0D7F0C30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{EF9C0209-FC2B-40F9-BA01-8F906C6F8221} = {56116FE5-D144-4A74-B2D0-C786D4DFE8F7}
 		{61395D34-A7FA-44C1-9B48-1DA59F0EB12E} = {56116FE5-D144-4A74-B2D0-C786D4DFE8F7}
 		{BC64CDC4-1E1D-4078-A47C-397876752926} = {5FE1FDAB-A7A9-438C-9BD6-257FBE14CB82}
+		{D862574C-D3AF-4A54-AA17-62AE0D7F0C30} = {148C3621-097B-47DF-AB22-E98957F94EAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {325C394A-2417-411B-87E5-A606F1A4CBB4}
