@@ -81,6 +81,15 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
   </tr>
 </table>
 
+## Guide-Code
+
+- 01: Developing extension modules
+- 02: Functional Unit Obfuscation with Map Files
+- 03: DLL loading checks
+- 04: Rust samples
+- 05: Review behavior speed
+- 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/06)
+
 ## Virtualization Preview
 
 <div align="center">
