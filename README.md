@@ -81,15 +81,6 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
   </tr>
 </table>
 
-## Guide-Code
-
-- 01: Developing extension modules
-- 02: Functional Unit Obfuscation with Map Files
-- 03: DLL loading checks
-- 04: Rust samples
-- 05: Review behavior speed
-- 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/06)
-
 ## Virtualization Preview
 
 <div align="center">
@@ -131,10 +122,14 @@ If you have any questions, please send your request to the email below.
 - [Patreon](https://www.patreon.com/vxlang)
   - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
 
-## Usage
-
-- [Guideline](https://www.patreon.com/posts/vxlang-93493825)
-  - [Documentation](https://vxlang.github.io/documentation.html)
+## Usage & Guide-Code
+- [Documentation](https://vxlang.github.io/documentation.html)
+  - 01: Developing extension modules
+  - 02: Functional Unit Obfuscation with Map Files
+  - 03: DLL loading checks
+  - 04: Rust samples
+  - 05: Review behavior speed
+  - 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/06)
 
 ## Latest Version & Update(News)
 
