@@ -28,12 +28,36 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
 <table>
   <tr> 
     <td align="center" colspan="2"><b> Windows EXE/DLL </b></td>
-    <td align="center" colspan="2"><b> Windows Kernel Driver/UEFI Module </b></td>
-    <td align="center" colspan="2"><b> Windows .NET </b></td>
+    <td align="center" colspan="2"><b> Windows Kernel Drive </b></td>
   </tr>
    <tr> 
     <td align="center"> Obfuscator </td>
     <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
+    <!-- KERNEL -->
+    <td align="center"> Obfuscator </td>
+    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
+  <tr> 
+    <td align="center"> Virtualizer </td>
+    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
+    <!-- KERNEL -->
+    <td align="center"> Virtualizer </td>
+    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
+  </tr>
+  <tr> 
+    <td align="center"> Protector </td>
+    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
+    <!-- KERNEL -->
+    <td align="center"> Protector </td>
+    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
+  </tr>
+</table>
+
+<table>
+  <tr> 
+    <td align="center" colspan="2"><b> Windows UEFI Modules </b></td>
+    <td align="center" colspan="2"><b> Windows .NET </b></td>
+  </tr>
+   <tr> 
     <!-- KERNEL -->
     <td align="center"> Obfuscator </td>
     <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
@@ -42,8 +66,6 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
     <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>
    </tr> 
   <tr> 
-    <td align="center"> Virtualizer </td>
-    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
     <!-- KERNEL -->
     <td align="center"> Virtualizer </td>
     <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
@@ -52,8 +74,6 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
     <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>     
   </tr>
   <tr> 
-    <td align="center"> Protector </td>
-    <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
     <!-- KERNEL -->
     <td align="center"> Protector </td>
     <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
