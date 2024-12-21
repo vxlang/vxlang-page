@@ -76,7 +76,7 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
   <tr> 
     <!-- KERNEL -->
     <td align="center"> Protector </td>
-    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
+    <td align="center"><img src="https://img.shields.io/badge/Working-yellow.svg"></td> 
     <!-- .NET -->
     <td align="center"> Protector </td>
     <td align="center"><img src="https://img.shields.io/badge/Working-yellow.svg"></td>          
@@ -217,10 +217,10 @@ If you have any questions, please send your request to the email below.
 - [Update & News](https://vxlang.github.io/news/news.html)
 
 ## TODO
-- `Task`
+- `Task-List`
+  - Add `dual mode`: Allows you to apply both code obfuscation and code virtualization.
   - Add Windows Static-Librarys.
-  - Add code obfuscation methods for x86-64.
-    - Once the above steps are complete, add the ARM system for the ELF file format.
+  - Once the above steps are complete, add the ARM system for the ELF file format.
     
 ---
 
