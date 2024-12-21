@@ -48,7 +48,7 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
     <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
     <!-- KERNEL -->
     <td align="center"> Protector </td>
-    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
+    <td align="center"><img src="https://img.shields.io/badge/Working-yellow.svg"></td>	
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
   <tr> 
     <!-- KERNEL -->
     <td align="center"> Protector </td>
-    <td align="center"><img src="https://img.shields.io/badge/Working-yellow.svg"></td> 
+    <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td> 
     <!-- .NET -->
     <td align="center"> Protector </td>
     <td align="center"><img src="https://img.shields.io/badge/Working-yellow.svg"></td>          
