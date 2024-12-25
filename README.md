@@ -212,13 +212,13 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.8.3.1
+  - Demo: ver.1.8.4.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
 ## TODO
 - `Task-List`
-  - Add `dual mode`: Allows you to apply both code obfuscation and code virtualization.
+  - **[DONE]** Add `dual mode`: Allows you to apply both code obfuscation and code virtualization.
   - Add Windows Static-Librarys.
   - Once the above steps are complete, add the ARM system for the ELF file format.
     
