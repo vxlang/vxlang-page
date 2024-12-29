@@ -168,7 +168,14 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
    <img src="https://vxlang.github.io/image/VMEnd.png" style="max-width: 100%; height: auto;" />
 </div>
 
-## Obfuscation Preview
+## Obfuscation(Obfuscation + Virtualization) Preview
+
+<div align="center">
+   <p>Preview</p>
+   <img src="https://vxlang.github.io/image/obfuscate-3.png" style="max-width: 100%; height: auto;" />
+</div>
+
+## Code-Flattening Preview
 
 <div align="center">
    <p>Before</p>
@@ -212,7 +219,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.8.4.0
+  - Demo: ver.1.8.5.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
