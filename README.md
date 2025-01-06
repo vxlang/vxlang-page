@@ -105,47 +105,47 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
 
 ```
 ; x86-64 asm
-00000001'40001bc6	    cmp         qword ptr [rsp + 0x20], rax
-00000001'40001bcb	    jae         0x140001bf5
-00000001'40001bcd	    mov         rax, qword ptr [rsp + 0x20]
-00000001'40001bd2	    movzx       eax, byte ptr [rsp + rax + 0x50]
+cmp         qword ptr [rsp + 0x20], rax
+jae         0x140001bf5
+mov         rax, qword ptr [rsp + 0x20]
+movzx       eax, byte ptr [rsp + rax + 0x50]
 ```
 ```
 ; to v-asm
-00000000'00002a40       movi   exr_0, ${RANDOM}
-00000000'00002a4a       movi   r7, ${RANDOM}
-00000000'00002a54       xorr   r7, exr_0
-00000000'00002a57       movi   exr_0, ${RANDOM}
-00000000'00002a5d       movi   exr_1, ${RANDOM}
-00000000'00002a63       xorr   exr_0, exr_1
-00000000'00002a66       mulr   r7, exr_0
-00000000'00002a69       addr   r6, r7
-00000000'00002a6c       movi   exr_0, ${RANDOM}
-00000000'00002a76       movi   r7, ${RANDOM}
-00000000'00002a80       xorr   r7, exr_0
-00000000'00002a83       addr   r6, r7
-00000000'00002a86       movr   r0, r6
-00000000'00002a89       movr   r1, rax
-00000000'00002a8c       ldrr   r2, r0
-00000000'00002a8f       cmpr   r2, r1
-00000000'00002a92       be     0x2c59
-00000000'00002a97       movr   r0, rax
-00000000'00002a9a       movr   r6, rsp
-00000000'00002a9d       movi   exr_0, ${RANDOM}
-00000000'00002aa7       movi   r7, ${RANDOM}
-00000000'00002ab1       xorr   r7, exr_0
-00000000'00002ab4       movi   exr_0, ${RANDOM}
-00000000'00002aba       movi   exr_1, ${RANDOM}
-00000000'00002ac0       xorr   exr_0, exr_1
-00000000'00002ac3       mulr   r7, exr_0
-00000000'00002ac6       addr   r6, r7
-00000000'00002ac9       movi   exr_0, ${RANDOM}
-00000000'00002ad3       movi   r7, ${RANDOM}
-00000000'00002add       xorr   r7, exr_0
-00000000'00002ae0       addr   r6, r7
-00000000'00002ae3       movr   r1, r6
-00000000'00002ae6       ldrr   r2, r1
-00000000'00002ae9       movr   rax, r2
+movi   exr_0, ${RANDOM}
+movi   r7, ${RANDOM}
+xorr   r7, exr_0
+movi   exr_0, ${RANDOM}
+movi   exr_1, ${RANDOM}
+xorr   exr_0, exr_1
+mulr   r7, exr_0
+addr   r6, r7
+movi   exr_0, ${RANDOM}
+movi   r7, ${RANDOM}
+xorr   r7, exr_0
+addr   r6, r7
+movr   r0, r6
+movr   r1, rax
+ldrr   r2, r0
+cmpr   r2, r1
+be     0x2c59
+movr   r0, rax
+movr   r6, rsp
+movi   exr_0, ${RANDOM}
+movi   r7, ${RANDOM}
+xorr   r7, exr_0
+movi   exr_0, ${RANDOM}
+movi   exr_1, ${RANDOM}
+xorr   exr_0, exr_1
+mulr   r7, exr_0
+addr   r6, r7
+movi   exr_0, ${RANDOM}
+movi   r7, ${RANDOM}
+xorr   r7, exr_0
+addr   r6, r7
+movr   r1, r6
+ldrr   r2, r1
+movr   rax, r2
 ```
 ```
 ; compile
@@ -168,7 +168,9 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
    <img src="https://vxlang.github.io/image/VMEnd.png" style="max-width: 100%; height: auto;" />
 </div>
 
-## Obfuscation(Obfuscation + Virtualization) Preview
+## Dual-Mode(Obfuscation + Virtualization) Preview
+
+## Obfuscation Preview
 
 <div align="center">
    <p>Preview</p>
@@ -219,7 +221,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.8.5.0
+  - Demo: ver.1.8.6.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
