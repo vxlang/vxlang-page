@@ -8,7 +8,7 @@
 <br>
 
 - Contents
-  - [BLOG](https://vxlang.github.io/)
+  - [Blog](https://vxlang.github.io/)
   - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
   - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
   - Preview
@@ -18,6 +18,7 @@
     - [Code-Flattening Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#code-flattening-preview)
   - Tutorial
     - [Usage & Guide-Code](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#usage--guide-code)
+    - [Precautions](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#precautions)
   - [How to get the full version](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#how-to-get-the-full-version)
 
 ---
