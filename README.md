@@ -16,6 +16,9 @@
     - [Dual-Mode Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#dual-modeobfuscation--virtualization-preview)
     - [Obfuscation Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#obfuscation-preview)
     - [Code-Flattening Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#code-flattening-preview)
+  - Tutorial
+    - [Usage & Guide-Code](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#usage--guide-code)
+  - [How to get the full version](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#how-to-get-the-full-version)
 
 ---
 
