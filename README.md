@@ -7,8 +7,15 @@
 </div>
 <br>
 
-- [BLOG](https://vxlang.github.io/)
-- [How to Use VxLang: Exploring Through Test Programs](https://www.patreon.com/posts/92188141)
+- Contents
+  - [BLOG](https://vxlang.github.io/)
+  - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
+  - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
+  - Preview
+    - [Virtualization Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#virtualization-preview)
+    - [Dual-Mode Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#dual-modeobfuscation--virtualization-preview)
+    - [Obfuscation Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#obfuscation-preview)
+    - [Code-Flattening Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#code-flattening-preview)
 
 ---
 
@@ -211,7 +218,7 @@ If you have any questions, please send your request to the email below.
 
 ## Usage & Guide-Code
 - [Documentation](https://vxlang.github.io/documentation.html)
-  - 01: Developing extension modules
+  - 01: [SDK Tutorial](https://github.com/vxlang/vxlang-page/tree/main/src/01)
   - 02: [Functional Unit Obfuscation with Map Files](https://github.com/vxlang/vxlang-page/blob/main/src/02/Readme.md)
   - 03: DLL loading checks
   - 04: Rust samples
