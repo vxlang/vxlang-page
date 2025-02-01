@@ -59,7 +59,7 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
     <td align="center"><img src="https://img.shields.io/badge/Supported-brightgreen.svg"></td>
     <!-- KERNEL -->
     <td align="center"> Protector </td>
-    <td align="center"><img src="https://img.shields.io/badge/Working-yellow.svg"></td>	
+    <td align="center"><img src="https://img.shields.io/badge/BETA-brightgreen.svg"></td>	
   </tr>
 </table>
 
@@ -232,7 +232,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.9.0.2
+  - Demo: ver.1.9.1.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
