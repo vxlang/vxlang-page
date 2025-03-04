@@ -1,0 +1,8 @@
+;
+; Definition file for the DLL version of the p_minimal library from OpenSSL
+;
+
+LIBRARY         "p_minimal"
+
+EXPORTS
+    OSSL_provider_init

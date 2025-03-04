@@ -1,0 +1,8 @@
+;
+; Definition file for the DLL version of the p_test library from OpenSSL
+;
+
+LIBRARY         "p_test"
+
+EXPORTS
+    OSSL_provider_init

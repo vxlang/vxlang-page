@@ -1,0 +1,42 @@
+{                                         
+   "input": "..\\src\\08\\test_openssl\\x64\\Release\\testdll64.dll",                     
+   "output": "",                    
+   "backup": false,                        
+   "use-data-section": false,           
+   "base-section-name": "",         
+   "map-file-path": "",             
+   "virtualizer": {                     
+      "entry-point": false,                
+      "virtualization": [],             
+      "dual-mode": []                   
+   },                                     
+   "obfuscator": {                      
+      "entry-point": false,                
+      "obfuscation": [],		           
+      "flattening": []                  
+   },                                     
+   "protector": {                       
+      "compress": true,                   
+      "symbol-data": false,                
+      "mutate-import-table": true,        
+      "vxlang-link-event": false,       
+      "anti-tamper": {                  
+         "enable": false,                  
+         "page-protection": {           
+            "enable": true,             
+            "hide": true,               
+            "unit": 8                   
+         },                               
+         "hide-unused-memory": true,      
+         "pause-protection": true,        
+         "prevent-dll": true,             
+         "message": ""              
+      },                                  
+      "extension": [],                  
+      "raw-data" : [],                  
+      "reflection": {                   
+         "enable": false,                  
+         "ldr-update": true               
+      }                                   
+   }                                      
+}
