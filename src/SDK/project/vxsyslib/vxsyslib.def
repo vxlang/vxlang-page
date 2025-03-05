@@ -1,0 +1,17 @@
+LIBRARY vxsyslib.sys
+EXPORTS
+  DllInitialize PRIVATE
+  DllUnload PRIVATE
+
+  VxVirtualizationBegin
+  VxVirtualizationEnd
+
+  VxDualModeBegin
+  VxDualModeEnd
+
+  VxObfuscationBegin
+  VxObfuscationEnd
+
+  VxCodeFlatteningBegin
+  VxCodeFlatteningEnd
+

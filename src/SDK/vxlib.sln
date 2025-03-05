@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vxlib", "project\vxlib\vxlib.vcxproj", "{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vxsyslib", "project\vxsyslib\vxsyslib.vcxproj", "{EB348F53-C37C-47B9-97CE-3E6956277FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		VXM|x64 = VXM|x64
+		VXM|x86 = VXM|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.Release|x64.ActiveCfg = Release|x64
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.Release|x64.Build.0 = Release|x64
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.Release|x86.ActiveCfg = Release|Win32
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.Release|x86.Build.0 = Release|Win32
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.VXM|x64.ActiveCfg = Release|x64
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.VXM|x64.Build.0 = Release|x64
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.VXM|x86.ActiveCfg = Release|Win32
+		{76E3FAD2-BE98-4226-BB16-39FA6753D2DC}.VXM|x86.Build.0 = Release|Win32
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.Release|x64.ActiveCfg = Release|x64
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.Release|x64.Build.0 = Release|x64
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.Release|x64.Deploy.0 = Release|x64
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.Release|x86.ActiveCfg = Release|Win32
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.Release|x86.Build.0 = Release|Win32
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.Release|x86.Deploy.0 = Release|Win32
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.VXM|x64.ActiveCfg = VXM|x64
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.VXM|x64.Build.0 = VXM|x64
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.VXM|x64.Deploy.0 = VXM|x64
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.VXM|x86.ActiveCfg = VXM|Win32
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.VXM|x86.Build.0 = VXM|Win32
+		{EB348F53-C37C-47B9-97CE-3E6956277FE3}.VXM|x86.Deploy.0 = VXM|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D45A62C-8C4D-4560-8B44-E92E0389E9D2}
+	EndGlobalSection
+EndGlobal
