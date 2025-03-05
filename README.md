@@ -222,12 +222,12 @@ If you have any questions, please send your request to the email below.
 
 ## Usage & Guide-Code
 - [Documentation](https://vxlang.github.io/documentation.html)
-  - 01: [SDK Tutorial](https://github.com/vxlang/vxlang-page/tree/main/src/01)
-  - 02: [Functional Unit Obfuscation with Map Files](https://github.com/vxlang/vxlang-page/blob/main/src/02/Readme.md)
+  - 01: [SDK Tutorial](https://github.com/vxlang/vxlang-page/tree/main/src/Example/01)
+  - 02: [Functional Unit Obfuscation with Map Files](https://github.com/vxlang/vxlang-page/blob/main/src/Example/02/Readme.md)
   - 03: DLL loading checks
   - 04: Rust samples
   - 05: Review behavior speed
-  - 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/06)
+  - 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/Example/06)
 
 ## Latest Version & Update(News)
 
