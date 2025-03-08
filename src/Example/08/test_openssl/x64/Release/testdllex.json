@@ -1,0 +1,52 @@
+{
+	"input": "testdllex64.dll",
+	"output": "",
+	"backup": false,
+	"use-data-section": false,
+	"base-section-name": "",
+	"map-file-path": "testdllex64.map",
+	"virtualizer": {
+		"entry-point": false,
+		"virtualization": [],
+		"dual-mode": [
+			"?cmd@@YAXXZ",
+			"?DetourMessageBoxW@@YAHPEAUHWND__@@PEB_W1I@Z",
+			"?hook@@YAXXZ",
+			"?unhook@@YAXXZ",
+			"?test@@YAXXZ",
+			"?ThreadFunc@@YAKPEAX@Z",
+			"DllMain",
+			"?encrypt@@YA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@PEBE1@Z",
+			"?decrypt@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@EV?$allocator@E@std@@@2@PEBE1@Z"
+		]
+	},
+	"obfuscator": {
+		"entry-point": false,
+		"obfuscation": [],
+		"flattening": []
+	},
+	"protector": {
+		"compress": true,
+		"symbol-data": false,
+		"mutate-import-table": true,
+		"vxlang-link-event": false,
+		"anti-tamper": {
+			"enable": false,
+			"page-protection": {
+				"enable": true,
+				"hide": true,
+				"unit": 8
+			},
+			"hide-unused-memory": true,
+			"pause-protection": true,
+			"prevent-dll": true,
+			"message": ""
+		},
+		"extension": [],
+		"raw-data": [],
+		"reflection": {
+			"enable": false,
+			"ldr-update": true
+		}
+	}
+}

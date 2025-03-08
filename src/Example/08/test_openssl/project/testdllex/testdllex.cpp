@@ -17,7 +17,7 @@
 
 //
 
-#define USE_VL_MACRO
+//#define USE_VL_MACRO
 #include "../../../../sdk/include/vxlib.h"
 
 #ifndef _WIN64
@@ -142,6 +142,7 @@ DWORD WINAPI ThreadFunc(LPVOID lpParam) {
     test();
 
     Sleep(3000);
+    MessageBoxW(nullptr, L"done ..", L"", MB_OK);
     FreeLibraryAndExitThread(hModule, 0);
 
     VL_DUAL_MODE_END;

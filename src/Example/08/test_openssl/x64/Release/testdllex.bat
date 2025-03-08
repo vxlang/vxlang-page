@@ -1,0 +1,1 @@
+vxlang.exe testdllex.json --disable-core
