@@ -9,6 +9,7 @@
 
 - Contents
   - [Blog](https://vxlang.github.io/)
+  - [Event](https://www.patreon.com/posts/vxlang-event-124035809)
   - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
   - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
   - Preview
@@ -233,7 +234,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.1.9.8.0
+  - Demo: ver.1.9.9.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
