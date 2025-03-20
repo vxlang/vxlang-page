@@ -234,7 +234,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.2.0.1.0
+  - Demo: ver.2.0.2.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
@@ -247,7 +247,6 @@ If you have any questions, please send your request to the email below.
 ---
 
 ## Special Thanks
-
 - [Link](https://github.com/vxlang/vxlang-page/blob/main/special-thanks.md)
 
   
