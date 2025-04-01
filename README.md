@@ -22,7 +22,7 @@
     - [Usage & Guide-Code](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#usage--guide-code)
     - [Precautions](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#precautions)
   - [How to get the full version](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#how-to-get-the-full-version)
-
+    
 ---
 
 ## What is VxLang?
@@ -231,11 +231,15 @@ If you have any questions, please send your request to the email below.
   - 05: Review behavior speed
   - 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/Example/06)
   - 09: [How to apply the SDK to UEFI](https://github.com/vxlang/vxlang-page/tree/main/src/Example/09)
+  - 10: Command-Line Options
+    - `--disable-core`: Disable the VxLang core.
+    - `--use-multi-vm`: Enable multiple VxLang-VM. 
+    - `--use-signature`: Enable VM signatures to be searched.
 
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.2.0.4.0
+  - Demo: ver.2.0.5.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
 
