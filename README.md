@@ -220,6 +220,7 @@ If you have any questions, please send your request to the email below.
   - Support for virtual CPUs with specialized CPU contexts.
   - **You can use the demo version to see if it's applicable to your program before you commit to the donation and full versions.**
 - [Patreon](https://www.patreon.com/vxlang)
+  - [VxLang 2025 subscription](https://www.patreon.com/posts/vxlang-2025-1y-1-126040977)
   - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
 
 ## Usage & Guide-Code
