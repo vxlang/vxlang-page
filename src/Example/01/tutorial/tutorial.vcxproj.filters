@@ -6,4 +6,7 @@
     <ClCompile Include="seh.cpp" />
     <ClCompile Include="switchcase.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="tutorial.def" />
+  </ItemGroup>
 </Project>

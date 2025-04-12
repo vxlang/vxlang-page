@@ -1,3 +1,3 @@
-vxlang.exe tutorial64.json --disable-core
+vxlang.exe tutorial64.json
 
 pause

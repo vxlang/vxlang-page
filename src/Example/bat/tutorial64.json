@@ -7,7 +7,8 @@
 	"virtualizer": {
 		"entry-point": false,
 		"virtualization": [],
-		"dual-mode": []
+		"dual-mode": [],
+		"multiple-virtual-machine": false
 	},
 	"obfuscator": {
 		"entry-point": false,
@@ -16,18 +17,19 @@
 	},
 	"protector": {
 		"compress": true,
-		"symbol-data": false,
+		"symbol-data": true,
 		"mutate-import-table": true,
-		"vxlang-link-event": false,
-		"anti-tamper": {
-			"enable": false,
-			"hide-unused-memory": true,
-			"pause-protection": true,
-			"prevent-dll": true,
-			"message": ""
-		},
+		"vxlang-link-event": true,
+		"link-event-callback": "VxLangEventCallback",
 		"extension": [],
 		"raw-data": [],
+		"anti-tamper": {
+			"enable": false,
+			"memory-protection": false,
+			"pause-protection": false,
+			"prevent-dll": false,
+			"message": ""
+		},
 		"reflection": {
 			"enable": false,
 			"ldr-update": true
