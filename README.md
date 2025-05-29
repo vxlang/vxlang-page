@@ -22,9 +22,12 @@
     - [Precautions](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#precautions)
   - [How to get the full version](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#how-to-get-the-full-version)
   - Buy a subscription
-    - [1-year](https://www.patreon.com/posts/vxlang-2025-1-1-126040977)
-    - [6-month(1)](https://www.patreon.com/posts/vxlang-6-month-1-128928826)
-    - [6-month(2)](https://www.patreon.com/posts/vxlang-6-month-2-129008454)
+    - Patreon
+      - [1-year](https://www.patreon.com/posts/vxlang-2025-1-1-126040977)
+      - [6-month(1)](https://www.patreon.com/posts/vxlang-6-month-1-128928826)
+      - [6-month(2)](https://www.patreon.com/posts/vxlang-6-month-2-129008454)
+    - Boosty
+      - [subscription](https://boosty.to/vxlang)
 ---
 
 ## What is VxLang?
