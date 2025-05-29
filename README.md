@@ -212,7 +212,7 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
   
 ## How to get the full version
 
-The full version of VxLang is developed and operated under donation through Patreon.  
+The full version of VxLang is developed and operated under donation through Patreon(or Boosty).  
 The exact usage of VxLang and sharing of extension module code, new features of VxLang, etc. will be shared.  
 If you have any questions, please send your request to the email below.
 
@@ -224,6 +224,7 @@ If you have any questions, please send your request to the email below.
 - [Patreon](https://www.patreon.com/vxlang)
   - [VxLang 2025 subscription](https://www.patreon.com/posts/vxlang-2025-1y-1-126040977)
   - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
+- [Boosty](https://boosty.to/vxlang)
 
 ## Usage & Guide-Code
 - [Documentation](https://vxlang.github.io/documentation.html)
