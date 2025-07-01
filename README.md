@@ -2,7 +2,7 @@
 
 <div align="center">
    <a href="https://vxlang.github.io/">
-      <img src="https://vxlang.github.io/image/vxlang-logo-3.png" loop=infinite style="max-width: 100%; height: auto;" />
+      <img src="https://vxlang.github.io/image/vxlang-logo-3.png" loop=infinite style="max-width: 100%; height: auto;" /> 
    </a>
 </div>
 <br>
@@ -120,6 +120,20 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
   </tr>
 </table>
 
+## GUI
+
+<p align="center">
+  <a href="https://vxlang.github.io/">
+    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs1.png?raw=true" width="400" />
+  </a>
+  <a href="https://vxlang.github.io/">
+    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs2.png?raw=true" width="400" />
+  </a>
+  <a href="https://vxlang.github.io/">
+    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs3.png?raw=true" width="400" />
+  </a>
+</p>
+
 ## Virtualization Preview
 
 ```
@@ -206,14 +220,6 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
    <img src="https://vxlang.github.io/image/cfg_1.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
-## Precautions
-
-- [Docs](https://vxlang.github.io/documentation-1.html#precautions)
-  - `Optimization` : Verify that VxVirtualizationBegin and VxVirtualizationEnd are in the same block.  
-  If procedures are merged due to code optimization, problems may arise.
-  - `switch-case` : In the switch-case, when the branch movement is not an IMM value, it may be moved to the original position.
-  - `Exception handling` : Currently, the virtual CPU does not support exception handling.
-  
 ## How to get the full version
 
 The full version of VxLang is developed and operated under donation through Patreon(or Boosty).  
@@ -247,15 +253,9 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.2.1.6.4
+  - Demo: ver.2.1.7.0
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
-
-## TODO
-- `Task-List`
-  - **[DONE]** Add `dual mode`: Allows you to apply both code obfuscation and code virtualization.
-  - Add Windows Static-Librarys.
-  - Once the above steps are complete, add the ARM system for the ELF file format.
     
 ---
 
