@@ -132,6 +132,12 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
   <a href="https://vxlang.github.io/">
     <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs3.png?raw=true" width="400" />
   </a>
+  <a href="https://vxlang.github.io/">
+    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/o3.png?raw=true" width="400" />
+  </a>
+  <a href="https://vxlang.github.io/">
+    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/o4.png?raw=true" width="400" />
+  </a>
 </p>
 
 ## Virtualization Preview
@@ -253,7 +259,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.2.1.7.0
+  - Demo: ver.2.1.7.1
   - Full: Latest version
 - [Update & News](https://vxlang.github.io/news/news.html)
     
