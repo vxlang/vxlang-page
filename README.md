@@ -26,8 +26,6 @@
       - [1-year](https://www.patreon.com/posts/vxlang-2025-1-1-126040977)
       - [6-month(1)](https://www.patreon.com/posts/vxlang-6-month-1-128928826)
       - [6-month(2)](https://www.patreon.com/posts/vxlang-6-month-2-129008454)
-    - Boosty
-      - [subscription](https://boosty.to/vxlang)
 
 ---
 
@@ -259,7 +257,7 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/download.html)
-  - Demo: ver.2.1.7.3
+  - Demo: ver.2.1.8.0
   - Full: Latest version
 - [Update Note](https://www.patreon.com/posts/vxlang-2-1-7-3-132971540)
     
