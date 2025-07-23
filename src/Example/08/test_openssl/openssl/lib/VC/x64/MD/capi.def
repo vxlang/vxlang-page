@@ -1,9 +1,0 @@
-;
-; Definition file for the DLL version of the capi library from OpenSSL
-;
-
-LIBRARY         "capi"
-
-EXPORTS
-    bind_engine
-    v_check

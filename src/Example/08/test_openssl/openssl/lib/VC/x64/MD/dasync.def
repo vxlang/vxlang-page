@@ -1,9 +1,0 @@
-;
-; Definition file for the DLL version of the dasync library from OpenSSL
-;
-
-LIBRARY         "dasync"
-
-EXPORTS
-    bind_engine
-    v_check

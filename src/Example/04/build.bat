@@ -1,1 +1,0 @@
-cargo rustc --release -- -C opt-level=0

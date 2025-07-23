@@ -89,6 +89,7 @@
       <AdditionalLibraryDirectories>$(SolutionDir)lib;$(SolutionDir)..\vxlang\sdk;</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>$(OutDir)pdb\$(TargetName).pdb</ProgramDatabaseFile>
       <ModuleDefinitionFile>tutorial.def</ModuleDefinitionFile>
+      <GenerateMapFile>true</GenerateMapFile>
     </Link>
     <PostBuildEvent>
       <Command>
@@ -96,6 +97,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cxxeh.cpp" />
     <ClCompile Include="sdk.cpp" />
     <ClCompile Include="seh.cpp" />
     <ClCompile Include="switchcase.cpp" />

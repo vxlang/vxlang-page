@@ -5,9 +5,10 @@
 ---
 
 1. Build the `tutorial` project.
-2. Install VxLang as shown in the figure below.
-<img src="https://github.com/vxlang/vxlang-page/blob/main/image/antidmp-1.PNG" style="max-width: 30%; height: auto;" />
-3. Run `tutorial.bat` to protect the binary.
+2. Start `obscurion.exe`
+3. Open `tutorial64.exe`
+   - Check `disable-core`
+4. Compile
 
 ---
 
@@ -39,6 +40,35 @@ because SDK enforcement can be abnormal if the optimization process involves mer
     }
     ```
   - [Link](https://github.com/vxlang/vxlang-page/blob/main/src/01/tutorial/seh.cpp)  
+- Avoiding C++ exception handlers
+  - SEH works with Windows system specifications. 
+    C++ EH, on the other hand, depends on the compiler specification (e.g. MSVC/Clang/GCC/Etc.), which can be circumvented by using the SDK as described below.  
+  - ```cpp
+    #pragma optimize("", off) 
+    void test() {
+       try {
+          VL_..._BEGIN;
+
+          printf("     > ObfuscationCxxEHTest \n");
+
+          VL_..._END;
+
+          // *** Raise Exception
+
+          throw std::runtime_error("Something went wrong - 1");
+       }
+       catch (...) {
+          VL_..._BEGIN;
+
+          printf("     > ObfuscationCxxEHTest Catch .. \n");
+
+          VL_..._END;
+       }
+
+       return;
+    }  
+    ```
+  - [Link](https://github.com/vxlang/vxlang-page/blob/main/src/01/tutorial/cxxeh.cpp)  	
 - `switch-case` syntax precautions
   - For `switch-case` delimiters, depending on the compilation environment, it will compile as follows
     ```cpp

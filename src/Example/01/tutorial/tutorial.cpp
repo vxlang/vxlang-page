@@ -7,6 +7,7 @@
 void SDKTest();
 void SEHTest();
 void SwitchCaseTest();
+void CxxEHTest();
 
 //
 
@@ -18,6 +19,9 @@ int main() {
     printf("\n");
 
     SwitchCaseTest();
+    printf("\n");
+
+    CxxEHTest();
     printf("\n");
 
     //

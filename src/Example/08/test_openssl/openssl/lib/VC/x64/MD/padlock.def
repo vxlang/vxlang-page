@@ -1,9 +1,0 @@
-;
-; Definition file for the DLL version of the padlock library from OpenSSL
-;
-
-LIBRARY         "padlock"
-
-EXPORTS
-    bind_engine
-    v_check
