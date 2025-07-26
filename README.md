@@ -8,7 +8,7 @@
 <br>
 
 - Contents
-  - [Blog](https://vxlang.github.io/)
+  - [Docs](https://vxlang.github.io/)
   - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
   - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
   - [April To-do list](https://www.patreon.com/posts/april-to-do-list-125284319)
