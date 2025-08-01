@@ -238,7 +238,6 @@ If you have any questions, please send your request to the email below.
 - [Patreon](https://www.patreon.com/vxlang)
   - [VxLang 2025 subscription](https://www.patreon.com/posts/vxlang-2025-1y-1-126040977)
   - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
-- [Boosty](https://boosty.to/vxlang)
 
 ## Usage & Guide-Code
 - [Documentation](https://vxlang.github.io/documentation.html)
