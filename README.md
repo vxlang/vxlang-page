@@ -9,9 +9,8 @@
 
 - Contents
   - [Docs](https://vxlang.github.io/)
-  - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
-  - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
-  - [April To-do list](https://www.patreon.com/posts/april-to-do-list-125284319)
+    - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
+    - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
   - Preview
     - [Virtualization Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#virtualization-preview)
     - [Dual-Mode Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#dual-modeobfuscation--virtualization-preview)
@@ -26,6 +25,9 @@
       - [1-year](https://www.patreon.com/posts/vxlang-2025-1-1-126040977)
       - [6-month(1)](https://www.patreon.com/posts/vxlang-6-month-1-128928826)
       - [6-month(2)](https://www.patreon.com/posts/vxlang-6-month-2-129008454)
+  - Extension-Codes and Plug-in modules.
+    - Axion: Extension code that performs additional anti-tampering functions.
+    - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
 
 ---
 
@@ -257,8 +259,8 @@ If you have any questions, please send your request to the email below.
 
 - [Download](https://vxlang.github.io/download.html)
   - Demo: ver.2.1.8.0
-  - Full: ver.2.1.9.3
-- [Update Note](https://www.patreon.com/posts/vxlang-2-1-9-1-135850027)
+  - Full: ver.2.1.9.4
+- [Update Note](https://www.patreon.com/posts/vxlang-2-1-9-4-135850027)
     
 ---
 
