@@ -259,7 +259,7 @@ If you have any questions, please send your request to the email below.
 
 - [Download](https://vxlang.github.io/download.html)
   - Demo: ver.2.1.8.0
-  - Full: ver.2.1.9.5
+  - Full: ver.2.1.9.6
 - [Update Note](https://www.patreon.com/posts/vxlang-2-1-9-4-135850027)
     
 ---
