@@ -257,10 +257,10 @@ If you have any questions, please send your request to the email below.
 
 ## Latest Version & Update(News)
 
-- [Download](https://vxlang.github.io/download.html)
+- [Download](https://vxlang.github.io/pages/purchase/)
   - Demo: ver.2.1.8.0
-  - Full: ver.2.1.9.7
-- [Update Note](https://www.patreon.com/posts/vxlang-2-1-9-4-135850027)
+  - Full: ver.2.2.0.0
+    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-0-0-138494996)
     
 ---
 
