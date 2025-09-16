@@ -59,3 +59,10 @@ void __stdcall VxMutateEnd() {
     return;
 }
 #endif
+
+//
+
+extern "C"
+int VxLinkEvent(unsigned int id, void* buffer, size_t sizeOfBuffer) {
+    return 0;
+}

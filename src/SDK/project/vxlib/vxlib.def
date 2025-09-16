@@ -11,4 +11,4 @@ EXPORTS
    VxCodeFlatteningBegin
    VxCodeFlatteningEnd
 
-
+   VxLinkEvent
