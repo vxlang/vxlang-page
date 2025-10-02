@@ -2,7 +2,7 @@
 
 <div align="center">
    <a href="https://vxlang.github.io/">
-      <img src="https://vxlang.github.io/image/vxlang-logo-3.png" loop=infinite style="max-width: 100%; height: auto;" /> 
+      <img src="https://vxlang.github.io/image/VxLang_2.png" loop=infinite style="max-width: 50%; height: auto;" /> 
    </a>
 </div>
 <br>
@@ -259,8 +259,8 @@ If you have any questions, please send your request to the email below.
 
 - [Download](https://vxlang.github.io/pages/purchase/)
   - Demo: ver.2.1.8.0
-  - Full: ver.2.2.1.1
-    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-1-1-139711064)
+  - Full: ver.2.2.1.2
+    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-1-2-139711064)
     
 ---
 
