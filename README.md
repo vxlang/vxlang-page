@@ -258,9 +258,9 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/pages/purchase/)
-  - Demo: ver.2.1.8.0
-  - Full: ver.2.2.1.3
-    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-1-3-139711064)
+  - ~~Demo: ver.2.1.8.0~~
+  - Full: ver.2.2.2.0
+    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-2-0-140568081)
     
 ---
 
