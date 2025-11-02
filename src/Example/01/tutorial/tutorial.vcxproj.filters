@@ -6,6 +6,7 @@
     <ClCompile Include="seh.cpp" />
     <ClCompile Include="switchcase.cpp" />
     <ClCompile Include="cxxeh.cpp" />
+    <ClCompile Include="str.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="tutorial.def" />

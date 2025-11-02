@@ -8,6 +8,8 @@ void SDKTest();
 void SEHTest();
 void SwitchCaseTest();
 void CxxEHTest();
+void VxLangStringTest();
+void VxLangWStringTest();
 
 //
 
@@ -22,6 +24,10 @@ int main() {
     printf("\n");
 
     CxxEHTest();
+    printf("\n");
+
+    VxLangStringTest();
+    VxLangWStringTest();
     printf("\n");
 
     //
