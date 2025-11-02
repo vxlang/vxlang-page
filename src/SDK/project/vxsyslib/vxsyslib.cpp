@@ -70,7 +70,7 @@ void VxCodeFlatteningEnd() {
 //
 
 extern "C"
-int VxLinkEvent(unsigned int id, void* buffer, size_t sizeOfBuffer) {
+void* VxLinkEvent(unsigned int id, void* buffer, size_t* sizeOfBuffer) {
     UNREFERENCED_PARAMETER(id);
     UNREFERENCED_PARAMETER(buffer);
     UNREFERENCED_PARAMETER(sizeOfBuffer);

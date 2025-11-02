@@ -63,6 +63,6 @@ void __stdcall VxMutateEnd() {
 //
 
 extern "C"
-int VxLinkEvent(unsigned int id, void* buffer, size_t sizeOfBuffer) {
+void* VxLinkEvent(unsigned int id, void* buffer, size_t* sizeOfBuffer) {
     return 0;
 }
