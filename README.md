@@ -261,6 +261,7 @@ If you have any questions, please send your request to the email below.
   - ~~Demo: ver.2.1.8.0~~
   - Full: ver.2.2.4.2
     - [Update Note](https://www.patreon.com/posts/vxlang-2-2-4-2-142637901)
+    - [Year-End Discount Event for VxLang Long-Term Subscription Cards](https://www.patreon.com/c/vxlang/shop)
     
 ---
 
