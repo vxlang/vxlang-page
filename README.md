@@ -22,9 +22,9 @@
   - [How to get the full version](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#how-to-get-the-full-version)
   - Donate and Subscription
     - Patreon
-      - [1-year](https://www.patreon.com/posts/vxlang-2025-1-1-126040977)
-      - [6-month(1)](https://www.patreon.com/posts/vxlang-6-month-1-128928826)
-      - [6-month(2)](https://www.patreon.com/posts/vxlang-6-month-2-129008454)
+      - [Link](https://www.patreon.com/c/vxlang/shop)
+      - Event
+        - [Year-End Discount Event for VxLang Long-Term Subscription Cards](https://www.patreon.com/c/vxlang/shop)
   - Extension-Codes and Plug-in modules.
     - Axion: Extension code that performs additional anti-tampering functions.
     - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
@@ -258,9 +258,8 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/pages/purchase/)
-  - Full: ver.2.2.5.0
-    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-5-0-144286795)
-    - [Year-End Discount Event for VxLang Long-Term Subscription Cards](https://www.patreon.com/c/vxlang/shop)
+  - Full: ver.2.2.5.1
+    - [Update Note](https://www.patreon.com/posts/vxlang-2-2-5-1-144286795)
     
 ---
 
