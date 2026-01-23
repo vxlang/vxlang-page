@@ -12,6 +12,9 @@ EXPORTS
   VxObfuscationBegin
   VxObfuscationEnd
 
+  VxLiteObfuscationBegin
+  VxLiteObfuscationEnd
+
   VxCodeFlatteningBegin
   VxCodeFlatteningEnd
 

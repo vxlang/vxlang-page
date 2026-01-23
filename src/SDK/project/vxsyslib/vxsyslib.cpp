@@ -55,6 +55,16 @@ void VxObfuscationEnd() {
     return;
 }
 
+extern "C"
+void VxLiteObfuscationBegin() {
+    return;
+}
+
+extern "C"
+void VxLiteObfuscationEnd() {
+    return;
+}
+
 //
 
 extern "C"
@@ -70,7 +80,7 @@ void VxCodeFlatteningEnd() {
 //
 
 extern "C"
-void* VxLinkEvent(unsigned int id, void* buffer, size_t* sizeOfBuffer) {
+void* VxLinkEvent(unsigned int id, void* buffer, void* sizeOfBuffer) {
     UNREFERENCED_PARAMETER(id);
     UNREFERENCED_PARAMETER(buffer);
     UNREFERENCED_PARAMETER(sizeOfBuffer);

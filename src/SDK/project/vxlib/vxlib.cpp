@@ -36,6 +36,16 @@ void VxObfuscationEnd() {
     return;
 }
 
+extern "C"
+void VxLiteObfuscationBegin() {
+    return;
+}
+
+extern "C"
+void VxLiteObfuscationEnd() {
+    return;
+}
+
 //
 
 extern "C"
@@ -63,6 +73,6 @@ void __stdcall VxMutateEnd() {
 //
 
 extern "C"
-void* VxLinkEvent(unsigned int id, void* buffer, size_t* sizeOfBuffer) {
+void* VxLinkEvent(unsigned int id, void* buffer, void* sizeOfBuffer) {
     return 0;
 }
