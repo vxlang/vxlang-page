@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{603FEDD9-FFAE-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tutorial", "01\tutorial\tutorial.vcxproj", "{A32F254C-F22D-4FBC-A31C-CAADF4504958}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "callback", "01\callback\callback.vcxproj", "{BA88FBB7-2940-4D3D-B1D1-272A0602FCE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -17,12 +19,17 @@ Global
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958}.Release|x64.Build.0 = Release|x64
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958}.Release|x86.ActiveCfg = Release|Win32
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958}.Release|x86.Build.0 = Release|Win32
+		{BA88FBB7-2940-4D3D-B1D1-272A0602FCE5}.Release|x64.ActiveCfg = Release|x64
+		{BA88FBB7-2940-4D3D-B1D1-272A0602FCE5}.Release|x64.Build.0 = Release|x64
+		{BA88FBB7-2940-4D3D-B1D1-272A0602FCE5}.Release|x86.ActiveCfg = Release|Win32
+		{BA88FBB7-2940-4D3D-B1D1-272A0602FCE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A32F254C-F22D-4FBC-A31C-CAADF4504958} = {603FEDD9-FFAE-44F9-A9EB-D380ABF02C7C}
+		{BA88FBB7-2940-4D3D-B1D1-272A0602FCE5} = {603FEDD9-FFAE-44F9-A9EB-D380ABF02C7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {325C394A-2417-411B-87E5-A606F1A4CBB4}
