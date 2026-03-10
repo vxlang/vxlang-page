@@ -24,7 +24,7 @@
     - Patreon
       - [Link](https://www.patreon.com/c/vxlang/shop)
       - Event
-        - [Year-End Discount Event for VxLang Long-Term Subscription Cards](https://www.patreon.com/c/vxlang/shop)
+        - [March Discount Event](https://www.patreon.com/posts/march-discount-152599446)
   - Extension-Codes and Plug-in modules.
     - Axion: Extension code that performs additional anti-tampering functions.
     - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
@@ -258,8 +258,8 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/pages/purchase/)
-  - Full: ver.2.3.2.5
-    - [Update Note](https://www.patreon.com/posts/vxlang-2-3-2-2-151853463)
+  - Full: ver.2.3.2.6
+    - [Update Note](https://www.patreon.com/posts/vxlang-2-3-2-6-151853463)
     
 ---
 
