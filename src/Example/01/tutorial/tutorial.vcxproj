@@ -98,6 +98,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cxxeh.cpp" />
+    <ClCompile Include="extsmm.cpp" />
     <ClCompile Include="sdk.cpp" />
     <ClCompile Include="seh.cpp" />
     <ClCompile Include="str.cpp" />
