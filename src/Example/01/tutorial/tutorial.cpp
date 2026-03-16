@@ -15,21 +15,21 @@ void TestExtsMM();
 //
 
 int main() {
-    //SDKTest();
-    //printf("\n");
+    SDKTest();
+    printf("\n");
 
-    //SEHTest();
-    //printf("\n");
+    SEHTest();
+    printf("\n");
 
-    //SwitchCaseTest();
-    //printf("\n");
+    SwitchCaseTest();
+    printf("\n");
 
-    //CxxEHTest();
-    //printf("\n");
+    CxxEHTest();
+    printf("\n");
 
-    //VxLangStringTest();
-    //VxLangWStringTest();
-    //printf("\n");
+    VxLangStringTest();
+    VxLangWStringTest();
+    printf("\n");
 
     TestExtsMM();
 
