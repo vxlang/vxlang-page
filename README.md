@@ -226,6 +226,11 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
    <img src="https://vxlang.github.io/image/cfg_1.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
+## ExtsMM Preview
+
+- **VLX_MM_BEGIN** / **VLX_MM_END** : Encrypts the specified user code area.
+- **VLX_OBFUSCATION_BEGIN** / **VLX_OBFUSCATION_END** : Encrypts the specified VxLang obfuscation code section.
+
 ## How to get the full version
 
 The full version of VxLang is developed and operated under donation through Patreon(or Boosty).  
@@ -258,8 +263,8 @@ If you have any questions, please send your request to the email below.
 ## Latest Version & Update(News)
 
 - [Download](https://vxlang.github.io/pages/purchase/)
-  - Full: ver.2.3.3.3
-    - [Update Note](https://www.patreon.com/posts/vxlang-2-3-3-2-153015248)
+  - Full: ver.2.3.3.4
+    - [Update Note](https://www.patreon.com/posts/vxlang-2-3-3-4-153015248)
     
 ---
 
