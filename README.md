@@ -228,13 +228,13 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
 
 ## ExtsMM Preview
 
-- **VLX_MM_BEGIN** / **VLX_MM_END** : Encrypts the specified user code area.
-- **VLX_OBFUSCATION_BEGIN** / **VLX_OBFUSCATION_END** : Encrypts the specified VxLang obfuscation code section.
-
 <div align="center">
    <p>Preview</p>
-   <img src="https://vxlang.github.io/image/extsmm3.gif" style="max-width: 50%; height: auto;" />
+   <img src="https://vxlang.github.io/image/extsmm3.gif" style="max-width: 80%; height: auto;" />
 </div>
+
+- **VLX_MM_BEGIN** / **VLX_MM_END** : Encrypts the specified user code area.
+- **VLX_OBFUSCATION_BEGIN** / **VLX_OBFUSCATION_END** : Encrypts the specified VxLang obfuscation code section.
 
 ## How to get the full version
 
