@@ -232,7 +232,8 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
 - **VLX_OBFUSCATION_BEGIN** / **VLX_OBFUSCATION_END** : Encrypts the specified VxLang obfuscation code section.
 
 <div align="center">
-   <img src="https://vxlang.github.io/image/extsmm3.gif" style="max-width: 100%; height: auto;" />
+   <p>Preview</p>
+   <img src="https://vxlang.github.io/image/extsmm3.gif" style="max-width: 50%; height: auto;" />
 </div>
 
 ## How to get the full version
