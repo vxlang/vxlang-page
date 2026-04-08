@@ -24,7 +24,7 @@
     - Patreon
       - [Link](https://www.patreon.com/c/vxlang/shop)
       - Event
-        - [March Discount Event](https://www.patreon.com/posts/march-discount-152599446)
+        - [2026 April Promotion](https://www.patreon.com/posts/april-promotion-155075292)
   - Extension-Codes and Plug-in modules.
     - Axion: Extension code that performs additional anti-tampering functions.
     - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
