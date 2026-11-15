@@ -1,3 +1,4 @@
+
 # VxLang
 
 <div align="center">
@@ -24,7 +25,6 @@
     - Patreon
       - [Link](https://www.patreon.com/c/vxlang/shop)
       - Event
-        - [2026 June Event](https://www.patreon.com/posts/vxlang-june-159812311)
   - Extension-Codes and Plug-in modules.
     - Axion: Extension code that performs additional anti-tampering functions.
     - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
@@ -33,7 +33,7 @@
 
 ## What is VxLang?
 
-**VxLang** is a project designed to prevent reverse-engineering behaviors such as static or dynamic analysis, file tampering, and unauthorized access to memory by attackers. 
+**VxLang** is a binary protection solution designed to make reverse engineering and tampering with Windows executables more difficult. It combines technologies such as executable packing, code obfuscation, code virtualization, control-flow flattening, and Runtime Code Encryption to protect important code and data.
 
 The VxLang project currently targets x86-64 system and .NET binaries, native binary files for the Microsoft Windows operating system, including executables with the ".exe" extension, dynamic link library files with the ".dll" extension, and kernel driver files with the ".sys" extension. (The types of target binaries supported by vxlang will be expanded in future updates).
 
@@ -119,26 +119,6 @@ The VxLang project currently targets x86-64 system and .NET binaries, native bin
     <td align="center"><img src="https://img.shields.io/badge/Scheduled-red.svg"></td>	
   </tr>
 </table>
-
-## GUI
-
-<p align="center">
-  <a href="https://vxlang.github.io/">
-    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs1.png?raw=true" width="400" />
-  </a>
-  <a href="https://vxlang.github.io/">
-    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs2.png?raw=true" width="400" />
-  </a>
-  <a href="https://vxlang.github.io/">
-    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/obs3.png?raw=true" width="400" />
-  </a>
-  <a href="https://vxlang.github.io/">
-    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/o3.png?raw=true" width="400" />
-  </a>
-  <a href="https://vxlang.github.io/">
-    <img src="https://github.com/vxlang/vxlang-page/blob/main/image/o4.png?raw=true" width="400" />
-  </a>
-</p>
 
 ## Virtualization Preview
 
@@ -226,15 +206,15 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
    <img src="https://vxlang.github.io/image/cfg_1.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
-## ExtsMM Preview
+## Runtime Code Encryption
 
 <div align="center">
    <p>Preview</p>
    <img src="https://vxlang.github.io/image/extsmm3.gif" style="max-width: 80%; height: auto;" />
 </div>
 
-- **VLX_MM_BEGIN** / **VLX_MM_END** : Encrypts the specified user code area.
-- **VLX_OBFUSCATION_BEGIN** / **VLX_OBFUSCATION_END** : Encrypts the specified VxLang obfuscation code section.
+- **VL_ENCRYPT_BEGIN** / **VL_ENCRYPT_END** : Encrypts the specified user code area.
+- **VL_ENCRYPT_OBFUSCATION_BEGIN** / **VL_ENCRYPT_OBFUSCATION_END** : Encrypts the specified VxLang obfuscation code section.
 
 ## How to get the full version
 
@@ -250,20 +230,6 @@ If you have any questions, please send your request to the email below.
 - [Patreon](https://www.patreon.com/vxlang)
   - [VxLang subscription](https://www.patreon.com/c/vxlang/shop)
   - [About Patreon subscriptions](https://www.patreon.com/posts/about-patreon-116564758)
-
-## Usage & Guide-Code
-- [Documentation](https://vxlang.github.io/documentation.html)
-  - 01: [SDK Tutorial](https://github.com/vxlang/vxlang-page/tree/main/src/Example/01)
-  - 02: [Functional Unit Obfuscation with Map Files](https://github.com/vxlang/vxlang-page/blob/main/src/Example/02/Readme.md)
-  - 03: DLL loading checks
-  - 04: Rust samples
-  - 05: Review behavior speed
-  - 06: [Process Anti-Dumping Test](https://github.com/vxlang/vxlang-page/tree/main/src/Example/06)
-  - 09: [How to apply the SDK to UEFI](https://github.com/vxlang/vxlang-page/tree/main/src/Example/09)
-  - 10: Command-Line Options
-    - `--disable-core`: Disable the VxLang core.
-    - `--use-multi-vm`: Enable multiple VxLang-VM. 
-    - `--use-signature`: Enable VM signatures to be searched.
 
 ## Latest Version & Update(News)
 
