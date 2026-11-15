@@ -209,8 +209,9 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
 ## Runtime Code Encryption
 
 <div align="center">
-   <p>Preview</p>
-   <img src="https://vxlang.github.io/image/extsmm3.gif" style="max-width: 80%; height: auto;" />
+   <a href="https://vxlang.github.io/">
+      <img src="https://vxlang.github.io/image/extsmm3.gif" loop=infinite style="max-width: 50%; height: auto;" /> 
+   </a>
 </div>
 
 - **VL_ENCRYPT_BEGIN** / **VL_ENCRYPT_END** : Encrypts the specified user code area.
