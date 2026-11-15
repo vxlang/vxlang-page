@@ -217,7 +217,7 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
 
 ## How to get the full version
 
-The full version of VxLang is developed and operated under donation through Patreon(or Boosty).  
+The full version of VxLang is developed and operated under donation through Patreon.  
 The exact usage of VxLang and sharing of extension module code, new features of VxLang, etc. will be shared.  
 If you have any questions, please send your request to the email below.
 
