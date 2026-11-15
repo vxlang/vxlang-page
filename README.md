@@ -17,17 +17,12 @@
     - [Dual-Mode Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#dual-modeobfuscation--virtualization-preview)
     - [Obfuscation Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#obfuscation-preview)
     - [Code-Flattening Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#code-flattening-preview)
-  - Tutorial
-    - [Usage & Guide-Code](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#usage--guide-code)
-    - [Precautions](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#precautions)
+    - [Runtime Code Encryption](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#Runtime-Code-Encryption)
   - [How to get the full version](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#how-to-get-the-full-version)
-  - Donate and Subscription
-    - Patreon
-      - [Link](https://www.patreon.com/c/vxlang/shop)
-      - Event
-  - Extension-Codes and Plug-in modules.
-    - Axion: Extension code that performs additional anti-tampering functions.
-    - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
+    - Donate and Subscription
+      - Patreon
+        - [Link](https://www.patreon.com/c/vxlang/shop)
+        - Event
 
 ---
 
