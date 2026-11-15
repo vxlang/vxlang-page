@@ -9,9 +9,9 @@
 <br>
 
 - Contents
-  - [Docs](https://vxlang.github.io/)
-    - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
-    - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
+  - [Docs](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#Document)
+  - [What is VxLang?](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#what-is-vxlang)
+  - [Supported File Formats](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#supported-file-formats)
   - Preview
     - [Virtualization Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#virtualization-preview)
     - [Dual-Mode Preview](https://github.com/vxlang/vxlang-page/tree/main?tab=readme-ov-file#dual-modeobfuscation--virtualization-preview)
@@ -30,6 +30,10 @@
     - ExtsDN: Extension code for packing and protecting .NET (EXE only) modules.
 
 ---
+
+## Document
+
+- [Link](https://vxlang.github.io/index.html)
 
 ## What is VxLang?
 
@@ -203,7 +207,6 @@ d3 6d 7f 86 9d a2 e5 06 4d 86 d3 6d 7f 86 9d a2
    <img src="https://vxlang.github.io/image/bef.PNG" style="max-width: 100%; height: auto;" />
    <p>After</p>
    <img src="https://vxlang.github.io/image/cff-1-1.png" style="max-width: 50%; height: auto;" /> 
-   <img src="https://vxlang.github.io/image/cfg_1.png" style="max-width: 50%; height: auto;" /> 
 </div>
 
 ## Runtime Code Encryption
